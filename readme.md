@@ -28,7 +28,7 @@ Ciclo 2024-01
 | Member                            |    Code    |
 | :-------------------------------- | :--------: |
 | Claudio Sandro Quispesivana Torres| U202215099 |
-| |  |
+| hola|  |
 | |  |
 | |  |
 | |  |
