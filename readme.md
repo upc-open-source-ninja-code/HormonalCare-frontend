@@ -29,7 +29,7 @@ Ciclo 2024-01
 | :-------------------------------- | :--------: |
 | Claudio Sandro Quispesivana Torres| U202215099 |
 | Jherson David Astuyauri Calderon  | U202218451 |
-| |  |
+| |Estefano  |
 | |  |
 | |  |
 
