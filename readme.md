@@ -30,7 +30,7 @@ Ciclo 2024-01
 | Claudio Sandro Quispesivana Torres| U202215099 |
 | Jherson David Astuyauri Calderon  | U202218451 |
 | Estefano Sebastian Lostaunau Pereira | U202211742 |
-| |  |
+| Chinchihualpa Saldarriaga Luis Sebastian | U202212112 |
 | |  |
 
 <br>
