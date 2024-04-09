@@ -137,11 +137,21 @@ Preguntas complementarias:
 
 
 ***Paciente 2:***
-|<p>**Datos del paciente:**</p><p></p><p>Nombres: Arnhol Alfredo</p><p>Apellidos: Castrejón Calderon</p><p>Edad: 19 años.</p><p>Distrito: La Victoria, Lima.</p><p></p>|<p>![Pantalla de televisión encendida con imagen de hombre
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| Nombres: Arnhol Alfredo
+Apellidos: Castrejón Calderon
+Edad: 19 años.
+Distrito: La Victoria, Lima.
+| <img src="https://drive.google.com/file/d/1ClzxL-ymKmLMJELuRCbqHjm05ZXxqxyL/view?usp=sharing" alt="Entrevista 2"> [Entrevista_Paciente_2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EfyXSvCgvCVGqGFtui3j_kMBBlqulpEgCwmk3gLAl8ChGA?e=IOsPHs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                   |
+|Resumen: El paciente Anrhol que presenta hipotiroidismo, indica que una de las principales desventajas que enfrenta en su tratamiento hormonal sería el seguimiento de sus controles, las fechas en las que tiene citas médicas y el horario para consumir su medicación. Además, expresa que va cada tres meses a una cita médica, donde se revisa los síntomas y el estado del tratamiento. 
 
-Descripción generada automáticamente](Aspose.Words.1a4c576e-6a5e-4b43-a672-aa4581bc2b7f.001.png)</p><p>[Entrevista_Paciente_2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EfyXSvCgvCVGqGFtui3j_kMBBlqulpEgCwmk3gLAl8ChGA?e=IOsPHs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)</p>|
-| - | - |
-|<p>Resumen: El paciente Anrhol que presenta hipotiroidismo, indica que una de las principales desventajas que enfrenta en su tratamiento hormonal sería el seguimiento de sus controles, las fechas en las que tiene citas médicas y el horario para consumir su medicación. Además, expresa que va cada tres meses a una cita médica, donde se revisa los síntomas y el estado del tratamiento. </p><p>Por otro lado, comenta que le gustaría tener acceso a una comunicación directa con el médico para consultarle algunos problemas que puedan surgir, ya que una experiencia frustrante en el proceso de su tratamiento fue la larga espera para lograr atenderse. Entonces, nuestro entrevistado comenta que utilizaría una aplicación sencilla y muy segura donde pueda comunicarse directamente con el médico de forma remota para comentarle sus necesidades, ver sus análisis, agendar las fechas para citas médicas y establecer un horario para consumir las medicinas con recordatorios a través de notificaciones directas desde la aplicación o como mensaje de texto por algún medio de preferencia. </p><p>Asimismo, el paciente nos comparte por medio de la encuesta que utiliza más Tablet, sistema operativo Android, software como spacedesk y otras aplicaciones para tomar notas. También, que utiliza Samsung y el navegador de Chrome. Luego, escribe que esta más motivado por desarrollarse y cumplir sus metas que el tener miedo de tomar decisiones.</p><p>Finalmente, Anrhol manifiesta que una aplicación bien diseñada, le permitiría llevar su seguimiento y tratamiento de la enfermedad hormonal de forma más manejable y menos estresante, mejorando así su calidad de vida.</p><p></p>||
+Por otro lado, comenta que le gustaría tener acceso a una comunicación directa con el médico para consultarle algunos problemas que puedan surgir, ya que una experiencia frustrante en el proceso de su tratamiento fue la larga espera para lograr atenderse. Entonces, nuestro entrevistado comenta que utilizaría una aplicación sencilla y muy segura donde pueda comunicarse directamente con el médico de forma remota para comentarle sus necesidades, ver sus análisis, agendar las fechas para citas médicas y establecer un horario para consumir las medicinas con recordatorios a través de notificaciones directas desde la aplicación o como mensaje de texto por algún medio de preferencia. 
+
+Asimismo, el paciente nos comparte por medio de la encuesta que utiliza más Tablet, sistema operativo Android, software como spacedesk y otras aplicaciones para tomar notas. También, que utiliza Samsung y el navegador de Chrome. Luego, escribe que esta más motivado por desarrollarse y cumplir sus metas que el tener miedo de tomar decisiones.
+
+Finalmente, Anrhol manifiesta que una aplicación bien diseñada, le permitiría llevar su seguimiento y tratamiento de la enfermedad hormonal de forma más manejable y menos estresante, mejorando así su calidad de vida.
+ | 
 
 ***Paciente 3:***
 
