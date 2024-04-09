@@ -142,6 +142,17 @@ La implementación de esta aplicación podría tener un impacto significativo en
    5. Reducción de los costos asociados a las complicaciones y hospitalizaciones derivadas del mal manejo de estas enfermedades.
 
 
+#### 1.2.2.	Lean UX Process.
+   ##### 1.2.2.1.	Lean UX Problem Statements.
+   
+En Lima, Perú, hemos observado que las enfermedades hormonales representan un desafío de salud pública marcado por la inequidad en el acceso a servicios especializados, la escasez de médicos capacitados y la baja adherencia al tratamiento. Según Abramo et al. (2020), la falta de acceso oportuno a atención médica especializada, exacerbada por la ausencia de telemedicina y la escasez de infraestructura tecnológica, produce un aumento del riesgo de complicaciones en enfermedades crónicas. 
+
+Esta situación se refleja en la dificultad para realizar seguimientos adecuados de enfermedades y en la falta de educación para el autocuidado de los pacientes, lo que resulta en una mayor incidencia de hospitalizaciones y un incremento en los costos de salud (Ocronos, 2023). Además, se ve agravada por los largos tiempos de espera para consultas médicas (INEI, 2014), junto con la falta de médicos endocrinólogos, como lo señala Manrique (2015). Esto en medio de un aumento alarmante en el porcentaje de población con enfermedades hormonales, según datos del INEI (2020). 
+
+La pregunta que guía nuestro proyecto es: ¿Cómo puede una aplicación web superar las barreras tecnológicas, económicas y sociales con el fin de promover una gestión eficiente del registro, seguimiento y agilizar el proceso de tratamiento para pacientes con enfermedades hormonales en Lima, Perú?
+
+
+
 
 
 
