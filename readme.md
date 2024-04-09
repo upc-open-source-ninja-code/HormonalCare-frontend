@@ -79,7 +79,7 @@ Ciclo 2024-01
 #### 1.1.2. Perfiles de integrantes del equipo
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **JHERSON DAVID ASTUYAURI CALDERÓN** |<img src="https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EYzbQxMa6c1Bsf4s_aqaQFkBpEK4Fc2sOBkmk84HDyjDbw?e=oPOkK3" alt="Jherson Astuyauri"> |
+| **JHERSON DAVID ASTUYAURI CALDERÓN** |<img src="https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EYzbQxMa6c1Bsf4s_aqaQFkBpEK4Fc2sOBkmk84HDyjDbw?e=dceymS" alt="Jherson Astuyauri"> |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202218451**              |                                                              |
 | Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesan los efectos de la tecnología en la vida de las personas. Ahora mismo me gusta la inteligencia artificial, jugar videojuegos, ver series de anime, nadar y aprender sobre finanzas. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y responsabilidad para cumplir con las tareas. | 
