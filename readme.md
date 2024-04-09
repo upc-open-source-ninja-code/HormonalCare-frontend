@@ -31,7 +31,7 @@ Ciclo 2024-01
 | Jherson David Astuyauri Calderon  | U202218451 |
 | Estefano Sebastian Lostaunau Pereira | U202211742 |
 | Chinchihualpa Saldarriaga Luis Sebastian | U202212112 |
-| |  |
+| Sebastian Valente Lobato Pozo | U202215312 |
 
 <br>
 </div>
