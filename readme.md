@@ -141,7 +141,7 @@ Preguntas complementarias:
 
 
 ### 2.4.      Ubiquitous Language.
- * **App (Aplicación)** - Herramienta informática móvil para el seguimiento y gestión de enfermedades hormonales. 
+* **App (Aplicación)** - Herramienta informática móvil para el seguimiento y gestión de enfermedades hormonales. 
 * **Appointment (Cita médica)** - Reunión entre el paciente y el especialista para evaluar la condición médica y ajustar el tratamiento. 
 * **Condition (Enfermedad)** - Cualquier condición médica que afecte el sistema endocrino.  
 * **Doctor (Especialista)** - Médico endocrinólogo o profesional de la salud calificado para el tratamiento de enfermedades hormonales. 
