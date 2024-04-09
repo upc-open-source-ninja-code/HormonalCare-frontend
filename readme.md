@@ -82,6 +82,16 @@ Ciclo 2024-01
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202218451**              |                                                              |
 | Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesan los efectos de la tecnología en la vida de las personas. Ahora mismo me gusta la inteligencia artificial, jugar videojuegos, ver series de anime, nadar y aprender sobre finanzas. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y responsabilidad para cumplir con las tareas.  | 
+
+
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **ESTÉFANO SEBASTIÁN LOSTAUNAU PEREIRA** | <img src=""Jherson Astuyauri">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202211742**              |                                                              |
+| Hola, soy Estéfano Lostaunau. Tengo 19 años, actualmente curso el quinto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
+
+
    
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática
