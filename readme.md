@@ -50,6 +50,9 @@ Ciclo 2024-01
 
 
 
+## Capítulo-II-Requirements-Elicitation-&-Analysis
+
+
 ### 2.2. Entrevistas.
 #### 2.2.1.   Diseño de entrevistas.
 
@@ -118,7 +121,14 @@ Preguntas complementarias:
 *	¿Cuál es su navegador web favorito?
 *	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
 
+#### 2.2.2.   Registro de entrevistas.
+##### >Segmento de usuario – Médicos endocrinólogos.
 
+***Médico 1:***
+
+***Médico 2:***
+
+***Médico 3:***
 
 
 
