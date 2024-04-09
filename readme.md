@@ -76,15 +76,15 @@ Preguntas complementarias:
 *	¿Cuál es su rango salarial aproximado?
 *	¿Cuál sería la frase con la que te sientes más identificado?
 *	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por recompensas, reconocimientos o beneficios materiales en tu vida personal o profesional?
-•	En una escala del 1 al 10, ¿hasta qué punto sientes que el miedo o la preocupación por ciertas consecuencias te impulsan a tomar decisiones o actuar de cierta manera?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por alcanzar metas, superar desafíos o destacar en tus actividades?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por aprender, desarrollarte personal o profesionalmente, y buscar nuevas experiencias?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por demostrar fortaleza física, mental o emocional, y superar obstáculos?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por interactuar con otras personas, establecer conexiones sociales y formar parte de grupos o comunidades?
-•	¿Qué dispositivos tecnológicos usa más en su cargo como médico?
-•	¿Qué sistema operativo usa más en su cargo como médico?
-•	¿Cuál es su navegador web favorito?
-•	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
+*	En una escala del 1 al 10, ¿hasta qué punto sientes que el miedo o la preocupación por ciertas consecuencias te impulsan a tomar decisiones o actuar de cierta manera?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por alcanzar metas, superar desafíos o destacar en tus actividades?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por aprender, desarrollarte personal o profesionalmente, y buscar nuevas experiencias?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por demostrar fortaleza física, mental o emocional, y superar obstáculos?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por interactuar con otras personas, establecer conexiones sociales y formar parte de grupos o comunidades?
+*	¿Qué dispositivos tecnológicos usa más en su cargo como médico?
+*	¿Qué sistema operativo usa más en su cargo como médico?
+*	¿Cuál es su navegador web favorito?
+*	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
 
 **Para los pacientes:**
 1. ¿Qué enfermedad hormonal padeces y cuánto tiempo llevas siendo diagnosticado/a con ella?
@@ -101,20 +101,20 @@ Preguntas complementarias:
 12. ¿Consideras que una aplicación podría mejorar tu calidad de vida y control sobre tu enfermedad hormonal?
 
 Preguntas complementarias:
-•	¿Cuál es su nombre?
-•	¿Cuántos años tiene?
-•	¿En qué localidad vive? 
-•	¿Cuál es su estado civil?
-•	¿Cuál es su rango salarial aproximado?
-•	¿Cuál sería la frase con la que te sientes más identificado?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por recompensas, reconocimientos o beneficios materiales en tu vida personal o profesional?
-•	En una escala del 1 al 10, ¿hasta qué punto sientes que el miedo o la preocupación por ciertas consecuencias te impulsan a tomar decisiones o actuar de cierta manera?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por alcanzar metas, superar desafíos o destacar en tus actividades?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por aprender, desarrollarte personal o profesionalmente, y buscar nuevas experiencias?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por demostrar fortaleza física, mental o emocional, y superar obstáculos?
-•	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por interactuar con otras personas, establecer conexiones sociales y formar parte de grupos o comunidades?
-•	¿Qué dispositivos tecnológicos usa más?
-•	¿Qué sistema operativo usa más?
-•	¿Cuál es su navegador web favorito?
-•	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
+*	¿Cuál es su nombre?
+*	¿Cuántos años tiene?
+*	¿En qué localidad vive? 
+*	¿Cuál es su estado civil?
+*	¿Cuál es su rango salarial aproximado?
+*	¿Cuál sería la frase con la que te sientes más identificado?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por recompensas, reconocimientos o beneficios materiales en tu vida personal o profesional?
+*	En una escala del 1 al 10, ¿hasta qué punto sientes que el miedo o la preocupación por ciertas consecuencias te impulsan a tomar decisiones o actuar de cierta manera?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por alcanzar metas, superar desafíos o destacar en tus actividades?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por aprender, desarrollarte personal o profesionalmente, y buscar nuevas experiencias?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por demostrar fortaleza física, mental o emocional, y superar obstáculos?
+*	En una escala del 1 al 10, ¿hasta qué punto te sientes motivado por interactuar con otras personas, establecer conexiones sociales y formar parte de grupos o comunidades?
+*	¿Qué dispositivos tecnológicos usa más?
+*	¿Qué sistema operativo usa más?
+*	¿Cuál es su navegador web favorito?
+*	¿Cuáles son las marcas de los dispositivos, artículos o softwares que te ayudan en tu labor en tu día a día?
 
