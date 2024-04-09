@@ -142,33 +142,33 @@ Preguntas complementarias:
 
 ### 2.4.      Ubiquitous Language.
  * **App (Aplicación)** - Herramienta informática móvil para el seguimiento y gestión de enfermedades hormonales. 
-**Appointment (Cita médica)** - Reunión entre el paciente y el especialista para evaluar la condición médica y ajustar el tratamiento. 
-**Condition (Enfermedad)** - Cualquier condición médica que afecte el sistema endocrino.  
-**Doctor (Especialista)** - Médico endocrinólogo o profesional de la salud calificado para el tratamiento de enfermedades hormonales. 
-**Follow-up (Seguimiento)** - Monitoreo regular de la condición médica del paciente por parte del especialista. 
-**Health professional (Profesional de la salud)** - Persona capacitada para brindar atención médica a los pacientes. 
-**Hormonal disease (Enfermedad hormonal)** - Cualquier condición médica que afecte el sistema endocrino. 
-**Medication (Medicamento)** - Fármaco utilizado para tratar la enfermedad hormonal. 
-**Medical record (Registro médico)** - Historial clínico del paciente, incluyendo información sobre su enfermedad hormonal, tratamiento y evolución. 
-**Message (Mensaje)** - Comunicación escrita entre el paciente y el especialista a través de la aplicación. 
-**Notification (Notificación)** - Aviso o mensaje enviado al paciente a través de la aplicación. 
-**Patient (Paciente)** - Persona que utiliza la aplicación para gestionar su enfermedad hormonal. 
-**Pill reminder (Recordatorio de medicamentos) - Función de la aplicación que recuerda al paciente tomar sus medicamentos a la hora indicada. 
-**Profile (Perfil)** - Información personal del paciente, incluyendo nombre, edad, sexo, enfermedad hormonal y otros datos relevantes. 
-**Symptom (Síntoma)** - Manifestación física o subjetiva de una enfermedad. 
-**Treatment plan (Plan de tratamiento)** - Conjunto de indicaciones y recomendaciones para el manejo de la enfermedad hormonal. 
-**User (Usuario)** - Persona que utiliza la aplicación, ya sea un paciente o un profesional de la salud.
-**Adherence (Adherencia)** - Grado en que el paciente sigue las indicaciones del plan de tratamiento.
-**Dashboard (Panel de control)** - Pantalla principal de la aplicación que muestra información relevante para el paciente, como sus próximos appointments, su plan de tratamiento y sus últimos registros médicos.
-**Feedback (Comentarios)** - Opinión del usuario sobre la aplicación.
-**Patient portfolio (cartera de pacientes)** – Grupo de pacientes clientes de un médico en particular
-**History (Historial)** - Registro de las actividades del usuario dentro de la aplicación, como sus citas médicas, sus registros médicos y sus mensajes con los especialistas.
-**Log in (Iniciar sesión)** - Proceso de identificación del usuario en la aplicación.
-**Logout (Cerrar sesión)** - Proceso de finalización de la sesión del usuario en la aplicación.
-**Medication list (Lista de medicamentos)** - Lista de los medicamentos que el paciente está tomando para su enfermedad hormonal.
-**Monitoring (Monitoreo)** - Recopilación de datos sobre la condición médica del paciente.
-**MediNetwork (Red)** - Grupo de profesionales de la salud que utilizan la aplicación para colaborar en el cuidado de los pacientes.
-**Password (Contraseña)** - Clave secreta que el usuario utiliza para acceder a la aplicación.
-**Privacy policy (Política de privacidad)** - Documento que describe cómo la aplicación recopila y utiliza la información personal del usuario.
-**Profile picture (Foto de perfil)** - Imagen
+* **Appointment (Cita médica)** - Reunión entre el paciente y el especialista para evaluar la condición médica y ajustar el tratamiento. 
+* **Condition (Enfermedad)** - Cualquier condición médica que afecte el sistema endocrino.  
+* **Doctor (Especialista)** - Médico endocrinólogo o profesional de la salud calificado para el tratamiento de enfermedades hormonales. 
+* **Follow-up (Seguimiento)** - Monitoreo regular de la condición médica del paciente por parte del especialista. 
+* **Health professional (Profesional de la salud)** - Persona capacitada para brindar atención médica a los pacientes. 
+* **Hormonal disease (Enfermedad hormonal)** - Cualquier condición médica que afecte el sistema endocrino. 
+* **Medication (Medicamento)** - Fármaco utilizado para tratar la enfermedad hormonal. 
+* **Medical record (Registro médico)** - Historial clínico del paciente, incluyendo información sobre su enfermedad hormonal, tratamiento y evolución. 
+* **Message (Mensaje)** - Comunicación escrita entre el paciente y el especialista a través de la aplicación. 
+* **Notification (Notificación)** - Aviso o mensaje enviado al paciente a través de la aplicación. 
+* **Patient (Paciente)** - Persona que utiliza la aplicación para gestionar su enfermedad hormonal. 
+* **Pill reminder (Recordatorio de medicamentos)** - Función de la aplicación que recuerda al paciente tomar sus medicamentos a la hora indicada. 
+* **Profile (Perfil)** - Información personal del paciente, incluyendo nombre, edad, sexo, enfermedad hormonal y otros datos relevantes. 
+* **Symptom (Síntoma)** - Manifestación física o subjetiva de una enfermedad. 
+* **Treatment plan (Plan de tratamiento)** - Conjunto de indicaciones y recomendaciones para el manejo de la enfermedad hormonal. 
+* **User (Usuario)** - Persona que utiliza la aplicación, ya sea un paciente o un profesional de la salud.
+* **Adherence (Adherencia)** - Grado en que el paciente sigue las indicaciones del plan de tratamiento.
+* **Dashboard (Panel de control)** - Pantalla principal de la aplicación que muestra información relevante para el paciente, como sus próximos appointments, su plan de tratamiento y sus últimos registros médicos.
+* **Feedback (Comentarios)** - Opinión del usuario sobre la aplicación.
+* **Patient portfolio (cartera de pacientes)** – Grupo de pacientes clientes de un médico en particular
+* **History (Historial)** - Registro de las actividades del usuario dentro de la aplicación, como sus citas médicas, sus registros médicos y sus mensajes con los especialistas.
+* **Log in (Iniciar sesión)** - Proceso de identificación del usuario en la aplicación.
+* **Logout (Cerrar sesión)** - Proceso de finalización de la sesión del usuario en la aplicación.
+* **Medication list (Lista de medicamentos)** - Lista de los medicamentos que el paciente está tomando para su enfermedad hormonal.
+* **Monitoring (Monitoreo)** - Recopilación de datos sobre la condición médica del paciente.
+* **MediNetwork (Red)** - Grupo de profesionales de la salud que utilizan la aplicación para colaborar en el cuidado de los pacientes.
+* **Password (Contraseña)** - Clave secreta que el usuario utiliza para acceder a la aplicación.
+* **Privacy policy (Política de privacidad)** - Documento que describe cómo la aplicación recopila y utiliza la información personal del usuario.
+* **Profile picture (Foto de perfil)** - Imagen
 
