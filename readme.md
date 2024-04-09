@@ -113,7 +113,7 @@ Esta problemática se convierte en un problema crítico cuando los pacientes no 
 
 La aplicación propuesta busca abordar esta problemática de varias maneras:
 
-   \t1\. Facilitando el acceso a médicos endocrinólogos y reduciendo los tiempos de espera mediante la implementación de videoconsultas y la gestión eficiente de citas médicas.
+   1. Facilitando el acceso a médicos endocrinólogos y reduciendo los tiempos de espera mediante la implementación de videoconsultas y la gestión eficiente de citas médicas.
 
    2\. Permitiendo un seguimiento continuo de los niveles hormonales, síntomas y medicación de los pacientes, lo que ayudará a los médicos a realizar ajustes oportunos en el tratamiento.
 
