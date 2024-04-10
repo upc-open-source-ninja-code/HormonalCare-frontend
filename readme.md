@@ -67,11 +67,26 @@ Ciclo 2024-01
 
 
 
+### 1.1. Startup Profile
+#### 1.1.1.Descripción de la Startup
 
+NinjaCode es un startup compuesto por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicados a optimizar los seguimientos médicos. Nuestra visión es abordar los desafíos existentes en el sistema de atención médica peruano, especialmente en el seguimiento de enfermedades hormonales.
+En el Perú, el sistema de atención médica para pacientes diagnosticados con enfermedades hormonales enfrenta desafíos significativos. La simplicidad del sistema se ve opacada por su falta de eficiencia, tanto para los médicos como para los pacientes. Esta ineficiencia se agudiza en los centros de salud estatales, donde la demanda supera ampliamente la capacidad de atención. Es en este escenario donde NinjaCode ha intervenido desarrollando soluciones tecnológicas que agilizan los tratamientos y optimizan los recursos disponibles en todas las regiones del Perú.
+Nuestro enfoque se centra en la comunicación, seguridad y gestión eficiente de los datos de nuestros usuarios. La aplicación HormonalCare, desarrollada por NinjaCode, proporciona una experiencia de navegación óptima para el seguimiento médico de enfermedades hormonales en el Perú. Con HormonalCare, buscamos revolucionar la forma en que se realizan los seguimientos médicos, brindando una plataforma tecnológica segura, intuitiva y eficiente que permite a los pacientes y profesionales de la salud gestionar y monitorear enfermedades hormonales de manera efectiva.
 
+Nuestra misión es simple pero poderosa: transformar la forma en que se realizan los seguimientos médicos, mejorando la calidad de vida de millones de personas en todo el mundo. Aspiramos a liderar la industria de la salud digital, siendo reconocidos por nuestra innovadora aplicación HormonalCare. Nos esforzamos por establecer estándares de excelencia en seguridad de datos, conectividad y experiencia de usuario en el campo del seguimiento médico de enfermedades hormonales.
 
+Logo del Startup:
 
+<center>
+<img src="images/imagen1.jpg" width = 200>
+</center>
 
+Logo del Producto:
+
+<center>
+<img src="images/LogoHormonalCare.png">
+</center>
 
 
 
@@ -172,6 +187,58 @@ Esta situación se refleja en la dificultad para realizar seguimientos adecuados
 La pregunta que guía nuestro proyecto es: ¿Cómo puede una aplicación web superar las barreras tecnológicas, económicas y sociales con el fin de promover una gestión eficiente del registro, seguimiento y agilizar el proceso de tratamiento para pacientes con enfermedades hormonales en Lima, Perú?
 
    ##### 1.2.2.2.	Lean UX Assumptions.
+
+Business Assumptions:
+1.	Creemos que nuestros usuarios necesitan agilizar su forma de llevar tratamientos médicos hormonales a través de la telemedicina puesto que esta ha demostrado ser rentable en cuanto a costos de servicios y que ha permitido la disminución de los gastos de traslado y tiempo que tienen los pacientes.
+2.	Estas necesidades se pueden satisfacer con una plataforma que permita la comunicación y consulta de datos en la cual se pueda llevar el monitoreo y el acceso a una reunión medica sin la necesidad de pactar una cita presencial, lo cual agilizaría el seguimiento y tratamiento de enfermedades hormonales.
+3.	Nuestros clientes iniciales serán médicos especializados en endocrinología quienes desean que el tratamiento de sus pacientes sea lo más estable y eficaz posible. Lo que permita su agilización en tiempos de monitoreo tanto para ellos como sus pacientes.
+4.	El valor más importante que un cliente quiere de nuestro servicio es la simplicidad y efectividad, puesto que los pacientes y los médicos necesitan de una comunicación constante y organizada, sin complicaciones durante el manejo de la plataforma que forma parte de la experiencia de usuario.
+
+5.	El cliente también va a obtener diversos beneficios adicionales como la organización que la plataforma da al momento del que el paciente ingrese sus controles de su respectiva enfermedad, el poder asignar pacientes a algún miembro de su red contactos y que la información sea compartida de manera inmediata, y el poder agregar laboratorios para la realización de exámenes de control, que hará el propio paciente, y que enviará para que el medico pueda analizarlas.
+
+6.	Vamos a obtener la mayoría de nuestros clientes por medio de los periodos de prueba que ofrece nuestra plataforma en la cual los médicos podrán experimentar con los beneficios antes de comprometerse al pago de una suscripción, y además de los descuentos por referencias como el referir a otros colegas a que suscriban a la aplicación.
+
+7.	Vamos a obtener ingresos mediante la suscripción que pagarán los médicos especializados en endocrinología quienes desean establecer una mejor relación en el tratamiento de sus pacientes agilizando los tiempos de cada control que se requiera.
+
+8.	Nuestra competencia en el mercado será aplicaciones de los propios centros de salud que han desarrollado para no depender de una herramienta externa para el tratamiento de estas enfermedades tal como Teleatiendo que es la plataforma de Essalud que gestiona la solicitud, registro y consulta de datos sobre los servicios de telemedicina y monitoreo.
+
+9.	Vamos a tener ventaja frente a nuestra competencia debido a la experiencia intuitiva de navegación que se ofrece tanto a pacientes como a médicos. La interfaz de usuario está diseñada para el fácil uso, la interacción y el flujo de trabajo tanto para los médicos como para los pacientes.
+
+10.	El mayor riesgo del servicio es la perdida de la escalabilidad si se experimenta un aumento repentino en el número de usuarios que accedan a la plataforma de manera simultánea.
+
+11.	Lo resolveremos realizando una cuidadosa planificación y gestión de la capacidad de nuestros servidores y recursos informáticos, lo que nos permitirá ajustar dinámicamente la capacidad del sistema según la demanda.
+
+12.	Otras suposiciones podrían incluir la adaptación de nuestra estrategia empresarial según sea necesario para responder a cambios inesperados en el entorno médico.
+
+
+User Assumptions:
+
+
+1.	¿Quien es el usuario?
+
+Los médicos endocrinólogos son los principales suscriptores de nuestro servicio. Además, los pacientes son añadidos a los registros por los propios médicos sin incurrir en una suscripción. Sin embargo, los pacientes también tendrán su propia interfaz para mantener el contacto durante el tratamiento de sus enfermedades hormonales.
+
+2.	¿Qué problemas tiene nuestro producto?
+
+La realidad en Perú difiere considerablemente de la de los países más desarrollados. Según el INEI (2020), solo el 40,1% de los hogares peruanos cuenta con acceso a Internet. Esta situación representa una gran desventaja para los servicios de salud a distancia, como el que propone HormonalCare.
+
+3.	¿Qué características son importantes?
+
+Las estadísticas que respaldan el tratamiento médico y la gestión de datos de los exámenes de laboratorio ordenados por el médico responsable son fundamentales. Además, la capacidad de recuperación y transferencia de datos de manera eficiente es crucial en situaciones donde un médico decide delegar la responsabilidad de un paciente a uno de sus colegas.
+
+4.	¿Dónde encaja nuestro producto en su trabajo o vida?
+
+Según Castillo (2023), en áreas rurales o remotas donde la disponibilidad de servicios médicos especializados es limitada, la telemedicina ofrece la oportunidad de acceder a expertos sin la necesidad de realizar largos desplazamientos. En el sistema tradicional, los pacientes a menudo enfrentan largos tiempos de espera, a veces semanas o meses, para obtener una cita con un médico especialista, como un endocrinólogo. En este contexto, HormonalCare surge como una solución que permite a los médicos agilizar el tratamiento de sus pacientes sin requerir la presencia física, facilitando así la atención médica remota. Esto permite que los pacientes realicen sus rutinas médicas de forma autónoma, con la supervisión del médico correspondiente.
+
+5.	¿Cuándo y cómo es nuestro producto usado?
+
+Nuestro servicio se utiliza cuando el paciente encuentra el espacio y el tiempo adecuados para concertar una reunión con su médico y llevar a cabo un autodiagnóstico cargando las pruebas de forma organizada en la plataforma. Durante esta sesión, el paciente es monitoreado por el médico a través de una videollamada. Dependiendo de los datos proporcionados por el paciente, HormonalCare genera un análisis estadístico detallado que permite al médico examinar con mayor precisión el comportamiento y los estímulos que experimenta el paciente durante el período de seguimiento autónomo. Estos datos se almacenan en el historial clínico del paciente, al cual solo el médico asignado tiene acceso, así como cualquier colega a quien pueda delegar el seguimiento.
+
+6.	¿Cómo debe verse nuestro producto y como debe comportarse?
+
+Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como médicos se sientan cómodos al utilizar todas sus funcionalidades. De esta manera, buscamos asegurar que la experiencia del usuario sea lo más confortable posible durante la navegación por la aplicación.
+
+
 
 
 
