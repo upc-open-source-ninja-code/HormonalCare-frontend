@@ -112,7 +112,12 @@ Logo del Producto:
 | **U202211742**              |                                                              |
 | Hola, soy Estéfano Lostaunau. Tengo 19 años, actualmente curso el quinto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
 
-
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **SEBASTIAN VALENTE LOBATO POZO** | <img src="images/sebastianlobato.png" alt="Sebastian Lobato" width="1000" height="170">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **u202215312**              |                                                              |
+| Soy Sebastian Valente Lobato Pozo, tengo 19 años, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias aplicadas, actualmente estoy cursando el quinto ciclo de mi carrera, Tengo conocimientos en el lenguaje de C++, Python y LUA. Las habilidades que me representan son la amabilidad, comunicación asertiva, empatía y adaptabilidad al cambio, siento que todo lo dicho, puede aportar a la elaboración del trabajo.   |
    
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática
