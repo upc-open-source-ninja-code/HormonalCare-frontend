@@ -78,15 +78,11 @@ Nuestra misión es simple pero poderosa: transformar la forma en que se realizan
 
 Logo del Startup:
 
-<center>
-<img src="images/imagen1.jpg" width = 200>
-</center>
+<center><img src="images/imagen1.jpg" width = 200></center>
 
 Logo del Producto:
 
-<center>
-<img src="images/LogoHormonalCare.png">
-</center>
+<center><img src="images/LogoHormonalCare.png"></center>
 
 
 
