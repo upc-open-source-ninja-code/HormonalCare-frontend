@@ -84,6 +84,16 @@ Ciclo 2024-01
 | Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesan los efectos de la tecnología en la vida de las personas. Ahora mismo me gusta la inteligencia artificial, jugar videojuegos, ver series de anime, nadar y aprender sobre finanzas. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y responsabilidad para cumplir con las tareas.  | 
 
 
+
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **CLAUDIO SANDRO QUISPESIVANA TORRES** | <img src="images/perfilsandero.png" alt="Sandro Quispesivana">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202215099**              |                                                              |
+| Buenas, soy Sandro Quispesivana. Tengo 19 años, actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.| 
+
+
+
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
 | **ESTÉFANO SEBASTIÁN LOSTAUNAU PEREIRA** | <img src="" alt="Estefano Lostaunau">                                                    |
