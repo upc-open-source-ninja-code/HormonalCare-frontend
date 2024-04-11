@@ -185,12 +185,59 @@ Pie de página:
 
 
 ### 4.4.      Web Applications UX/UI Design.
+
 #### 4.4.1.   Web Applications Wireframes.
+
+<img src="images/Web Applications Wireframes.png">
+
+
+Enlace: <https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design> 
+
 #### 4.4.2.   Web Applications Wireflow Diagrams.
+
+<img src="images/Web Applications Wireflow Diagrams.png">
+
+Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-30442%2C5295%2C129066%2C44793%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a> 
+
 #### 4.4.3.   Web Applications Mock-ups.
+
+<img src="images/Web Applications Mock-ups.png">
+FIGMA MOCKUPS : <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1>
+
+
+
 #### 4.4.4.   Web Applications User Flow Diagrams.
 
+User 1: Médico endocrinólogo desea registrarse por primera vez en HormonalCare.
+
+User goal: Seleccionar el apartado de registro como médico endocrinólogo, luego ingresar sus datos personales y adjunta los documentos que validen su cargo como especialista.
+
+<img src="images/Web Applications User Flow Diagrams1.png">
+
+Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a>
+
+User 2: Paciente desea registrarse por primera vez en HormonalCare.
+
+User goal: Seleccionar el apartado de registro como paciente, luego indicar si viene de parte de algún médico, caso sea “Si”, deberá ingresar el código que el médico le habrá proporcionado desde su perfil de médico, caso sea “No”, podrá continuar sin llenar el apartado de código de médico, e ingresará sus datos personales para crear su perfil de paciente.
+
+<img src="images/Web Applications User Flow Diagrams2.png">
+
+Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a>
+
+
 ### 4.5.      Web Applications Prototyping.
+
+#### Prototipos de UI para Desktop:
+<img src="images/Web Applications Mock-ups.png">
+
+
+#### Prototipos de UI para Mobile Web Browser:
+
+<img src="images/mobile.png">
+
+
+
+Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1>
 
 
 ### 4.6.      Domain-Driven Software Architecture.
