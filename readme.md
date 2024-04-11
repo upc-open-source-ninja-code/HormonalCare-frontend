@@ -346,6 +346,31 @@ La creación de User Personas es una práctica fundamental para comprender las n
 
 [Enlace User Persona Médico](https://drive.google.com/file/d/1Ko71r-6_EvUxjYx1oJl8ELZcGRoFXeo4/view?usp=sharing)
 
+
+
+
+#### 2.3.3.   User Journey Mapping.
+**User persona: Paciente**
+Este User Journey Map sigue el viaje de un paciente que busca mejorar la gestión de su tratamiento hormonal a través de una aplicación especializada. Desde el descubrimiento de la aplicación hasta el seguimiento remoto de su progreso, exploraremos las experiencias, expectativas y desafíos que enfrenta el paciente a lo largo de su viaje para una atención médica más efectiva y personalizada.
+<img src="images/Customer journey map - Paciente (2).png">
+[Enlace Customer journey map paciente](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EUt6YmBmmqBJhEAYMyU2sPoBD9v3z6-n6IC-Brbiz4juBA?e=3t796F)
+
+**User persona: Médico**
+Este User Journey Map sigue el viaje de un médico endocrinólogo que integra una aplicación de gestión de tratamientos hormonales en su práctica clínica. Desde la evaluación y la integración de la aplicación hasta el seguimiento remoto del progreso del paciente, exploraremos cómo esta herramienta mejora la coordinación, la eficiencia y la calidad de la atención médica para pacientes con enfermedades hormonales.
+<img src="images/Customer journey map - Médico (1).png">
+[Enlace Customer journey map medico](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWry45GpxiDIa5cCrkB4mnJmWMK7207a6WB_jAnnA?e=0eRKCh)
+
+
+
+#### 2.3.5.   As-is Scenario Mapping.
+El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
+**User Persona: Paciente**
+<img src="images/As is-paciente.png">
+**User Persona: Médico**
+<img src="images/As is - medico.png">
+[Enlace As.is](https://miro.com/app/board/uXjVKaoDitI=/)
+
+
 ### 2.4.      Ubiquitous Language.
 * **App (Aplicación)** - Herramienta informática móvil para el seguimiento y gestión de enfermedades hormonales. 
 * **Appointment (Cita médica)** - Reunión entre el paciente y el especialista para evaluar la condición médica y ajustar el tratamiento. 
@@ -378,27 +403,5 @@ La creación de User Personas es una práctica fundamental para comprender las n
 * **Privacy policy (Política de privacidad)** - Documento que describe cómo la aplicación recopila y utiliza la información personal del usuario.
 * **Profile picture (Foto de perfil)** - Imagen
 
-
-
-#### 2.3.3.   User Journey Mapping.
-**User persona: Paciente**
-Este User Journey Map sigue el viaje de un paciente que busca mejorar la gestión de su tratamiento hormonal a través de una aplicación especializada. Desde el descubrimiento de la aplicación hasta el seguimiento remoto de su progreso, exploraremos las experiencias, expectativas y desafíos que enfrenta el paciente a lo largo de su viaje para una atención médica más efectiva y personalizada.
-<img src="images/Customer journey map - Paciente (2).png">
-[Enlace Customer journey map paciente](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EUt6YmBmmqBJhEAYMyU2sPoBD9v3z6-n6IC-Brbiz4juBA?e=3t796F)
-
-**User persona: Médico**
-Este User Journey Map sigue el viaje de un médico endocrinólogo que integra una aplicación de gestión de tratamientos hormonales en su práctica clínica. Desde la evaluación y la integración de la aplicación hasta el seguimiento remoto del progreso del paciente, exploraremos cómo esta herramienta mejora la coordinación, la eficiencia y la calidad de la atención médica para pacientes con enfermedades hormonales.
-<img src="images/Customer journey map - Médico (1).png">
-[Enlace Customer journey map medico](https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWry45GpxiDIa5cCrkB4mnJmWMK7207a6WB_jAnnA?e=0eRKCh)
-
-
-
-#### 2.3.5.   As-is Scenario Mapping.
-El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
-**User Persona: Paciente**
-<img src="images/As is-paciente.png">
-**User Persona: Médico**
-<img src="images/As is - medico.png">
-[Enlace As.is](https://miro.com/app/board/uXjVKaoDitI=/)
 
 
