@@ -246,7 +246,7 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 
 
-
+[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
 
 
 
