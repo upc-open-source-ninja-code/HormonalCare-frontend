@@ -48,59 +48,9 @@ En esta sección presentaremos los diversos elementos que hemos seleccionado par
 
 #### 4.1.2. Web Style GUidelines.
 
-### 4.2. Information Architecture
-#### 4.2.1. Organization Systems. 
-#### 4.2.2. Labeling Systems.
-#### 4.2.3. SEO Tags and  Meta Tags.
-#### 4.2.4. Searching Systems.
-#### 4.2.5. Navigation Systems.
-
-### 4.3. Landing Page UI Design.
-#### 4.3.1. Landing Page Wireframe.
-#### 4.3.2. Landing Page Mock-up. V1.0
-
-### 4.4.      Web Applications UX/UI Design.
-#### 4.4.1.   Web Applications Wireframes.
-#### 4.4.2.   Web Applications Wireflow Diagrams.
-#### 4.4.3.   Web Applications Mock-ups.
-#### 4.4.4.   Web Applications User Flow Diagrams.
-
-### 4.5.      Web Applications Prototyping.
-### 4.6.      Domain-Driven Software Architecture.
-#### 4.6.1.   Software Architecture Context Diagram.
-#### 4.6.2.   Software Architecture Container Diagrams.
-#### 4.6.3.   Software Architecture Components Diagrams.
-
-### 4.7.      Software Object-Oriented Design.
-#### 4.7.1.   Class Diagrams.
-#### 4.7.2.   Class Dictionary.
-
-### 4.8.      Database Design.
-#### 4.8.1.   Database Diagram.
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Capítulo-IV-Product-Design
 
 ### 4.2. Information Architecture.
+
 #### 4.2.1.   Organization Systems.
 
 Para el desarrollo de la aplicación "HormonalCare", estableceremos primero las definiciones de los requisitos y objetivos, identificando las necesidades de los pacientes y médicos, así como estableciendo metas claras. Luego, se procede al diseño de la arquitectura, planificando tanto el frontend como el backend de la aplicación, y diseñando la estructura de la base de datos correspondiente. Posteriormente, se avanza con el desarrollo del backend, implementando la lógica de negocio y asegurando la seguridad de los datos. Simultáneamente, se trabaja en el desarrollo del frontend, creando una interfaz de usuario intuitiva y funcional. Se prioriza la implementación de funcionalidades clave, tales como herramientas para seguimiento médico y telemedicina. Una vez completado el desarrollo, se procede a realizar pruebas exhaustivas y ajustes según el feedback recibido. 
@@ -150,3 +100,105 @@ El sistema de búsqueda de HormonalCare proporcionaría a los usuarios la capaci
 #### 4.2.5.   Navigation Systems.
 
 HormonalCare ha sido diseñado con un sistema de navegación intuitivo y claro para facilitar la experiencia del usuario. Los usuarios pueden explorar fácilmente las distintas secciones de la aplicación mediante un menú de navegación ubicado en la parte superior de la interfaz.  
+
+
+### 4.3. Landing Page UI Design.
+#### 4.3.1. Landing Page Wireframe.
+Los wireframes de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/Wireframes desktop/welcome.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes desktop/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature4.png"></div>
+Sección de los precios:
+<div align="center"><img src="images/Wireframes desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes desktop/Conctact us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes desktop/About us.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes desktop/Pie de pagina.png"></div>
+
+
+Para un navegador web en mobile.
+Encabezado:
+<div align="center"><img src="images/Wireframes mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes mobile/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/Wireframes mobile/Pricing1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes mobile/Conctact Us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes mobile/PiePagina.png"></div>
+
+
+#### 4.3.2. Landing Page Mock-up. V1.0
+Para el diseño Mock-up version 1.0 de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp desktop/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp desktop/Feature1.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature2.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature3.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp desktop/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp desktop/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp desktop/piedepagina.png"></div>
+
+Para el diseño Mock-up version 1.0 mobile se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp mobile/Feature1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature3.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp mobile/Pricing1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp mobile/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp mobile/piedepagina.png"></div>
+
+
+
+### 4.4.      Web Applications UX/UI Design.
+#### 4.4.1.   Web Applications Wireframes.
+#### 4.4.2.   Web Applications Wireflow Diagrams.
+#### 4.4.3.   Web Applications Mock-ups.
+#### 4.4.4.   Web Applications User Flow Diagrams.
+
+### 4.5.      Web Applications Prototyping.
+### 4.6.      Domain-Driven Software Architecture.
+#### 4.6.1.   Software Architecture Context Diagram.
+#### 4.6.2.   Software Architecture Container Diagrams.
+#### 4.6.3.   Software Architecture Components Diagrams.
+
+### 4.7.      Software Object-Oriented Design.
+#### 4.7.1.   Class Diagrams.
+#### 4.7.2.   Class Dictionary.
+
+### 4.8.      Database Design.
+#### 4.8.1.   Database Diagram.
