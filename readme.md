@@ -201,20 +201,24 @@ Pie de página:
 
 #### 4.6.2.   Software Architecture Container Diagrams.
 **Diagrama de contenedores:**
+
 <img src="images/container diagram.png">
 [Enlace](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
 
 #### 4.6.3.   Software Architecture Components Diagrams.
 **API REST component diagram:**
+
 <img src="images/apirest component diagram1.png">
 <img src="images/apirest component diagram2.png">
 [Enlace](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
 
 **Medical Appointment BC Component Diagram:**
-<img src="images/MedicalAppointment.png">
+
+<img src="images/MedicalAppointment component diagram.png">
 [Enlace](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
 
 **Calendar BC Component Diagram:**
+
 <img src="images/calendar component diagram.png">
 [Enlace](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
 
@@ -234,34 +238,42 @@ Pie de página:
 [Enlace](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
 
 **Notification BC Component Diagram:**
+
 <img src="images/notification component diagram.png">
 [Enlace](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
 
 **Chat BC Component Diagram:**
+
 <img src="images/Chat component diagram.png">
 [Enlace](https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0)
 
 **Patient Management BC Component Diagram:**
+
 <img src="images/patient management component diagram.png">
 [Enlace](https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699)
 
 **Medical Management BC Component Diagram:**
+
 <img src="images/medical management component diagram.png">
 [Enlace](https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f)
 
 **Subscription BC Component Diagram:**
+
 <img src="images/subscription component diagram.png">
 [Enlace](https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12)
 
 **Payment BC Component Diagram:**
+
 <img src="images/payment component diagram.png">
 [Enlace](https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd)
 
 **Search BC Component Diagram:**
+
 <img src="images/search component diagram.png">
 [Enlace](https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e)
 
 **Safety BC Component Diagram:**
+
 <img src="images/safety component diagram.png">
 [Enlace](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
 
