@@ -253,6 +253,10 @@ Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como méd
 
 4. Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada. Sabremos que hemos tenido éxito, cuando observemos una mejora en la percepción de la calidad de vida de los pacientes con enfermedades hormonales, evaluada a través de encuestas de satisfacción y testimonios positivos que reflejen una experiencia de atención médica más satisfactoria y efectiva.
 
+   ##### 1.2.2.2.	Lean UX Canvas.
+
+<center><img src="images/leanuxcanva.png"></center>
+
 
 
 
