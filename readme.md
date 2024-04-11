@@ -219,14 +219,17 @@ Pie de página:
 [Enlace](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
 
 **Treatment BC Component Diagram:**
+
 <img src="images/Treatment component diagram.png">
 [Enlace](https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc)
 
 **Medication BC Component Diagram:**
+
 <img src="images/medication component diagram.png">
 [Enlace](https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e)
 
 **History Medical BC Component Diagram:**
+
 <img src="images/History medical component diagram.png">
 [Enlace](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
 
