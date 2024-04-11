@@ -37,36 +37,6 @@ Ciclo 2024-01
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 1.1. Startup Profile
 #### 1.1.1.Descripción de la Startup
 
@@ -103,7 +73,12 @@ Logo del Producto:
 | **U202215099**              |                                                              |
 | Buenas, soy Sandro Quispesivana. Tengo 19 años, actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software. Podría decir que los conocimientos que mejor se me dan son la programación orientada a objetos para muchos tipos de lenguajes, mi agilidad en la creación de base de datos, el uso de herramientas para el desarrollo de FrontEnd como lo puede ser HTML, CSS y un poco de JavaScript, y capaz mi enfoque empresarial de querer nutrir en una gran variedad de mercados y marcar un antes y un después. Las habilidades que me más me representan son la responsabilidad y el ingenio que me nace en problemas serios.| 
 
-
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **LUIS SEBASTIAN CHINCHIHUALPA SALDARRIAGA** | <img src="images/perfilLuis.jpg" width="700" height="150" alt="Luis Chinchihualpa">                                                 |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202212112**              |                                                              |
+| Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el quinto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos y Diseño y Patrones de Software.  | 
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
