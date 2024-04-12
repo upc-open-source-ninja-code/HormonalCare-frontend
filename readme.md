@@ -190,7 +190,7 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |LandingPageAppWeb|feature/about|6a7cee5|feature: about||11/04/23|
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
-|LandingPageAppWeb|docs/assets/scripts/script.js|a9d2f88|Update script.js| added: document.addEventListener |11/04/23|
+|LandingPageAppWeb|docs/assets/scripts/script.js|a9d2f88bb493a7cbe5d7dc6e4e26c896ff32fbb8|Update script.js| added: document.addEventListener |11/04/23|
 
 
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
