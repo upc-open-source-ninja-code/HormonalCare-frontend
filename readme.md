@@ -1,18 +1,38 @@
 
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+## CÁPITULO IV: PRODUCT DESIGN
+### 4.1. Style Guidelines.
+
+En esta sección presentaremos los diversos elementos que hemos seleccionado para la aplicación y página web de nuestro producto. Estos han sido escogidos no únicamente para brindarles una interfaz estética y práctica a nuestros usuarios, sino también para poder transmitirles a nuestros usuarios las emociones y valores positivos que deseamos lograr mediante los recursos visuales empleados.
+
+#### 4.1.1. General Style Guidelines. 
+
+**Colors:**
+Para nuestra paleta de colores inicial hemos decidido emplear una escala de lilas de tono pastel. El motivo es porque son tonos suaves, que son gentiles a la vista y que además serán capaces de transmitir y producir al usuario una sensación de tranquilidad, sobre todo a quienes recién debutan con alguna enfermedad.
+
+<div align="center"><img src="images/Style Guidelines/GeneralColors.png"></div>
+
+**Tipografía:**
+
+**Escala**
+
+Base: 16px
+
+Tipografía: Open-Sans
+
+interlineado:1,15
 
 
-# Universidad Peruana de Ciencias Aplicadas
+**Peso**
 
-Ingeniería de Software
+Light
 
-Ciclo 2024-01
+Regular 
 
-<hr>
+Medium
 
-# <center>Desarrollo de Aplicaciones Open Source</center>
+SemiBold
 
 ## TB1 REPORT
 
@@ -24,7 +44,6 @@ Ciclo 2024-01
 
 *Producto*: HormonalCare
 
-### Team Members:
 
 | Member                            |    Code    |
 | :-------------------------------- | :--------: |
