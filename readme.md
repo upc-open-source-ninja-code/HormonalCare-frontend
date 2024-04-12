@@ -189,6 +189,8 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |Landing-Page|docs/assets/styles/style.css|7a8d1c3f78a5757e1a9b66005983214c1f88165f|feat (planes)|se añadió el estilo para los planes|11/04/23|
 |LandingPageAppWeb|feature/about|6a7cee5|feature: about||11/04/23|
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
+|LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
+|LandingPageAppWeb|docs/assets/scripts/script.js|a9d2f88|Update script.js||11/04/23|
 
 
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
