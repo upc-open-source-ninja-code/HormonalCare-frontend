@@ -13,7 +13,7 @@ Ciclo 2024-01
 
 # <center>Desarrollo de Aplicaciones Open Source</center>
 
-## TF1 REPORT
+## TB1 REPORT
 
 **Sección:** SW51
 
@@ -21,7 +21,7 @@ Ciclo 2024-01
 
 **StartUp Name**: NinjaCode
 
-**Producto**: 
+**Producto**: HormonalCare
 
 ### Team Members:
 
@@ -39,6 +39,9 @@ Ciclo 2024-01
 ## Project Report Collaboration Insights
 Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pre-202401--si729-sw51-NinjaCode-report-tb1/blob/main/readme.md)
 
+<div  align="center">
+<img src="images/GeneralCommits.png">
+</div>
 
 ## Contenido
 
