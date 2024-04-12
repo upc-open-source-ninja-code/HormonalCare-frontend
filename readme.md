@@ -82,7 +82,7 @@ Logo del Producto:
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **ESTÉFANO SEBASTIÁN LOSTAUNAU PEREIRA** | <img src="" alt="Estefano Lostaunau">                                                    |
+| **ESTÉFANO SEBASTIÁN LOSTAUNAU PEREIRA** | <img src="images/EstefanoLostaunau.png"  width="800" height="140" alt="Estefano Lostaunau">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202211742**              |                                                              |
 | Hola, soy Estéfano Lostaunau. Tengo 19 años, actualmente curso el quinto ciclo de la carrera de Ingeniería de Software. Estudié esta carrera por sus diversos enfoques con los que cuenta. Me gusta la programación y se programar en C++, Python y WEB. Mis conocimientos contribuirán al equipo para desarrollar las actividades propuestas. Me considero una persona responsable, colaborativa y perfeccionista.  |
