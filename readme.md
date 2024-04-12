@@ -1234,7 +1234,7 @@ Sección de contacto:
 Sección de About us:
 <div align="center"><img src="images/MockUp mobile/AboutUs.png"></div>
 Pie de página:
-<div align="center"><img src="images/MockUp mobile/piedepagina.png"></div>
+<div align="center"><img src="images/MockUp mobile/PiedePagina.png"></div>
 
 
 
