@@ -174,7 +174,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 </table>
 
 Además, se incluye en la herramienta recomendada que es Trello.
-<img src="images/trellosprint.png" alt="Logo UPC">
+<img src="images/trellosprint.png" alt="Sprint I en Trello">
 ![](Aspose.Words.7c36b888-f087-49fb-b41f-b7c953698ffb.001.png)
 #### <a name="_toc163674911"></a>Enlace: <https://trello.com/invite/b/H8Ifc2ko/ATTIf05ba6e9b91d336c0560f121fd1002790D3D9927/sprint-1-hormonalcare>
 ####
@@ -193,14 +193,21 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 
 ###### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Para esta entrega, no se implementó el conjunto de apartados relacionados con Web Services, ya que el desarrollo se hizo en base al Landing Page.
-		5.2.1.5. Execution Evidence for Sprint Review.
-Video enseñando la landing page
-Link al video: 
-###### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+##### 5.2.1.5. Execution Evidence for Sprint Review.
+Lo alcanzado en este sprint es la implementación de nuestra landing page, junto a las secciones y caracteristicas de arquitectura de información elaboradas pro el equipo de desarrollo. Nuestra landing page, incluye las secciones de Beneficios, precios, contáctanos, sobre nosotros e iniciar sesión.
+**_screenshots de las principales vistas implementadas:**
+<img src="images/vistalanding1.png">
+<img src="images/vistalanding2.png">
+<img src="images/vistalanding3.png">
+<img src="images/vistalanding4.png">
+<img src="images/vistalanding5.png">
+Link al video: [video landing page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EbyAhQWeUI5MnsNLvfM42PcBVWQLQGO47PHjy2U5S_uHaA?e=OcifcD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+###### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
 
 ###### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
 
 ###### 5.2.1.8. Team Collaboration Insights during Sprint.
 
