@@ -152,7 +152,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 
 
 
-#### 5.2.1.2. Sprint Backlog 1.
+##### 5.2.1.2. Sprint Backlog 1.
 #### En el primer sprint de nuestra aplicación "HormonalCare", nos centraremos en la implementación de la Landing Page. Esta página será la primera impresión para nuestros potenciales usuarios, comunicando las funcionalidades que ofrecemos, los planes, etc. A través de un diseño cuidadoso y contenido persuasivo dirigido a nuestra audiencia objetivo.
 ####
 <table><tr><th colspan="2" valign="top">Sprint #</th><th colspan="6" valign="top">Sprint 1</th></tr>
@@ -178,7 +178,7 @@ Además, se incluye en la herramienta recomendada que es Trello.
 ![](Aspose.Words.7c36b888-f087-49fb-b41f-b7c953698ffb.001.png)
 #### <a name="_toc163674911"></a>Enlace: <https://trello.com/invite/b/H8Ifc2ko/ATTIf05ba6e9b91d336c0560f121fd1002790D3D9927/sprint-1-hormonalcare>
 ####
-#### 5.2.1.3. Development Evidence for Sprint Review.
+##### 5.2.1.3. Development Evidence for Sprint Review.
 ####
 En cuanto a los avances de la implementación de nuestro primer sprint, se puede observar que varias tareas han sido resueltas. Como, la creación del header, footer y algunas secciones tales como suscripciones, funcionalidades, acerca del equipo, formulario de contacto, entre otras secciones y características que se han desarrollado para lograr entregar en esta primera fecha nuestro producto mínimo viable (MVP).
 
