@@ -54,7 +54,7 @@ Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pr
 
 ### [Contenido](#)
 
-### [STUDENT OUTCOME](#STUDENT OUTCOME)
+### [STUDENT OUTCOME](#)
 
 ### [Capítulo I: Introducción](#)
 
@@ -216,7 +216,7 @@ Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pr
 [Anexos](#)
 
 
-## <a name="STUDENT OUTCOME"></a>STUDENT OUTCOME 
+## STUDENT OUTCOME 
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | - | - | - |
