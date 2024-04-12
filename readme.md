@@ -86,9 +86,9 @@ GitHub: Empleamos GitHub como plataforma principal para la documentación del c�
 
 Para garantizar la eficiencia y evitar conflictos en el desarrollo de soluciones, los proyectos de NinjaCode se gestionaron en una organización de GitHub. Dentro de esta organización, se encuentran los repositorios correspondientes a cada proyecto. Aquí están los enlaces a los repositorios:
 
-Landing page: https://upc-open-source-ninja-code.github.io/Landing-Page/indexEN.html
+Landing page: [https://upc-open-source-ninja-code.github.io/Landing-Page/index.html](https://upc-open-source-ninja-code.github.io/Landing-Page/index.html)
 
-Tests de Aceptación: 
+Tests de Aceptación: [https://github.com/upc-open-source-ninja-code/Acceptance-Test](https://github.com/upc-open-source-ninja-code/Acceptance-Test)
 
 En cuanto al manejo del Gitflow, fue de la siguiente forma:
 
@@ -126,7 +126,7 @@ Utilizamos el servicio GitHub Pages para desplegar la landing page de HormonalCa
 2.	Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
 3.	En la sección "Pages", seleccionamos la rama main desde la cual se desplegará la landing page.
 4.	Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizo el proceso de despliegue de la landing page.
-5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada (htt).
+5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada ([https://upc-open-source-ninja-code.github.io/Landing-Page/index.html]( https://upc-open-source-ninja-code.github.io/Landing-Page/index.html)).
 
 
 
