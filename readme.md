@@ -191,8 +191,8 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 |LandingPageAppWeb|docs/assets/scripts/script.js|a9d2f88bb493a7cbe5d7dc6e4e26c896ff32fbb8|Update script.js| added: document.addEventListener |11/04/23|
-|LandingPageAppWeb|docs/assets/images/FeatureMobile1ES.png|4dc8e0523ba7c8e628925ee2ac2d0eb2ea272584|fix(styleES and indexES): incorporate of new Feature Mobile 1 2 3 4 ES||11/04/23|
-|LandingPageAppWeb|docs/assets/images/BienbenidoAHormonalCare.png|fa77d2baaaad68c7ba69fe1b8db0d84b3d593c37|fix(image): bienvenido a HormonalCare||11/04/23|
+|LandingPageAppWeb|docs/assets/images/FeatureMobile1ES.png|4dc8e0523ba7c8e628925ee2ac2d0eb2ea272584|fix(styleES and indexES) |incorporate of new Feature Mobile 1 2 3 4 ES|11/04/23|
+|LandingPageAppWeb|docs/assets/images/BienbenidoAHormonalCare.png|fa77d2baaaad68c7ba69fe1b8db0d84b3d593c37|fix(image) |bienvenido a HormonalCare|11/04/23|
 
 
 
