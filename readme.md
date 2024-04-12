@@ -163,9 +163,23 @@ Authors: NinjaCode
 
 #### 4.2.4.   Searching Systems.
 
-Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. Aquí hay un ejemplo de cómo podría funcionar: 
+Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. En el contexto de nuestro proyecto, contamos con dos diferentes métodos de búsqueda por tipo de usuario, estos son: 
 
-El sistema de búsqueda de HormonalCare proporcionaría a los usuarios la capacidad de buscar información específica dentro de la plataforma. Los médicos podrían buscar registros de pacientes por nombre, fecha o tipo de examen, facilitando el acceso a la información médica relevante de manera rápida y eficiente. Los pacientes, por otro lado, podrían buscar recursos educativos sobre enfermedades hormonales, consejos de autocuidado o respuestas a preguntas frecuentes. 
+**Usuario Paciente:** 
+
+Búsqueda de médicos disponibles: Los usuarios de tipo paciente, podrán buscar diferentes médicos que, atiendan a sus necesidades y preferencias, mediante el uso de filtros como: Rangos de precio, género y subespecialidades. 
+
+Calendario: El usuario podrá realizar una búsqueda de cuando tiene reunión, tomar su medicación o exámenes pendientes, mediante un filtrado de estos, el usuario podra seleccionar cuales quiere que se muestren en su calendario. 
+
+**Usuario Medico:** 
+
+Búsqueda de colegas: El medico podrá buscar colegas mediante una barra de búsqueda, introduciendo su correo electrónico o nombre. 
+
+Búsqueda de pacientes: Cuando se encuentre en su perfil principal, el médico mediante una barra de búsqueda, podrá buscar a sus pacientes de su portafolio mediante su nombre o correo electrónico. 
+
+Mensajería: El usuario podrá realizar la búsqueda de sus diferentes pacientes o colegas mediante la selección de estos por botones, donde se muestran sus nombres. 
+
+Información clínica: Al acceder a la información clínica del paciente, el medico podrá filtrar su información accediendo a diferentes interfaces donde se almacenan información del paciente. Esta información se accede mediante botones. 
 
 #### 4.2.5.   Navigation Systems.
 
