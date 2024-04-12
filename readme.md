@@ -34,7 +34,7 @@ Ciclo 2024-01
 | Sebastian Valente Lobato Pozo | U202215312 |
 
 <br>
-
+</div>
 
 ## Project Report Collaboration Insights
 Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pre-202401--si729-sw51-NinjaCode-report-tb1/blob/main/readme.md)
