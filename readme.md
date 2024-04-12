@@ -286,7 +286,7 @@ Enlace: [https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 #### 4.4.3.   Web Applications Mock-ups.
 
 <img src="images/Web Applications Mock-ups.png">
-FIGMA MOCKUPS : [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
+Figma Mock ups: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
 
 
 
