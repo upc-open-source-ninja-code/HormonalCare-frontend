@@ -1,8 +1,5 @@
 
-
-
 ## CÁPITULO IV: PRODUCT DESIGN
-
 ### 4.1. Style Guidelines.
 
 En esta sección presentaremos los diversos elementos que hemos seleccionado para la aplicación y página web de nuestro producto. Estos han sido escogidos no únicamente para brindarles una interfaz estética y práctica a nuestros usuarios, sino también para poder transmitirles a nuestros usuarios las emociones y valores positivos que deseamos lograr mediante los recursos visuales empleados.
