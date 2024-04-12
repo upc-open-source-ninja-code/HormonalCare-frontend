@@ -43,10 +43,67 @@ Ciclo 2024-01
 
 En esta sección presentaremos los diversos elementos que hemos seleccionado para la aplicación y página web de nuestro producto. Estos han sido escogidos no únicamente para brindarles una interfaz estética y práctica a nuestros usuarios, sino también para poder transmitirles a nuestros usuarios las emociones y valores positivos que deseamos lograr mediante los recursos visuales empleados.
 
-#### 4.1.1. General Style Guidelines.
+Colors:
+Para nuestra paleta de colores inicial hemos decidido emplear una escala de lilas de tono pastel. El motivo es porque son tonos suaves, que son gentiles a la vista y que además serán capaces de transmitir y producir al usuario una sensación de tranquilidad, sobre todo a quienes recién debutan con alguna enfermedad.
+
+<div align="center"><img src="images/Style Guidelines/GeneralColors.png"></div>
+Tipografía: 
+
+Escala
+
+Base: 16px
+
+Tipografía: Open-Sans
+
+interlineado:1,15
+
+Peso
+
+Light
+
+Regular 
+
+Medium
+
+SemiBold
+
+Bold
+
+ExtraBold
+
+Black
+
+Nomenclatura
+
+<div align="center"><img src="images/Style Guidelines/nomenclatura.png"></div>
+
+
+Branding:
+
+El logo de la aplicación "Hormonal Care" combina colores azul, verde y blanco, y una tipografía sans-serif para transmitir confianza, profesionalidad y accesibilidad a médicos y pacientes. El nombre es claro, conciso y describe el objetivo de la aplicación. El logo busca crear una imagen familiar y confiable, similar a otras aplicaciones de salud.
+
+<div align="center"><img src="images/Style Guidelines/logo hormonal.png"></div>
 
 
 #### 4.1.2. Web Style GUidelines.
+
+Colores: En HormonalCare, elegimos colores que reflejan la tranquilidad. Malva, lavanda y azules para calma, verde para conexión con la naturaleza y marrón para estabilidad. Nuestros estilos de letra transmiten seriedad y vitalidad, creando un entorno que fomenta la paz interior y la claridad mental en tu práctica de mindfulness y meditación.
+
+<div align="center"><img src="images/Style Guidelines/webcolors.png"></div>
+
+
+Tipografía (Desktop): Estos tamaños y estilos de fuente han sido elegidos para maximizar la legibilidad y la coherencia en toda la plataforma. Creemos que esta combinación de diseño visual y tipografía proporciona un ambiente propicio para tu práctica de mindfulness y meditación en línea.
+
+<div align="center"><img src="images/Style Guidelines/Tipografia.png"></div>
+
+La aplicación "Hormonal Care" presenta botones con diferentes funciones, como pagar, aceptar, cancelar, enviar, ver historia clínica, próxima cita, etc. Estos botones están diseñados para facilitar la navegación y el uso de la aplicación, con colores, tipografía y etiquetas claras para una mejor experiencia de usuario.
+
+<div align="center"><img src="images/Style Guidelines/Botones.png"></div>
+
+Íconos:
+
+<div align="center"><img src="images/Style Guidelines/Iconos.png"></div>
+
 
 
 ### 4.2. Information Architecture.
