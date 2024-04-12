@@ -176,19 +176,20 @@ Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pr
 
 [4.8.1.   Database Diagram](#)
 
-### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo V:-Product Implementation,-Validation-&-Deployment)
 
-[5.1.      Software Configuration Management](#51-software-Configuration-Management)
+### [Capítulo V: Product Implementation, Validation & Deployment](#)
 
-[5.1.1.   Software Development Environment Configuration](#511-Software-Development Environment)
+[5.1.      Software Configuration Management](#)
 
-[5.1.2.   Source Code Management](#512-source-Code-Management)
+[5.1.1.   Software Development Environment Configuration](#)
 
-[5.1.3.   Source Code Style Guide & Conventions](#513-source-Code-Style-Guide-&-Conventions)
+[5.1.2.   Source Code Management](#)
 
-[5.1.4.   Software Deployment Configuration](#514-software-Deployment-Configuration)
+[5.1.3.   Source Code Style Guide & Conventions](#)
 
-[5.2.	Landing Page, Services & Applications Implementation](#52-landing Page,-Services-& Applications-Implementation)
+[5.1.4.   Software Deployment Configuration](#)
+
+[5.2.	Landing Page, Services & Applications Implementation](#)
 
 [5.2.1.   Sprint 1](#)
 
