@@ -383,7 +383,7 @@ Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 
 
 
-### 4.7.      Software Object-Oriented Design.
+## 4.7.      Software Object-Oriented Design.
 ### 4.7.1.   Class Diagrams.
 ![](images/ClassDiagrams.png)
 
