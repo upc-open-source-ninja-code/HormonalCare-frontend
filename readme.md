@@ -120,15 +120,22 @@ Para el desarrollo de la aplicación "HormonalCare", estableceremos primero las 
 
 #### 4.2.2.   Labeling Systems.
 
-Hemos realizado un análisis exhaustivo de la funcionalidad y los elementos clave de nuestra plataforma "HormonalCare", con el objetivo de establecer un sistema de etiquetado eficiente. Mediante este proceso, hemos identificado las siguientes etiquetas esenciales: 
+#### Landing Page
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Features | En esta etiqueta se muestran todas las funcionalidades y características de nuestra aplicación.    | 
+| Pricing     | En este apartado, se muestran cuáles son los planes que nuestra aplicación maneja, se muestran sus precios y características.    | 
+| Contact Us     | Esta etiqueta, se muestra el interfaz de inicio de sesión para que el usuario pueda ingresar a la aplicación.   |
 
-Perfil del Paciente: Esta etiqueta proporciona acceso al perfil personal de cada paciente, donde pueden ver y editar su información personal, así como su historial médico y los registros de seguimiento de su enfermedad hormonal. 
-
-Consultas Médicas: Aquí se agrupan todas las funciones relacionadas con las consultas médicas, como la programación de citas, la realización de consultas virtuales, el acceso a recetas médicas y la comunicación con el médico. 
-
-Notificaciones y Recordatorios: En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento. 
-
-Configuración de la Cuenta: Esta categoría permite a los usuarios gestionar su cuenta, ajustar sus preferencias de privacidad, configurar notificaciones y actualizar su información personal. 
+#### Aplicación
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Perfil del usuario  | Esta etiqueta proporciona acceso al perfil personal, donde pueden ver y editar su información personal, así     | 
+| Notificaciones y Recordatorios      | En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento.     | 
+| Inicio      | En esta etiqueta, se muestra la interfaz principal del usuario, de forma customizada, para atender sus necesidades dependiendo de que tipo de usuario sea. Esta etiqueta se muestra al iniciar sesión.    |
+| Medicos disponibles       | En esta sección se muestra los médicos disponibles para el usuario paciente.     |
+| Calendario        | En esta sección se muestra un calendario con la información relevante personalizada para cada tipo de usuario.      |
+| Mensajes         | En esta sección se muestran los mensajes entre los usuarios de la aplicación.      |
 
 #### 4.2.3.   SEO Tags and Meta Tags.
 
