@@ -80,7 +80,7 @@ La aplicación "Hormonal Care" presenta botones con diferentes funciones, como p
 
 #### 4.2.1.   Organization Systems.
 
-Para el desarrollo de la aplicación "HormonalCare", estableceremos primero las definiciones de los requisitos y objetivos, identificando las necesidades de los pacientes y médicos, así como estableciendo metas claras. Luego, se procede al diseño de la arquitectura, planificando tanto el frontend como el backend de la aplicación, y diseñando la estructura de la base de datos correspondiente. Posteriormente, se avanza con el desarrollo del backend, implementando la lógica de negocio y asegurando la seguridad de los datos. Simultáneamente, se trabaja en el desarrollo del frontend, creando una interfaz de usuario intuitiva y funcional. Se prioriza la implementación de funcionalidades clave, tales como herramientas para seguimiento médico y telemedicina. Una vez completado el desarrollo, se procede a realizar pruebas exhaustivas y ajustes según el feedback recibido. 
+En nuestra aplicación web, seguimos una estructura jerárquica en el diseño visual. Al entrar en la web como usuario, los elementos más destacados conforman el primer nivel, que incluye el logo, tarjetas y botones. En el segundo nivel, estan aquellos componentes que complementan al primer nivel, estos pueden ser descripciones, subtítulos y campos donde ingresar informacion. En el último nivel, se encuentran componentes como los íconos . De esta manera, se garantiza una experiencia  para el usuario clara y organizada, facilitando la navegación y la interacción con la aplicación. 
 
 #### 4.2.2.   Labeling Systems.
 
