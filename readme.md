@@ -45,7 +45,7 @@ Ciclo 2024-01
 Enlace del Project Report: (https://github.com/upc-open-source-ninja-code/upc-pre-202401--si729-sw51-NinjaCode-report-tb1/blob/main/readme.md)
 
 <div  align="center">
-<img src="images/GeneralCommits.png">
+<img src="images/GeneralCommit.png">
 </div>
 
 ## Contenido
