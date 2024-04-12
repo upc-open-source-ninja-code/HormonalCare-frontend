@@ -191,7 +191,7 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 
 
-###### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+##### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Para esta entrega, no se implementó el conjunto de apartados relacionados con Web Services, ya que el desarrollo se hizo en base al Landing Page.
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
 Lo alcanzado en este sprint es la implementación de nuestra landing page, junto a las secciones y caracteristicas de arquitectura de información elaboradas pro el equipo de desarrollo. Nuestra landing page, incluye las secciones de Beneficios, precios, contáctanos, sobre nosotros e iniciar sesión.
@@ -203,14 +203,14 @@ Lo alcanzado en este sprint es la implementación de nuestra landing page, junto
 <img src="images/vistalanding5.png">
 Link al video: [video landing page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EbyAhQWeUI5MnsNLvfM42PcBVWQLQGO47PHjy2U5S_uHaA?e=OcifcD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-###### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
 
-###### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Para llevar a cabo la implementación automática de nuestra Landing Page, empleamos Github Pages. Esta herramienta facilita la creación de sitios web a partir de un repositorio público que contiene el código utilizado para desarrollar la página. Puedes visitar nuestra Landing Page en el siguiente enlace:https://upc-open-source-ninja-code.github.io/Landing-Page/assets/indexs/indexES.html
 
-###### 5.2.1.8. Team Collaboration Insights during Sprint.
+##### 5.2.1.8. Team Collaboration Insights during Sprint.
 Para la realización de los commits de nuestro primer Sprint, hemos hecho uso de la herramienta Visual Studio Code, además del uso de Git. Uno de los integrantes realizó un primer commit para la creación del repositorio, luego utilizando Git clonamos el repositorio, para luego realizar los cambios en Visual Code y crear los branches correspondientes a dichos cambios, para finalmente realizar el commit, el cual deberá ser revisado dentro del repositorio de Github.
 <img src="images/collaboration.png">
 
