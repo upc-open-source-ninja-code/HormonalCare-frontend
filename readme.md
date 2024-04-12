@@ -1,18 +1,19 @@
 
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+## CAPÍTULO V: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT 
+### 5.1.      Software Configuration Management.
+#### 5.1.1.   Software Development Environment Configuration.
 
 
-# Universidad Peruana de Ciencias Aplicadas
+**Project Management:**
 
-Ingeniería de Software
+Discord: Utilizamos Discord como plataforma principal de comunicación y colaboración entre los miembros del equipo de desarrollo y gestión del proyecto. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto.
 
-Ciclo 2024-01
+WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto con los miembros del equipo y colaborar en cierta medida.
 
-<hr>
+Landing Page: Para dar vida a la primera impresión de nuestra landing page, decidimos usar HTML, CSS y JavaScrip que son ampliamente conocidas y utilizadas en la creación de páginas web. Estas tecnologías permitieron crear una página atractiva, funcional y adaptada a las necesidades del proyecto.
 
-# <center>Desarrollo de Aplicaciones Open Source</center>
 
 ## TB1 REPORT
 
@@ -24,7 +25,7 @@ Ciclo 2024-01
 
 *Producto*: HormonalCare
 
-### Team Members:
+**Product UX/UI Design:** 
 
 | Member                            |    Code    |
 | :-------------------------------- | :--------: |
