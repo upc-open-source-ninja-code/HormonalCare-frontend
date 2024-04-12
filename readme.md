@@ -184,9 +184,9 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | - | - | - | - | - | - |
-|LandingPageAppWeb|feature/navbar-footer-styles (then develop)|9f63be8|feature: navbar, footer y styles||11/04/23|
-|LandingPageAppWeb|feature/hero-application|d92b8d4|feature: hero y application||11/04/23|
-|LandingPageAppWeb|feature/services|3ea75ac|feature: services||11/04/23|
+|Landing-Page|docs/assets/styles/style.css|7a8d1c3f78a5757e1a9b66005983214c1f88165f|feat (footer)|se añadieron los estilos del footer|11/04/23|
+|Landing-Page|docs/assets/styles/style.css|51f31cfe73de03fc86749e2e51381d3f7f483444|feat (contact-us)|se añadió los estilos para el contact us form|11/04/23|
+|Landing-Page|docs/assets/styles/style.css|7a8d1c3f78a5757e1a9b66005983214c1f88165f|feat (planes)|se añadió el estilo para los planes|11/04/23|
 |LandingPageAppWeb|feature/about|6a7cee5|feature: about||11/04/23|
 |LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
 
