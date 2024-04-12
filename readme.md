@@ -380,7 +380,7 @@ Este User Journey Map sigue el viaje de un médico endocrinólogo que integra un
 
 **Médico:**
 
-<img src="images/empathyMedico.png">
+<img src="images/emphatyMedico.png">
 
 #### 2.3.5.   As-is Scenario Mapping.
 El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
