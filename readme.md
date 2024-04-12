@@ -208,6 +208,7 @@ Este primer Sprint solo trata la implementación del landing page, por lo que no
 
 ###### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+Para llevar a cabo la implementación automática de nuestra Landing Page, empleamos Github Pages. Esta herramienta facilita la creación de sitios web a partir de un repositorio público que contiene el código utilizado para desarrollar la página. Puedes visitar nuestra Landing Page en el siguiente enlace:https://upc-open-source-ninja-code.github.io/Landing-Page/assets/indexs/indexES.html
 
 ###### 5.2.1.8. Team Collaboration Insights during Sprint.
 
