@@ -86,10 +86,9 @@ GitHub: Empleamos GitHub como plataforma principal para la documentación del c�
 
 Para garantizar la eficiencia y evitar conflictos en el desarrollo de soluciones, los proyectos de NinjaCode se gestionaron en una organización de GitHub. Dentro de esta organización, se encuentran los repositorios correspondientes a cada proyecto. Aquí están los enlaces a los repositorios:
 
-Landing page:
+Landing page: https://upc-open-source-ninja-code.github.io/Landing-Page/indexEN.html
 
-Tests de Aceptación:
-
+Tests de Aceptación: 
 
 En cuanto al manejo del Gitflow, fue de la siguiente forma:
 
