@@ -126,6 +126,9 @@ Este primer Sprint solo trata la implementación del landing page, por lo que no
 
 
 
+
+
+
 ## BIBLIOGRAFÍA
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
