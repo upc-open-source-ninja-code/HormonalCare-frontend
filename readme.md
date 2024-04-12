@@ -275,18 +275,18 @@ Pie de página:
 <img src="images/Web Applications Wireframes.png">
 
 
-Enlace: <https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design> 
+Enlace: [https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design](https://www.figma.com/file/mNslBv5s2hX1S8Yc1M25gV/Minimal-Wireframe-Kit-(Community)?type=design&node-id=16-1451&mode=design)
 
 #### 4.4.2.   Web Applications Wireflow Diagrams.
 
 <img src="images/Web Applications Wireflow Diagrams.png">
 
-Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-30442%2C5295%2C129066%2C44793%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a> 
+Enlace: [https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-30442%2C5295%2C129066%2C44793%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a](https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-30442%2C5295%2C129066%2C44793%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a)
 
 #### 4.4.3.   Web Applications Mock-ups.
 
 <img src="images/Web Applications Mock-ups.png">
-FIGMA MOCKUPS : <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1>
+FIGMA MOCKUPS : [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
 
 
 
@@ -298,7 +298,7 @@ User goal: Seleccionar el apartado de registro como médico endocrinólogo, lueg
 
 <img src="images/Web Applications User Flow Diagrams1.png">
 
-Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a>
+Enlace: [https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a](https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a)
 
 User 2: Paciente desea registrarse por primera vez en HormonalCare.
 
@@ -306,7 +306,7 @@ User goal: Seleccionar el apartado de registro como paciente, luego indicar si v
 
 <img src="images/Web Applications User Flow Diagrams2.png">
 
-Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a>
+Enlace: [https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a](https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?viewport_loc=-4299%2C9238%2C5712%2C2663%2C0_0&invitationId=inv_5a5a8229-a89a-422f-b095-b21994fcc49a)
 
 
 ### 4.5.      Web Applications Prototyping.
@@ -321,92 +321,92 @@ Enlace: <https://lucid.app/lucidchart/81746e82-7355-4883-af97-39e90c1214e8/edit?
 
 
 
-Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1>
+Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1](https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&node-id=0%3A1&mode=design&t=HeYuEY53eyYW4R5A-1)
 
 
 ### 4.6.      Domain-Driven Software Architecture.
 #### 4.6.1.   Software Architecture Context Diagram.
 **Diagrama de contexto:**
 <img src="images/context diagram.png">
-[Enlace](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+[https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
 
 #### 4.6.2.   Software Architecture Container Diagrams.
 **Diagrama de contenedores:**
 
 <img src="images/container diagram.png">
-[Enlace](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
+[https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
 
 #### 4.6.3.   Software Architecture Components Diagrams.
 **API REST component diagram:**
 
 <img src="images/apirest component diagram1.png">
 <img src="images/apirest component diagram2.png">
-[Enlace](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
+[https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
 
 **Medical Appointment BC Component Diagram:**
 
 <img src="images/MedicalAppointment component diagram.png">
-[Enlace](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+[https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
 
 **Calendar BC Component Diagram:**
 
 <img src="images/calendar component diagram.png">
-[Enlace](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+[https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
 
 **Treatment BC Component Diagram:**
 
 <img src="images/Treatment component diagram.png">
-[Enlace](https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc)
+[https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc](https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc)
 
 **Medication BC Component Diagram:**
 
 <img src="images/medication component diagram.png">
-[Enlace](https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e)
+[https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e](https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e)
 
 **History Medical BC Component Diagram:**
 
 <img src="images/History medical component diagram.png">
-[Enlace](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
+[https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
 
 **Notification BC Component Diagram:**
 
 <img src="images/notification component diagram.png">
-[Enlace](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+[https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
 
 **Chat BC Component Diagram:**
 
 <img src="images/Chat component diagram.png">
-[Enlace](https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0)
+[https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0](https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0)
 
 **Patient Management BC Component Diagram:**
 
 <img src="images/patient management component diagram.png">
-[Enlace](https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699)
+[https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699](https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699)
 
 **Medical Management BC Component Diagram:**
 
 <img src="images/medical management component diagram.png">
-[Enlace](https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f)
+[https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f](https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f)
 
 **Subscription BC Component Diagram:**
 
 <img src="images/subscription component diagram.png">
-[Enlace](https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12)
+[https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12](https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12)
 
 **Payment BC Component Diagram:**
 
 <img src="images/payment component diagram.png">
-[Enlace](https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd)
+[https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd](https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd)
 
 **Search BC Component Diagram:**
 
 <img src="images/search component diagram.png">
-[Enlace](https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e)
+[https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e](https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e)
 
 **Safety BC Component Diagram:**
 
 <img src="images/safety component diagram.png">
-[Enlace](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
+[https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
 
 
 
@@ -414,7 +414,7 @@ Link: <https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 ### 4.7.1.   Class Diagrams.
 ![](images/ClassDiagrams.png)
 
-Link: <https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310>
+Link: [https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310](https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310)
 ### 4.7.2.   Class Dictionary.
 
 |Class|Description|
@@ -447,4 +447,4 @@ Link: <https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?vi
 
 ![](images/DatabaseDiagram.png)
 
-Link: https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742\_upc\_edu\_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0\_XhtLw?e=4RwrVc
+Link: [https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs](https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs)
