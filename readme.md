@@ -187,12 +187,10 @@ En cuanto a los avances de la implementación de nuestro primer sprint, se puede
 |Landing-Page|docs/assets/styles/style.css|7a8d1c3f78a5757e1a9b66005983214c1f88165f|feat (footer)|se añadieron los estilos del footer|11/04/23|
 |Landing-Page|docs/assets/styles/style.css|51f31cfe73de03fc86749e2e51381d3f7f483444|feat (contact-us)|se añadió los estilos para el contact us form|11/04/23|
 |Landing-Page|docs/assets/styles/style.css|7a8d1c3f78a5757e1a9b66005983214c1f88165f|feat (planes)|se añadió el estilo para los planes|11/04/23|
-|LandingPageAppWeb|feature/about|6a7cee5|feature: about||11/04/23|
-|LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
-|LandingPageAppWeb|feature/subscription|91c2d4d|feature: subscription||11/04/23|
-|LandingPageAppWeb|docs/assets/scripts/script.js|a9d2f88bb493a7cbe5d7dc6e4e26c896ff32fbb8|Update script.js| added: document.addEventListener |11/04/23|
-|LandingPageAppWeb|docs/assets/images/FeatureMobile1ES.png|4dc8e0523ba7c8e628925ee2ac2d0eb2ea272584|fix(styleES and indexES) |incorporate of new Feature Mobile 1 2 3 4 ES|11/04/23|
-|LandingPageAppWeb|docs/assets/images/BienbenidoAHormonalCare.png|fa77d2baaaad68c7ba69fe1b8db0d84b3d593c37|fix(image) |bienvenido a HormonalCare|11/04/23|
+|Landing-Page|docs/index.html|e7736c1|feat: Añadir el ahtml del index||11/04/23|
+|Landing-Page|docs/assets/scripts/script.js|a9d2f88bb493a7cbe5d7dc6e4e26c896ff32fbb8|Update script.js| added: document.addEventListener |11/04/23|
+|Landing-Page|docs/assets/images/FeatureMobile1ES.png|4dc8e0523ba7c8e628925ee2ac2d0eb2ea272584|fix(styleES and indexES) |incorporate of new Feature Mobile 1 2 3 4 ES|11/04/23|
+|Landing-Page|docs/assets/images/BienbenidoAHormonalCare.png|fa77d2baaaad68c7ba69fe1b8db0d84b3d593c37|fix(image) |bienvenido a HormonalCare|11/04/23|
 
 
 
