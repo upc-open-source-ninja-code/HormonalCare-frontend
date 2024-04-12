@@ -42,6 +42,7 @@ Ciclo 2024-01
 
 
 **Project Management:**
+
 Discord: Utilizamos Discord como plataforma principal de comunicación y colaboración entre los miembros del equipo de desarrollo y gestión del proyecto. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto.
 
 WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto con los miembros del equipo y colaborar en cierta medida.
@@ -50,6 +51,7 @@ Landing Page: Para dar vida a la primera impresión de nuestra landing page, dec
 
 
 **Requirements Management:**
+
 Miro: Utilizamos Miro como herramienta principal para la gestión de requisitos. En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave.
 
 Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación.
