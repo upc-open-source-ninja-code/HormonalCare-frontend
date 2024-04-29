@@ -1,0 +1,71 @@
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container .logo {
+  border-radius: 60%;
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-container mat-toolbar {
+  margin: 0;
+}
+.mat-toolbar{
+  background-color: #A788AB;
+  height: 60px;
+  width: 100%;
+
+
+}
+.mat-toolbar .mat-primary {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+.icon-text {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px; /* Mover las imágenes un poco a la derecha */
+}
+
+.calendar-icon, .message-icon, .bell-icon, .home-icon, .profile-icon{
+  position: absolute;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+}
+.home-icon{
+  right: -597px;
+}
+.calendar-icon {
+  width: 60px;
+  left: 653px
+}
+.message-icon {
+  width: 35px;
+  height: 35px;
+  right: -820px;
+}
+.bell-icon {
+  right: -942px;
+}
+.profile-icon {
+  right: -1090px;
+}
+.first-button {
+  margin-left: 20px;
+}
+
+.nav-button {
+  margin-left: 44px;
+}
+

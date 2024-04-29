@@ -1,0 +1,36 @@
+/* Estilo general del contenedor para la tabla */
+.mat-elevation-z8 {
+  width: 75%; /* Establecer el ancho de la tabla al 75% del ancho de la pantalla */
+  margin-left: 0; /* Alinea la tabla a la izquierda */
+  background-color: white; /* Color de fondo para el contenedor */
+  border: 3px solid #9E42AA; /* Bordes anchos y de color especificado */
+  border-collapse: collapse; /* Asegura que los bordes de las celdas colapsen en uno solo */
+}
+
+/* Estilos para los encabezados de la tabla */
+th.mat-header-cell {
+  background-color: #DFCAE1; /* Color de fondo para los encabezados */
+  color: black; /* Color del texto para los encabezados */
+  padding: 10px; /* Espaciado interno para los encabezados */
+  border-bottom: 2px solid #9E42AA; /* Borde inferior para separar de las filas de datos */
+  border-right: 2px solid #9E42AA; /* Añade bordes verticales */
+}
+
+/* Estilos para las celdas de datos de la tabla */
+td.mat-cell {
+  background-color: white; /* Fondo blanco para las celdas de datos */
+  color: black; /* Color del texto */
+  padding: 10px; /* Espaciado interno para las celdas */
+  border-bottom: 1px solid #9E42AA; /* Borde horizontal para cada celda */
+  border-right: 1px solid #9E42AA; /* Borde vertical para cada celda */
+}
+
+/* Última celda de cada fila sin borde derecho para evitar doble borde */
+td.mat-cell:last-child, th.mat-header-cell:last-child {
+  border-right: none;
+}
+
+/* Estilo para el paginador */
+mat-paginator {
+  background-color: transparent; /* Fondo transparente para el paginador */
+}

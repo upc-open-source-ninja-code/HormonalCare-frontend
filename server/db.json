@@ -1,0 +1,42 @@
+[
+  {
+    "patient-appointments": [
+      {
+        "namePatient": "Ana María Rodríguez",
+        "typeOfCare": "First Date",
+        "hour": "8:00 AM",
+        "diagnosis": "To evaluate",
+        "alert": true
+      },
+      {
+        "namePatient": "Carlos Jiménez",
+        "typeOfCare": "Follow-up",
+        "hour": "9:00 AM",
+        "diagnosis": "In progress",
+        "alert": false
+
+      },
+      {
+        "namePatient": "Luisa Fernanda",
+        "typeOfCare": "Check-up",
+        "hour": "10:00 AM",
+        "diagnosis": "Finished",
+        "alert": true
+      },
+      {
+        "namePatient": "José Martínez",
+        "typeOfCare": "Emergency",
+        "hour": "11:00 AM",
+        "diagnosis": "Critical",
+        "alert": true
+      },
+      {
+        "namePatient": "Elena Gómez",
+        "typeOfCare": "Routine",
+        "hour": "11:30 AM",
+        "diagnosis": "To evaluate",
+        "alert": false
+      }
+    ]
+  }
+]
