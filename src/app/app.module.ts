@@ -14,7 +14,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
 import {MatAnchor, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
-import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MatButtonToggle, MatButtonToggleGroup} from "@angular/material/button-toggle";
@@ -39,7 +39,7 @@ import {MatPaginator} from "@angular/material/paginator";
 import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
-// Translate Loader Factory Method
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
