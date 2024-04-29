@@ -1,30 +1,25 @@
-# TrabajofinalAvancep
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Universidad Peruana de Ciencias Aplicadas
 
-## Code scaffolding
+Ingeniería de Software
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ciclo 2024-01
 
-## Build
+<hr>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# <center>Aplicaciones Web</center>
 
-## Running unit tests
+## TF REPORT
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Sección:** SW53
 
-## Running end-to-end tests
+**Profesor**: Alex Humberto Sánchez Ponce
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-<<<<<<< HEAD
-## Further help
-=======
 *StartUp Name*: NinjaCode
 
 *Producto*: HormonalCare
