@@ -11,6 +11,8 @@ import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
 import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MatButtonToggle, MatButtonToggleGroup} from "@angular/material/button-toggle";
@@ -21,8 +23,6 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatIconModule } from "@angular/material/icon";
 import { MatListModule } from "@angular/material/list";
 import {MatCard, MatCardContent, MatCardHeader} from "@angular/material/card";
-import {MatInputModule} from '@angular/material/input';
-import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatTableModule } from '@angular/material/table';
@@ -69,6 +69,7 @@ import { PatientProfileComponent } from './profiles/pages/patient-profile/patien
 
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 
+import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -92,7 +93,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PhotoPatientsComponent,
     InfoProfilePatiensComponent,
     InfoCardProfilePatiensComponent,
-    PatientProfileComponent
+    PatientProfileComponent,
+    DoctorRegistrationComponent
 
   ],
   imports: [
@@ -109,6 +111,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconButton,
     MatSidenavContent,
     MatCardModule,
+    MatButton,
+    MatFormFieldModule,
+    MatInputModule,
     /*
     TranslateModule.forRoot({
       loader: {
