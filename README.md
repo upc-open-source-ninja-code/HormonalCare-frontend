@@ -1333,9 +1333,25 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 <img src="images/notification component diagram.png">
 [https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
 
+**Indentity & Access BC Component Diagram:**
 
+<img src="images/identity-and-access.png">
+[https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
 
+**Profile BC Component Diagram:**
 
+<img src="images/profiles-component.png">
+[https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2](https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2)
+
+**Communication BC Component Diagram:**
+
+<img src="images/communications.png">
+[https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a](https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a)
+
+**Subscription and Payments BC Component Diagram:**
+
+<img src="images/subscription-and-payments.png">
+[https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08](https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08)
 
 ## 4.7.      Software Object-Oriented Design.
 ### 4.7.1.   Class Diagrams.
