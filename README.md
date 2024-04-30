@@ -1335,7 +1335,7 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 
 **Indentity & Access BC Component Diagram:**
 
-<img src="images/identity-and-access.png">
+<img src="images/indentity-and-access.png">
 [https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
 
 **Profile BC Component Diagram:**
