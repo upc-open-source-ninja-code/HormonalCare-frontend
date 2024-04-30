@@ -13,9 +13,10 @@ import {MatCardModule} from "@angular/material/card";
 import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
-import {MatAnchor, MatIconButton} from "@angular/material/button";
+import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MatButtonToggle, MatButtonToggleGroup} from "@angular/material/button-toggle";
@@ -79,6 +80,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconButton,
     MatSidenavContent,
     MatCardModule,
+    MatButton,
+    MatFormFieldModule,
+    MatInputModule,
     /*
     TranslateModule.forRoot({
       loader: {
