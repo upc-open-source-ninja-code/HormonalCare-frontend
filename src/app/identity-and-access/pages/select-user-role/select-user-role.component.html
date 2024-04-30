@@ -1,1 +1,31 @@
-<p>select-user-role works!</p>
+<!-- src/app/select-user-role/select-user-role.component.html -->
+
+<mat-toolbar class="toolbar">
+  <span>HormonalCare</span>
+</mat-toolbar>
+
+<div class="full-screen-background">
+  <div class="textAndCards">
+    <div class="selectUserText">
+      <h1>Select your user type</h1>
+    </div>
+    <div class="userCards">
+      <mat-card class="patientCard">
+        <mat-card-title>Patient</mat-card-title>
+        <mat-card-content>
+          <div class="circle">
+            <img src="assets/images/patient-icon.png" alt="Patient icon">
+          </div>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="endocrinologistCard">
+        <mat-card-title>Endocrinologist</mat-card-title>
+        <mat-card-content>
+          <div class="circle">
+            <img src="assets/images/doctor-icon.png" alt="Doctor icon">
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
