@@ -44,22 +44,22 @@
   height: 30px;
 }
 .home-icon{
-  right: -580px;
+  right: -460px;
 }
 .calendar-icon {
   width: 60px;
-  left: 640px
+  left: 520px
 }
 .message-icon {
   width: 35px;
   height: 35px;
-  right: -805px;
+  right: -693px;
 }
 .bell-icon {
-  right: -925px;
+  right: -825px;
 }
 .profile-icon {
-  right: -1070px;
+  right: -985px;
 }
 .first-button {
   margin-left: 20px;
