@@ -1304,14 +1304,14 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 **Diagrama de contenedores:**
 
 <img src="images/container-diagram.png">
-[https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
+[https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5](https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5)
 
 #### 4.6.3.   Software Architecture Components Diagrams.
 **API REST component diagram:**
 
 <img src="images/api-component-diagram-part1.png">
 <img src="images/api-component-diagram-part2.png">
-[https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
+[https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579](https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579)
 
 **Medical Appointment BC Component Diagram:**
 
@@ -1323,16 +1323,6 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 <img src="images/calendar component diagram.png">
 [https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
 
-**Treatment BC Component Diagram:**
-
-<img src="images/Treatment component diagram.png">
-[https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc](https://structurizr.com/review/f060fa7a-2d88-43da-b738-1041950adfbc)
-
-**Medication BC Component Diagram:**
-
-<img src="images/medication component diagram.png">
-[https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e](https://structurizr.com/review/6f49bad3-8b77-42b6-bd1f-5bda48e6136e)
-
 **History Medical BC Component Diagram:**
 
 <img src="images/History medical component diagram.png">
@@ -1343,40 +1333,7 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 <img src="images/notification component diagram.png">
 [https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
 
-**Chat BC Component Diagram:**
 
-<img src="images/Chat component diagram.png">
-[https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0](https://structurizr.com/review/27e55206-64bd-40b0-a8a0-a79388c9a7f0)
-
-**Patient Management BC Component Diagram:**
-
-<img src="images/patient management component diagram.png">
-[https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699](https://structurizr.com/review/123c8a5d-0e2b-445b-8a79-a140039af699)
-
-**Medical Management BC Component Diagram:**
-
-<img src="images/medical management component diagram.png">
-[https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f](https://structurizr.com/review/505f0f0e-5694-4648-a0ba-37bc224de25f)
-
-**Subscription BC Component Diagram:**
-
-<img src="images/subscription component diagram.png">
-[https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12](https://structurizr.com/review/f8e919ff-b38c-4a55-81ec-c5e5850a6e12)
-
-**Payment BC Component Diagram:**
-
-<img src="images/payment component diagram.png">
-[https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd](https://structurizr.com/review/b5241bc0-f716-4559-bb92-a1c4a5d40bfd)
-
-**Search BC Component Diagram:**
-
-<img src="images/search component diagram.png">
-[https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e](https://structurizr.com/review/5da99437-c234-4427-9107-c32b474e106e)
-
-**Safety BC Component Diagram:**
-
-<img src="images/safety component diagram.png">
-[https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef](https://structurizr.com/review/a549b9b4-3bc1-4d12-9b6e-46243279adef)
 
 
 
