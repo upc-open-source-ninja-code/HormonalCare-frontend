@@ -1303,14 +1303,14 @@ Link: [https://www.figma.com/file/5bhJ7aAWlbKHEJgjVZ8Gfc/ninjacode?type=design&n
 #### 4.6.2.   Software Architecture Container Diagrams.
 **Diagrama de contenedores:**
 
-<img src="images/container diagram.png">
+<img src="images/container-diagram.png">
 [https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1](https://structurizr.com/review/5a6b535a-2205-4553-ad65-540b1447b3e1)
 
 #### 4.6.3.   Software Architecture Components Diagrams.
 **API REST component diagram:**
 
-<img src="images/apirest component diagram1.png">
-<img src="images/apirest component diagram2.png">
+<img src="images/api-component-diagram-part1.png">
+<img src="images/api-component-diagram-part2.png">
 [https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823](https://structurizr.com/review/9f3a4b24-fa1f-4eca-849f-fad6fb9c4823 )
 
 **Medical Appointment BC Component Diagram:**
