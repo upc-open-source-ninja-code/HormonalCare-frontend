@@ -41,6 +41,7 @@ import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.comp
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
 import { SelectUserRoleComponent } from './identity-and-access/pages/select-user-role/select-user-role.component';
+import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -60,7 +61,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NotificationsViewComponent,
     DoctorProfileComponent,
     HomeDoctorComponent,
-    SelectUserRoleComponent
+    SelectUserRoleComponent,
+    DoctorRegistrationComponent
 
   ],
   imports: [
