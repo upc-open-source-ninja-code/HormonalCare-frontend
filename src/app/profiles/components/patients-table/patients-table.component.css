@@ -19,6 +19,7 @@ th.mat-header-cell {
 
 td.mat-cell {
   background-color: white;
+  font-size: 6px;
   color: black;
   padding: 10px;
   border-bottom: 1px solid #9E42AA;
@@ -31,5 +32,13 @@ td.mat-cell:last-child, th.mat-header-cell:last-child {
 }
 
 mat-paginator {
+  position: relative;
+  top: auto;
   background-color: transparent;
+}
+.clinic-history-button {
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
 }

@@ -9,7 +9,7 @@ import {MatCardModule} from "@angular/material/card";
 import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
-import {MatAnchor, MatIconButton} from "@angular/material/button";
+import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
@@ -60,11 +60,15 @@ import {MatPaginator} from "@angular/material/paginator";
 import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
+
 import { SelectUserRoleComponent } from './identity-and-access/pages/select-user-role/select-user-role.component';
 import { PhotoPatientsComponent } from './profiles/components/photo-patients/photo-patients.component';
 import { InfoProfilePatiensComponent } from './profiles/components/info-profile-patiens/info-profile-patiens.component';
 import { InfoCardProfilePatiensComponent } from './profiles/components/info-card-profile-patiens/info-card-profile-patiens.component';
 import { PatientProfileComponent } from './profiles/pages/patient-profile/patient-profile.component';
+
+import {MatGridList, MatGridTile} from "@angular/material/grid-list";
+
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -147,7 +151,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatFormFieldModule,
     MatCardContent,
     MatCardHeader,
-    MatCardModule
+    MatCardModule,
+    MatGridList,
+    MatGridTile,
+    MatButton,
 
 
   ],

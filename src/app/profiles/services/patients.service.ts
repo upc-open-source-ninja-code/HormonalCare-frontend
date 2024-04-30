@@ -10,6 +10,8 @@ export class PatientsService extends BaseService<PatientsAppointmentsEntity>{
 
   constructor(http: HttpClient) {
     super(http);
-    this.resourceEndpoint = '/patient-appointments';
-  }
+    this.basePath = 'http://localhost:3000';
+    this.resourceEndpoint= '/patient-appointments';
+
+}
 }
