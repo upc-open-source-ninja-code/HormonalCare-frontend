@@ -9,6 +9,7 @@ import { SearchDoctorsComponent } from './shared/pages/search-doctors/search-doc
 import { SearchPatiensComponent } from './profiles/components/search-patiens/search-patiens.component';
 import {MatToolbar} from "@angular/material/toolbar";
 import {MatIcon} from "@angular/material/icon";
+import {MatCardModule} from "@angular/material/card";
 import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
@@ -39,6 +40,7 @@ import {MatPaginator} from "@angular/material/paginator";
 import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
+import { SelectUserRoleComponent } from './identity-and-access/pages/select-user-role/select-user-role.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -57,7 +59,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientChatComponent,
     NotificationsViewComponent,
     DoctorProfileComponent,
-    HomeDoctorComponent
+    HomeDoctorComponent,
+    SelectUserRoleComponent
 
   ],
   imports: [
@@ -73,6 +76,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSidenavContainer,
     MatIconButton,
     MatSidenavContent,
+    MatCardModule,
     /*
     TranslateModule.forRoot({
       loader: {
