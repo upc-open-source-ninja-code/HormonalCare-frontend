@@ -1,4 +1,5 @@
 
+
   "patient-appointments": [
     {
       "name": "Juan Pérez",
@@ -82,7 +83,7 @@
     }
   ],
 
-
+{
   "doctors": [
     {
       "id": 1,
@@ -153,8 +154,6 @@
       "password": "password789"
     }
   ],
-
-
   "subscription": [
     {
       "id": 1,
@@ -185,3 +184,379 @@
       "number_of_patients": 1000
     }
   ],
+
+  "patients": [
+    {
+      "id": 1,
+      "name": "Carlos",
+      "lastname": "Perez",
+      "gender": "M",
+      "birthdate": "1990-01-01",
+      "civil_status": "Single",
+      "nationality": "Mexican",
+      "type_of_blood": "A+",
+      "image": "image5.jpg",
+      "phone": "987456321",
+      "email": "carlosperez1@gmail.com",
+      "password": "password741",
+      "disease_id": 1,
+      "medical_history_id": 1,
+      "occupation": "Engineer"
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "lastname": "Garcia",
+      "gender": "F",
+      "birthdate": "1985-05-15",
+      "civil_status": "Married",
+      "nationality": "Spanish",
+      "type_of_blood": "B-",
+      "image": "image6.jpg",
+      "phone": "654987321",
+      "email": "anagarcia2@gmail.com",
+      "password": "password852",
+      "disease_id": 2,
+      "medical_history_id": 2,
+      "occupation": "Teacher"
+    },
+    {
+      "id": 3,
+      "name": "David",
+      "lastname": "Martinez",
+      "gender": "M",
+      "birthdate": "1978-11-20",
+      "civil_status": "Divorced",
+      "nationality": "American",
+      "type_of_blood": "O+",
+      "image": "image7.jpg",
+      "phone": "123456789",
+      "email": "davidmartinez3@gmail.com",
+      "password": "password963",
+      "disease_id": 3,
+      "medical_history_id": 3,
+      "occupation": "Accountant"
+    },
+    {
+      "id": 4,
+      "name": "Sofia",
+      "lastname": "Lopez",
+      "gender": "F",
+      "birthdate": "1995-09-10",
+      "civil_status": "Single",
+      "nationality": "Colombian",
+      "type_of_blood": "AB-",
+      "image": "image8.jpg",
+      "phone": "369852147",
+      "email": "sofialopez4@gmail.com",
+      "password": "password147",
+      "disease_id": 4,
+      "medical_history_id": 4,
+      "occupation": "Nurse"
+    }
+  ],
+  "diseases": [
+    {
+      "id": 1,
+      "name": "Diabetes"
+    },
+    {
+      "id": 2,
+      "name": "Thyroid Disorders"
+    },
+    {
+      "id": 3,
+      "name": "Polycystic Ovary Syndrome (PCOS)"
+    },
+    {
+      "id": 4,
+      "name": "Cushing's Syndrome"
+    }
+  ],
+  "medical_history": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "doctors_id": [
+        1
+      ],
+      "date": "2024-01-01",
+      "reason": "Check up for hormonal imbalance",
+      "symptoms": [
+        "Fatigue",
+        "Weight gain",
+        "Irregular menstrual periods"
+      ],
+      "personal_background": "No significant history",
+      "family_background": "Thyroid disorders",
+      "lab_results_id": 1,
+      "physical_test": "Elevated TSH levels",
+      "external_reports": [
+        "reports.pdf"
+      ],
+      "diagnostic": [
+        "Hypothyroidism"
+      ],
+      "treatment_and_medication":[
+        {
+          "drug_name": "Levothyroxine",
+          "quantity": "30 pills",
+          "concentration": "100mcg",
+          "frequency": "1 time a day",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "doctors_id": [
+        2
+      ],
+      "date": "2024-02-15",
+      "reason": "Evaluation for diabetes management",
+      "symptoms": [
+        "Increased thirst",
+        "Frequent urination",
+        "Blurry vision"
+      ],
+      "personal_background": [
+        "High blood pressure",
+        "Family history of diabetes"
+      ],
+      "family_background": [
+        "Diabetes"
+      ],
+      "lab_results_id": 2,
+      "physical_test": "High blood glucose levels",
+      "external_reports": [
+        "reports.pdf"
+      ],
+      "diagnostic": [
+        "Type 2 Diabetes"
+      ],
+      "treatment_and_medication":[
+        {
+          "drug_name": "Metformin",
+          "quantity": "60 pills",
+          "concentration": "500mg",
+          "frequency": "2 times a day",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "patient_id": 3,
+      "doctors_id": [
+        3
+      ],
+      "date": "2024-03-10",
+      "reason": "Evaluation for PCOS",
+      "symptoms": [
+        "Irregular periods",
+        "Acne",
+        "Unwanted hair growth"
+      ],
+      "personal_background": [
+        "No significant history"
+      ],
+      "family_background": [
+        "No significant history"
+      ],
+      "lab_results_id": 3,
+      "physical_test": "Elevated androgen levels",
+      "external_reports": [
+        "reports.pdf"
+      ],
+      "diagnostic": [
+        "Polycystic Ovary Syndrome (PCOS)"
+      ],
+      "treatment_and_medication":[
+        {
+          "drug_name": "Combined oral contraceptive",
+          "quantity": "1 pack",
+          "frequency": "1 time a day",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "patient_id": 4,
+      "doctors_id": [
+        4
+      ],
+      "date": "2024-04-05",
+      "reason": "Evaluation for hyperthyroidism",
+      "symptoms": [
+        "Weight loss",
+        "Rapid heartbeat",
+        "Anxiety"
+      ],
+      "personal_background": [
+        "No significant history"
+      ],
+      "family_background": [
+        "Thyroid disorders"
+      ],
+      "lab_results_id": 4,
+      "physical_test": "Elevated T3 and T4 levels",
+      "external_reports": [
+        "reports.pdf"
+      ],
+      "diagnostic": [
+        "Hyperthyroidism"
+      ],
+      "treatment_and_medication":[
+        {
+          "drug_name": "Propylthiouracil (PTU)",
+          "quantity": "90 pills",
+          "concentration": "50mg",
+          "frequency": "3 times a day",
+          "duration": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "patient_id": 5,
+      "doctors_id": [
+        1
+      ],
+      "date": "2024-05-20",
+      "reason": "Evaluation for adrenal insufficiency",
+      "symptoms": [
+        "Fatigue",
+        "Weakness",
+        "Dizziness"
+      ],
+      "personal_background": [
+        "Asthma"
+      ],
+      "family_background": [
+        "No significant history"
+      ],
+      "lab_results_id": 5,
+      "physical_test": "Low cortisol levels",
+      "external_reports": [
+        "reports.pdf"
+      ],
+      "diagnostic": [
+        "Adrenal Insufficiency"
+      ],
+      "treatment_and_medication":[
+        {
+          "drug_name": "Hydrocortisone",
+          "quantity": "30 pills",
+          "concentration": "10mg",
+          "frequency": "2 times a day",
+          "duration": "Ongoing"
+        }
+      ]
+    }
+  ],
+  "lab_result": [
+    {
+      "id": 1,
+      "patient_id": 1,
+      "lab_id": 1,
+      "results": [
+        {
+          "file": "result1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "patient_id": 2,
+      "lab_id": 2,
+      "results": [
+        {
+          "file": "result2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "patient_id": 3,
+      "lab_id": 3,
+      "results": [
+        {
+          "file": "result3.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "patient_id": 4,
+      "lab_id": 4,
+      "results": [
+        {
+          "file": "result4.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "patient_id": 5,
+      "lab_id": 1,
+      "results": [
+        {
+          "file": "result5.pdf"
+        }
+      ]
+    }
+  ],
+  "lab": [
+    {
+      "id": 1,
+      "name": "Lab1"
+    },
+    {
+      "id": 2,
+      "name": "Lab2"
+    },
+    {
+      "id": 3,
+      "name": "Lab3"
+    },
+    {
+      "id": 4,
+      "name": "Lab4"
+    }
+  ],
+
+  "notification": [
+    {
+      "id": 1,
+      "title": "New patient",
+      "description": "A new patient has been added"
+    },
+    {
+      "id": 2,
+      "title": "New lab result",
+      "description": "New lab results are available"
+    },
+    {
+      "id": 3,
+      "title": "New prescription",
+      "description": "There is a new prescription available"
+    },
+    {
+      "id": 4,
+      "title": "Appointment Reminder",
+      "description": "Reminder: You have an upcoming appointment on [date] at [time]"
+    },
+    {
+      "id": 5,
+      "title": "Treatment Plan Update",
+      "description": "Your treatment plan has been updated"
+    },
+    {
+      "id": 6,
+      "title": "Medication Refill Reminder",
+      "description": "Reminder: Your medication refill is due soon"
+    }
+  ]
+}

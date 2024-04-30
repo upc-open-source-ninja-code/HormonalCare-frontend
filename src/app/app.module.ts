@@ -3,21 +3,42 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterContentComponent } from './public/components/footer-content/footer-content.component';
-import { PatientsTableComponent } from './profiles/components/patients-table/patients-table.component';
-import { SearchDoctorsComponent } from './shared/pages/search-doctors/search-doctors.component';
-import { SearchPatiensComponent } from './profiles/components/search-patiens/search-patiens.component';
 import {MatToolbar} from "@angular/material/toolbar";
 import {MatIcon} from "@angular/material/icon";
+import {MatCardModule} from "@angular/material/card";
 import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
 import {MatAnchor, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
-
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {MatButtonToggle, MatButtonToggleGroup} from "@angular/material/button-toggle";
+import { LayoutModule } from "@angular/cdk/layout";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatButtonModule } from "@angular/material/button";
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatIconModule } from "@angular/material/icon";
+import { MatListModule } from "@angular/material/list";
+import {MatCard, MatCardContent, MatCardHeader} from "@angular/material/card";
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
+import {MatDividerModule} from '@angular/material/divider';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import {MatCheckbox} from "@angular/material/checkbox";
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+
+
+
+
+import { FooterContentComponent } from './public/components/footer-content/footer-content.component';
+import { PatientsTableComponent } from './profiles/components/patients-table/patients-table.component';
+import { SearchDoctorsComponent } from './shared/pages/search-doctors/search-doctors.component';
+import { SearchPatiensComponent } from './profiles/components/search-patiens/search-patiens.component';
+
 
 import { DoctorChatComponent } from './communications/pages/doctor-chat/doctor-chat.component';
 import { PatientChatComponent } from './communications/pages/patient-chat/patient-chat.component';
@@ -39,6 +60,11 @@ import {MatPaginator} from "@angular/material/paginator";
 import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
+import { SelectUserRoleComponent } from './identity-and-access/pages/select-user-role/select-user-role.component';
+import { PhotoPatientsComponent } from './profiles/components/photo-patients/photo-patients.component';
+import { InfoProfilePatiensComponent } from './profiles/components/info-profile-patiens/info-profile-patiens.component';
+import { InfoCardProfilePatiensComponent } from './profiles/components/info-card-profile-patiens/info-card-profile-patiens.component';
+import { PatientProfileComponent } from './profiles/pages/patient-profile/patient-profile.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -57,7 +83,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientChatComponent,
     NotificationsViewComponent,
     DoctorProfileComponent,
-    HomeDoctorComponent
+    HomeDoctorComponent,
+    SelectUserRoleComponent,
+    PhotoPatientsComponent,
+    InfoProfilePatiensComponent,
+    InfoCardProfilePatiensComponent,
+    PatientProfileComponent
 
   ],
   imports: [
@@ -73,6 +104,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSidenavContainer,
     MatIconButton,
     MatSidenavContent,
+    MatCardModule,
     /*
     TranslateModule.forRoot({
       loader: {
@@ -97,6 +129,26 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatHeaderRowDef,
     MatRowDef,
     MatSort,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule,
+    MatGridListModule,
+    MatDividerModule,
+    MatTableModule,
+    MatSortModule,
+    MatCheckbox,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatCardContent,
+    MatCardHeader,
+    MatCardModule
+
 
   ],
   providers: [
