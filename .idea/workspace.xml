@@ -4,145 +4,177 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b32b80f8-a874-48a5-bba3-1fd85a09a76e" name="Changes" comment="">
+    <list default="true" id="bbac719a-1789-4e12-ad5b-0d16bfadffbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/services/patients-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/services/patients-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/model/profiles.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/model/profiles.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/medical-appointment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-appointment.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/As is - medico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/As is-paciente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Chat component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ClassDiagrams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Contributions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Customer journey map - Médico (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Customer journey map - Paciente (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/DatabaseDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaAliciaGarrido - copia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaArnholCastrejón.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaJoaquinBenavides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaLuisChinchihualpa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaRicardoDurand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EntrevistaRoxanaPodesta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/EstefanoLostaunau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/GeneralCommits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/History medical component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LogoHormonalCare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MedicalAppointment component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Medico cualessunavegadorwebfavorito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Medico quedispositivotecnologicousamasensucargo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Medico quesistemaoperativousamasensucargo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/AboutUs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/ContactUs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/Feature1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/Feature2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/Feature3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/Feature4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/Pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/WelcometoHormonalCare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp desktop/piedepagina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/AboutUs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/ContactUs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Feature1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Feature2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Feature3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Feature4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/PiedePagina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Pricing1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Pricing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/Pricing3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/MockUp mobile/WelcometoHormonalCare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Paciente cualessunavegadorwebfavorito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Paciente quedispositivotecnologicousamas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Paciente quesistemaoperativousamas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Product Backlog en Trello.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/Botones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/GeneralColors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/Iconos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/Tipografia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/logo hormonal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/nomenclatura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Style Guidelines/webcolors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/To be - paciente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/To be-medico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Treatment component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/User Persona Médico Alejandro Torres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/User Persona Paciente Juan Pérez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Web Applications Mock-ups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Web Applications User Flow Diagrams1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Web Applications User Flow Diagrams2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Web Applications Wireflow Diagrams.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Web Applications Wireframes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/About us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Conctact us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Feature1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Feature2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Feature3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Feature4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Pie de pagina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/Pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes desktop/welcome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/AboutUs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Conctact Us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Feature1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Feature2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Feature3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Feature4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/PiePagina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Pricing1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Pricing2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/Pricing3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Wireframes mobile/WelcometoHormonalCare.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/api-component-diagram-part1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/api-component-diagram-part2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apirest component diagram1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apirest component diagram2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calendar component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/collaboration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/communications.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/container diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/container-diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/context diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/empathyPaciente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emphatyMedico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/entrevista-paciente-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/imagen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/impac mapping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/indentity-and-access.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/leanuxcanva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medical management component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/medication component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/notification component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/patient management component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/payment component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/perfilLuis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/perfilsandero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profiles-component.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/safety component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/search component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sebastianlobato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/subscription component diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/subscription-and-payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/trellosprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vistalanding6.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="tsconfig.json" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Estefano-Lostaunau&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/upc-open-source-ninja-code/upc-pre-202401--si729-sw51-NinjaCode-report-tb1.git&quot;,
-    &quot;accountId&quot;: &quot;95a50501-4120-4101-91bb-bb854114394d&quot;
-  }
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2fhulsDNa1YZoftD6hxbFGsPiH8" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2fqULAVIrxIOli4ih38sHNi21rs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#4 on develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Escritorio/UPC/UPC CICLO 5/Desarrollo de Aplicaciones Open Source - presencial/Semana 10/pruebagoogleapi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Angular CLI Server.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Documentos\\upc-pre-202401--si729-sw51-NinjaCode-report-tb1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src" />
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\app\shared" />
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\app\public\pages" />
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\assets" />
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\app\shared\pages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\server" />
-      <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\assets\images" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
-      </set>
-    </attachedChunks>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b32b80f8-a874-48a5-bba3-1fd85a09a76e" name="Changes" comment="" />
-      <created>1714265786176</created>
+      <changelist id="bbac719a-1789-4e12-ad5b-0d16bfadffbd" name="Changes" comment="" />
+      <created>1714528049923</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714265786176</updated>
-      <workItem from="1714265787255" duration="43013000" />
-      <workItem from="1714397791308" duration="100000" />
-      <workItem from="1714426954285" duration="598000" />
-      <workItem from="1714516226791" duration="25737000" />
-      <workItem from="1714620294601" duration="6185000" />
-      <workItem from="1715631299916" duration="738000" />
-      <workItem from="1717339892729" duration="3386000" />
-      <workItem from="1717346062698" duration="4052000" />
-      <workItem from="1719002382251" duration="9490000" />
-      <workItem from="1719107461412" duration="3007000" />
-      <workItem from="1719110508488" duration="7422000" />
-      <workItem from="1719180845924" duration="1723000" />
-      <workItem from="1719183139714" duration="3635000" />
+      <updated>1714528049923</updated>
+      <workItem from="1714528053132" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
