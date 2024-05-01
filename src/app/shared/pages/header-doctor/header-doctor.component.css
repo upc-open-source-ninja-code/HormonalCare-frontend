@@ -1,4 +1,3 @@
-
 .logo-container {
   display: flex;
   align-items: center;
@@ -14,13 +13,13 @@
 .logo-container mat-toolbar {
   margin: 0;
 }
-.mat-toolbar{
+
+.mat-toolbar {
   background-color: #A788AB;
   height: 60px;
   width: 100%;
-
-
 }
+
 .mat-toolbar .mat-primary {
   height: 60px;
   position: sticky;
@@ -32,35 +31,18 @@
   flex: 1 1 auto;
 }
 .icon-text {
+  top: 8px;
   position: relative;
   display: inline-block;
-  margin-left: 20px; /* Mover las imágenes un poco a la derecha */
+  margin-left: 0px; /* Mover las imágenes un poco a la derecha */
 }
 
-.calendar-icon, .message-icon, .bell-icon, .home-icon, .profile-icon{
-  position: absolute;
-  top: -15px;
-  width: 30px;
+.option-icon {
   height: 30px;
+
+  margin-right: 10px;
 }
-.home-icon{
-  right: -460px;
-}
-.calendar-icon {
-  width: 60px;
-  left: 520px
-}
-.message-icon {
-  width: 35px;
-  height: 35px;
-  right: -693px;
-}
-.bell-icon {
-  right: -825px;
-}
-.profile-icon {
-  right: -985px;
-}
+
 .first-button {
   margin-left: 20px;
 }
@@ -68,4 +50,6 @@
 .nav-button {
   margin-left: 44px;
 }
+
+
 

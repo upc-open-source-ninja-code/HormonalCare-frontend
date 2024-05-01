@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderDoctorComponent {
   options = [
-    { path: '/homeDoctor', title: 'Home'},
-    { path: '/calendar', title: 'Calendar'},
-    { path: '/messages', title: 'Messages'},
-    { path: '/notifications', title: 'Notifications'},
-    { path: '/doctorProfile', title: 'Profile'},
+    { path: '/homeDoctor', title: 'Home', icon: 'assets/images/home-icon.png'},
+    { path: '/calendar', title: 'Calendar', icon: 'assets/images/calendar.png'},
+    { path: '/messages', title: 'Messages', icon: 'assets/images/message.png'},
+    { path: '/notifications', title: 'Notifications', icon: 'assets/images/bell.png'},
+    { path: '/doctorProfile', title: 'Profile', icon: 'assets/images/profile-icon.png'},
   ]
 }
