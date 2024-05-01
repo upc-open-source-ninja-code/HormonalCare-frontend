@@ -11,15 +11,21 @@
     </div>
     <div class="userCards">
       <mat-card class="patientCard">
-        <mat-card-title>Patient</mat-card-title>
+        <mat-card-title>
+          <a mat-button *ngFor="let option of optionRoles; let i = index" [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">
+        </mat-card-title>
         <mat-card-content>
+            <div class="icon-text">
+              <img [src]="option.icon" alt="{{option.title}}" class="option-icon">
+            </div>
           <div class="circle">
             <img src="assets/images/patient-icon.png" alt="Patient icon">
           </div>
         </mat-card-content>
       </mat-card>
       <mat-card class="endocrinologistCard">
-        <mat-card-title>Endocrinologist</mat-card-title>
+        <mat-card-title>
+          <a mat-button *ngFor="let option of optionRoles; let i = index" [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">Endocrinologist</mat-card-title>
         <mat-card-content>
           <div class="circle">
             <img src="assets/images/doctor-icon.png" alt="Doctor icon">
@@ -29,3 +35,5 @@
     </div>
   </div>
 </div>
+
+

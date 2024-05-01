@@ -5,14 +5,27 @@ import {DoctorChatComponent} from "./communications/pages/doctor-chat/doctor-cha
 import {NotificationsViewComponent} from "./notifications/pages/notifications-view/notifications-view.component";
 import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-found.component";
 import {DoctorProfileComponent} from "./profiles/pages/doctor-profile/doctor-profile.component";
-import {HomeDoctorComponent} from "./shared/pages/home-doctor/home-doctor.component";
+import {HomeDoctorComponent} from "./profiles/pages/home-doctor/home-doctor.component";
+import {HomePatientComponent} from "./profiles/pages/home-patient/home-patient.component";
+import {CalendarPatientComponent} from "./calendar/pages/calendar-patient/calendar-patient.component";
+import {PatientChatComponent} from "./communications/pages/patient-chat/patient-chat.component";
+import {
+  NotificationsPatientsComponent
+} from "./notifications/pages/notifications-patients/notifications-patients.component";
+import {PatientProfileComponent} from "./profiles/pages/patient-profile/patient-profile.component";
 
 const routes: Routes = [
+
   { path: 'homeDoctor', component: HomeDoctorComponent },
   { path: 'calendar', component: CalendarViewComponent },
   { path: 'messages', component: DoctorChatComponent },
   { path: 'notifications', component: NotificationsViewComponent },
   { path: 'doctorProfile', component:DoctorProfileComponent  },
+  { path: 'homePatient', component: HomePatientComponent },
+  { path: 'calendarPatient', component: CalendarPatientComponent },
+  { path: 'messagesPatient', component: PatientChatComponent },
+  { path: 'notificationsPatient', component: NotificationsPatientsComponent },
+  { path: 'patientProfile', component: PatientProfileComponent },
   { path: '', redirectTo: 'homeDoctor', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent }
 

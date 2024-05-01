@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './select-user-role.component.html',
   styleUrls: ['./select-user-role.component.css']
 })
-export class SelectUserRoleComponent {}
+export class SelectUserRoleComponent {
+  optionRoles = [
+    { path: '/header-patient', title: 'Patient', icon: 'assets/images/doctor-icon.png'},
+    { path: '/header-doctor', title: 'Endocrinologist', icon: 'assets/images/patient-icon.png'},
+
+  ]
+}

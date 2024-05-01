@@ -57,7 +57,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatPaginator} from "@angular/material/paginator";
-import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
+import { HomeDoctorComponent } from './profiles/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
 
@@ -74,6 +74,9 @@ import { HomePatientComponent } from './profiles/pages/home-patient/home-patient
 import { PatientsReminderComponent } from './profiles/components/patients-reminder/patients-reminder.component';
 import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
 import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
+import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
+import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
+import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -102,7 +105,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomePatientComponent,
     PatientsReminderComponent,
     PatientsUploadExamComponent,
-    PatientsPendingTaskComponent
+    PatientsPendingTaskComponent,
+    HeaderPatientComponent,
+    CalendarPatientComponent,
+    NotificationsPatientsComponent
 
   ],
   imports: [
