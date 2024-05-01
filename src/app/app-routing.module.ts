@@ -19,7 +19,7 @@ import { BackgroundComponent } from './medical-history/components/background/bac
 import { MedicalexamsComponent } from './medical-history/components/medicalexams/medicalexams.component';
 import { ExternalreportsComponent } from './medical-history/components/externalreports/externalreports.component';
 import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
-
+import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
@@ -41,6 +41,7 @@ const routes: Routes = [
   { path: 'medicalExams', component: MedicalexamsComponent },
   { path: 'externalReports', component: ExternalreportsComponent },
   { path: 'dignosesAndTreatment', component: DignosesandtreatmentComponent },
+  { path: 'treatmentPatient', component: TreatmentPatientComponent },
   { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
 
   { path: '**', component: PageNotFoundComponent }

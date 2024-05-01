@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MedicalHistory, TreatmentAndMedication } from "../../model/medical-history";
+import { MedicalHistoryEntity, TreatmentAndMedication } from "../../model/medical-history.entity";
 import { MedicalHistoryService } from "../../services/medical-history.service";
 import { forkJoin } from 'rxjs';
 @Component({
@@ -8,7 +8,7 @@ import { forkJoin } from 'rxjs';
   styleUrls: ['./patients-reminder.component.css']
 })
 export class PatientsReminderComponent implements OnInit {
-  medicalHistoryData!: MedicalHistory[];
+  medicalHistoryData!: MedicalHistoryEntity[];
   dataSource: TreatmentAndMedication[] = [];
   displayed: string[] = ['drug_name', 'concentration', 'frequency'];
 
@@ -21,15 +21,15 @@ export class PatientsReminderComponent implements OnInit {
   private getMedicalHistoryDetailsByPatient(patientIds: string[]) {
     this.medicalHistoryService.getAll()
       .subscribe((allMedicalHistories: any) => { // Change the type to any
-        const filtered = allMedicalHistories.filter((medicalHistory: MedicalHistory) => patientIds.includes(medicalHistory.patient_id.toString()));
+        const filtered = allMedicalHistories.filter((medicalHistory: MedicalHistoryEntity) => patientIds.includes(medicalHistory.patient_id.toString()));
 
-        const grouped = filtered.reduce((grouped: { [key: string]: MedicalHistory[] }, current: MedicalHistory) => {
+        const grouped = filtered.reduce((grouped: { [key: string]: MedicalHistoryEntity[] }, current: MedicalHistoryEntity) => {
           (grouped[current.patient_id] = grouped[current.patient_id] || []).push(current);
           return grouped;
         }, {});
 
-        this.medicalHistoryData = (Object.values(grouped) as MedicalHistory[][]).map((group: MedicalHistory[]) => {
-          const combined: MedicalHistory = { ...group[0] };
+        this.medicalHistoryData = (Object.values(grouped) as MedicalHistoryEntity[][]).map((group: MedicalHistoryEntity[]) => {
+          const combined: MedicalHistoryEntity = { ...group[0] };
           combined.treatment_and_medication = group.flatMap(medicalHistory => medicalHistory.treatment_and_medication);
           return combined;
         });

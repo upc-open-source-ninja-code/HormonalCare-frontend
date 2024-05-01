@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MedicalHistory } from "../../model/medical-history";
+import { MedicalHistoryEntity } from "../../model/medical-history.entity";
 import { MedicalHistoryService } from "../../services/medical-history.service";
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
@@ -17,7 +17,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   ]
 })
 export class PatientsPendingTaskComponent implements OnInit {
-  patientMedicalHistory!: MedicalHistory;
+  patientMedicalHistory!: MedicalHistoryEntity;
   dataSource: any[] = []; // Change this to be a list of any
   displayed: string[] = ['medical_exams'];
 
@@ -30,8 +30,8 @@ export class PatientsPendingTaskComponent implements OnInit {
   private getHistoryDetailsByPatientId(patientId: string) {
     this.medicalHistoryService.getAll()
       .subscribe((allMedicalHistories: any) => { // Change the type to any
-        const filteredHistories = allMedicalHistories.filter((medicalHistory: MedicalHistory) => medicalHistory.patient_id.toString() === patientId);
-        const allExams = filteredHistories.flatMap((medicalHistory: MedicalHistory) => medicalHistory.medical_exams.map(exam => ({ name: exam, checked: false })));
+        const filteredHistories = allMedicalHistories.filter((medicalHistory: MedicalHistoryEntity) => medicalHistory.patient_id.toString() === patientId);
+        const allExams = filteredHistories.flatMap((medicalHistory: MedicalHistoryEntity) => medicalHistory.medical_exams.map(exam => ({ name: exam, checked: false })));
 
         this.dataSource = allExams;
       }, error => {

@@ -2,13 +2,13 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from 'rxjs';
 import { BaseService } from "../../shared/services/base.service";
-import { MedicalHistory } from "../model/medical-history";
+import { MedicalHistoryEntity } from "../model/medical-history.entity";
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class MedicalHistoryService extends BaseService<MedicalHistory> {
+export class MedicalHistoryService extends BaseService<MedicalHistoryEntity> {
 
   constructor(http: HttpClient) {
     super(http);
@@ -16,7 +16,7 @@ export class MedicalHistoryService extends BaseService<MedicalHistory> {
     this.resourceEndpoint = '/medical_history';
   }
 
-  getMedicalHistoryDetails(id: string): Observable<MedicalHistory> {
-    return this.http.get<MedicalHistory>(`${this.basePath}${this.resourceEndpoint}/${id}`);
+  getMedicalHistoryDetails(id: string): Observable<MedicalHistoryEntity> {
+    return this.http.get<MedicalHistoryEntity>(`${this.basePath}${this.resourceEndpoint}/${id}`);
   }
 }

@@ -14,7 +14,7 @@ export class TreatmentAndMedication {
   }
 }
 
-export class MedicalHistory {
+export class MedicalHistoryEntity {
   id: string;
   patient_id: number;
   doctors_id: number[];
