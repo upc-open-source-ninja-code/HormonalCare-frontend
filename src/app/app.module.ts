@@ -40,6 +40,32 @@ import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.comp
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
 
+import { SelectUserRoleComponent } from './identity-and-access/pages/select-user-role/select-user-role.component';
+import { PhotoPatientsComponent } from './profiles/components/photo-patients/photo-patients.component';
+import { InfoProfilePatiensComponent } from './profiles/components/info-profile-patiens/info-profile-patiens.component';
+import { InfoCardProfilePatiensComponent } from './profiles/components/info-card-profile-patiens/info-card-profile-patiens.component';
+import { PatientProfileComponent } from './profiles/pages/patient-profile/patient-profile.component';
+
+import {MatGridList, MatGridTile} from "@angular/material/grid-list";
+
+import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
+import { HomePatientComponent } from './profiles/pages/home-patient/home-patient.component';
+import { PatientsReminderComponent } from './profiles/components/patients-reminder/patients-reminder.component';
+import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
+import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
+import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
+import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
+import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
+import { BackgroundComponent } from './medical-history/components/background/background.component';
+import { ClinicalhistoryComponent } from './medical-history/components/clinicalhistory/clinicalhistory.component';
+import { ExternalreportsComponent } from './medical-history/components/externalreports/externalreports.component';
+import { HeaderComponent } from './medical-history/components/header/header.component';
+import { PatientdataComponent } from './medical-history/components/patientdata/patientdata.component';
+import { PatientsDataComponent } from './medical-history/services/patients-data/patients-data.component';
+import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
+import { ReasonconsultationComponent } from './medical-history/components/reasonconsultation/reasonconsultation.component';
+
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -57,8 +83,28 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientChatComponent,
     NotificationsViewComponent,
     DoctorProfileComponent,
-    HomeDoctorComponent
-
+    HomeDoctorComponent,
+    SelectUserRoleComponent,
+    PhotoPatientsComponent,
+    InfoProfilePatiensComponent,
+    InfoCardProfilePatiensComponent,
+    PatientProfileComponent,
+    DoctorRegistrationComponent,
+    HomePatientComponent,
+    PatientsReminderComponent,
+    PatientsUploadExamComponent,
+    PatientsPendingTaskComponent,
+    HeaderPatientComponent,
+    CalendarPatientComponent,
+    NotificationsPatientsComponent,
+    BackgroundComponent,
+    ClinicalhistoryComponent,
+    ExternalreportsComponent,
+    HeaderComponent,
+    PatientdataComponent,
+    PatientsDataComponent,
+    DignosesandtreatmentComponent,
+    ReasonconsultationComponent
   ],
   imports: [
     BrowserModule,

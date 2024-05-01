@@ -1,0 +1,18 @@
+<!-- patient-data.component.html -->
+<div class="patient-data-container">
+  <h3>Patient's data</h3>
+  <div class="patient-icon">
+    <!-- Aquí puedes colocar el icono -->
+  </div>
+  <div class="patient-info">
+    <p><strong>Clinical record number:</strong> {{ patient.id }}</p>
+    <p><strong>First name:</strong> {{ patient.name }}</p>
+    <p><strong>Last name:</strong> {{ patient.lastname }}</p>
+    <!-- Si tienes un campo para el segundo nombre, descomenta la siguiente línea -->
+    <!-- <p><strong>Second name:</strong> {{ patient.secondName }}</p> -->
+    <p><strong>Birthday:</strong> {{ patient.birthdate }}</p>
+    <p><strong>Sex:</strong> {{ patient.gender }}</p>
+    <p><strong>Blood type:</strong> {{ patient.type_of_blood }}</p>
+    <p><strong>Phone number:</strong> {{ patient.phone }}</p>
+  </div>
+</div>
