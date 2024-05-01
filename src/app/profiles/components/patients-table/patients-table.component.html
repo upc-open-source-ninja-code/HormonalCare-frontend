@@ -1,44 +1,53 @@
-
-
 <div class="mat-elevation-z8" matSort>
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort>
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
       <th *matHeaderCellDef mat-header-cell> Name </th>
-      <td *matCellDef="let element" mat-cell> {{element.name}} </td>
+      <td *matCellDef="let element" mat-cell style="text-align: left; font-size: 10px;">
+        <img src="assets/images/profile-icon.png" alt="Profile-icon" style= "width:15px; height:15px;"> {{element.name}}</td>
     </ng-container>
-
+    <!-- Age Column -->
+    <ng-container matColumnDef="age">
+      <th *matHeaderCellDef mat-header-cell> Age </th>
+      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.age}} </td>
+    </ng-container>
+    <!-- Clinic History Column -->
+    <ng-container matColumnDef="clinicHistory">
+      <th *matHeaderCellDef mat-header-cell> Clinic History </th>
+      <td *matCellDef="let element" mat-cell>
+        <button mat-button class="clinic-history-button" style="font-size: 7px">Clinic History</button>
+      </td>
+    </ng-container>
     <!-- Type of Care Column -->
     <ng-container matColumnDef="typeOfCare">
       <th *matHeaderCellDef mat-header-cell> Type of care </th>
-      <td *matCellDef="let element" mat-cell> {{element.typeOfCare}} </td>
+      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.typeOfCare}} </td>
     </ng-container>
 
     <!-- Hour Column -->
     <ng-container matColumnDef="hour">
       <th *matHeaderCellDef mat-header-cell> Hour </th>
-      <td *matCellDef="let element" mat-cell> {{element.hour}} </td>
+      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.hour}} </td>
     </ng-container>
 
     <!-- Diagnosis Column -->
     <ng-container matColumnDef="diagnosis">
       <th *matHeaderCellDef mat-header-cell> Diagnosis </th>
-      <td *matCellDef="let element" mat-cell> {{element.diagnosis}} </td>
+      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.diagnosis}} </td>
     </ng-container>
 
     <!-- Alert Column -->
     <ng-container matColumnDef="alert">
       <th *matHeaderCellDef mat-header-cell> Alert </th>
-      <td *matCellDef="let element" mat-cell > {{element.alert}} </td>
+      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.alert}} </td>
     </ng-container>
 
     <!-- Video Conference Column -->
     <ng-container matColumnDef="videoConference">
       <th *matHeaderCellDef mat-header-cell> Video Conference </th>
-      <td *matCellDef="let element" mat-cell>
-        <img src="../src/assets/images/google-meet-icon.png" alt="Google Met Icon" style="width: 20px; height: 20px;">
-        <ng-template #noIcon></ng-template>
+      <td *matCellDef="let element" style="text-align: center;">
+        <img src="assets/images/google-meet-icon.png" alt="Google Met Icon" style="width: 30px; height: 30px;">
       </td>
     </ng-container>
 
@@ -46,8 +55,5 @@
     <tr *matRowDef="let row; columns:displayedColumns" mat-row></tr>
   </table>
 
-  <mat-paginator [pageSizeOptions]="[5, 10, 20]"
-                 showFirstLastButtons
-                 aria-label="Select page of patients">
-  </mat-paginator>
+  <mat-paginator [pageSizeOptions]="[5, 10, 15]" [pageSize]="5" showFirstLastButtons></mat-paginator>
 </div>

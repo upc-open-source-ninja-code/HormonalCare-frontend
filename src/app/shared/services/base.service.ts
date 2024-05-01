@@ -12,9 +12,12 @@ export class BaseService<T> {
     })
   }
 
-  constructor(private http: HttpClient) {}
+  constructor(protected http: HttpClient) {}
 
   handleError(error: HttpErrorResponse) {
+    // Log the complete error response to console
+    console.error('Error occurred:', error);
+
     // Default error handling
     if (error.error instanceof ErrorEvent) {
       console.log(`An error occurred ${error.error.message}`);
@@ -22,8 +25,10 @@ export class BaseService<T> {
       // Unsuccessful response error code returned from backend
       console.log(`Backend returned code ${error.status}, body was ${error.error}`);
     }
+
     return throwError(() => new Error('Something happened with request, please try again later'));
   }
+
 
   private resourcePath() {
     return `${this.basePath}${this.resourceEndpoint}`

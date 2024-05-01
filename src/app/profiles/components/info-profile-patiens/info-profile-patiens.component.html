@@ -1,0 +1,23 @@
+<section>
+  <h3>User information</h3>
+  <table class="mat-elevation-z8">
+    <tbody>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Name</td>
+      <td class="right">{{element.name}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Lastname</td>
+      <td class="right">{{element.lastname}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Email</td>
+      <td class="right">{{element.email}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Password</td>
+      <td class="right">{{element.password}}</td>
+    </tr>
+    </tbody>
+  </table>
+</section>

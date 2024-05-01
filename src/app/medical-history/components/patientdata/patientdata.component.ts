@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { PatientsDataService } from "../../services/patients-data.service";
+
+import {PatientsDataService } from "../../services/patients-data.service";
+
+
 import {PatientEntity} from "../../../profiles/model/patient.entity";
 
 @Component({

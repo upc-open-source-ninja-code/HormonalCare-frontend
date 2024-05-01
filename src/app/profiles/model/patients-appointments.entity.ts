@@ -1,16 +1,16 @@
 export class PatientsAppointmentsEntity {
-  id: number;
-  namePatient: string;
+  name: string;
+  age: number;
   typeOfCare: string;
   hour: string;
   diagnosis: string;
-  alert: boolean;
+  alert: string;
   constructor() {
-    this.id = 0;
-    this.namePatient = "";
+    this.name = "";
+    this.age = 0;
     this.typeOfCare = "";
     this.hour = "";
     this.diagnosis = "";
-    this.alert = false;
+    this.alert = "";
   }
 }
