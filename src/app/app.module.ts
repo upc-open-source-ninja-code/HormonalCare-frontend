@@ -78,6 +78,14 @@ import { HeaderPatientComponent } from './shared/pages/header-patient/header-pat
 import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
 import { BackgroundComponent } from './medical-history/components/background/background.component';
+import { HeaderComponent } from './medical-history/components/header/header.component';
+import { ClinicalhistoryComponent } from './medical-history/components/clinicalhistory/clinicalhistory.component';
+import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
+import { ExternalreportsComponent } from './medical-history/components/externalreports/externalreports.component';
+import { MedicalexamsComponent } from './medical-history/components/medicalexams/medicalexams.component';
+import { PatientdataComponent } from './medical-history/components/patientdata/patientdata.component';
+import { ReasonconsultationComponent } from './medical-history/components/reasonconsultation/reasonconsultation.component';
+import { MedicalhistorypageComponent } from './medical-history/pages/medicalhistorypage/medicalhistorypage.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -110,7 +118,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderPatientComponent,
     CalendarPatientComponent,
     NotificationsPatientsComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    HeaderComponent,
+    ClinicalhistoryComponent,
+    DignosesandtreatmentComponent,
+    ExternalreportsComponent,
+    MedicalexamsComponent,
+    PatientdataComponent,
+    ReasonconsultationComponent,
+    MedicalhistorypageComponent
 
   ],
   imports: [
