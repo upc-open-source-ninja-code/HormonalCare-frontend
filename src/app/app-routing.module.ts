@@ -13,9 +13,15 @@ import {
   NotificationsPatientsComponent
 } from "./notifications/pages/notifications-patients/notifications-patients.component";
 import {PatientProfileComponent} from "./profiles/pages/patient-profile/patient-profile.component";
+import {SelectUserRoleComponent} from "./identity-and-access/pages/select-user-role/select-user-role.component";
+import {HeaderDoctorComponent} from "./shared/pages/header-doctor/header-doctor.component";
+import {HeaderPatientComponent} from "./shared/pages/header-patient/header-patient.component";
 
 const routes: Routes = [
 
+  { path: 'selectRole', component: SelectUserRoleComponent },
+  { path: 'headerDoctor', component: HeaderDoctorComponent },
+  { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },
   { path: 'calendar', component: CalendarViewComponent },
   { path: 'messages', component: DoctorChatComponent },
