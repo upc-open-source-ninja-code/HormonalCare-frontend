@@ -89,6 +89,8 @@ import { PatientdataComponent } from './medical-history/components/patientdata/p
 import { ReasonconsultationComponent } from './medical-history/components/reasonconsultation/reasonconsultation.component';
 import { MedicalhistorypageComponent } from './medical-history/pages/medicalhistorypage/medicalhistorypage.component';
 import { HeaderForUserTypeServiceComponent } from './shared/components/header-for-user-type-service/header-for-user-type-service.component';
+import { TreatmentPatientComponent } from './medical-history/pages/treatment-patient/treatment-patient.component';
+import { MedicationFormComponent } from './medical-history/components/medication-form/medication-form.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -138,7 +140,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ReasonconsultationComponent,
     MedicalhistorypageComponent,
 
-    HeaderForUserTypeServiceComponent
+    HeaderForUserTypeServiceComponent,
+      TreatmentPatientComponent,
+      MedicationFormComponent
 
 
   ],

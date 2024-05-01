@@ -1,0 +1,68 @@
+section {
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(512px - 56px);
+  background-color: white;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+mat-grid-list{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+mat-grid-tile{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.box1 {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #A788AB;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+form {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+mat-form-field {
+  width: 100%;
+
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-row p, .input-row input[matInput] {
+  width: 40%;
+  margin-top: -10px;
+}
+p{
+  margin-bottom: 0;
+}
+input[matInput] {
+  padding: 10px;
+  border-radius: 5px;
+}
+button{
+  margin-top: -10px;
+}
