@@ -295,8 +295,7 @@
       ],
       "medical_exams": [
         "glucose level test",
-        "blood lipid level test",
-        "testosterone level test"
+        "blood lipid level test"
       ],
       "diagnostic": [
         "Hypothyroidism"

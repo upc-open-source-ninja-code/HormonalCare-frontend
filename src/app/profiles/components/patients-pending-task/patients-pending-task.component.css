@@ -1,8 +1,18 @@
 
 section{
   box-sizing: border-box;
-  width: 100%;
+  width:100%;
+  height: auto;
   padding: 0 20px;
+}
+tr{
+  box-sizing: border-box;
+  width: 100%;
+}
+table{
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
 }
 p{
   box-sizing: border-box;
@@ -21,10 +31,11 @@ mat-checkbox{
 
 }
 
+
 label{
-  margin-left: auto;
   box-sizing: border-box;
-  width: 75%;
+  width: 80%;
+  margin-left: auto;
   padding: 20px 30px;
   background-color: white;
   border-radius: 50px;

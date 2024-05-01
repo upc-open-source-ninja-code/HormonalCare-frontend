@@ -1,28 +1,11 @@
-<section class="example-section" [formGroup]="toppings">
-  <p><mat-checkbox formControlName="pepperoni"></mat-checkbox><label>Pepperoni</label></p>
-  <p><mat-checkbox formControlName="extracheese"></mat-checkbox><label>Extra Cheese</label></p>
-  <p><mat-checkbox formControlName="mushroom"></mat-checkbox><label>Mushroom</label></p>
-
-  </section>
-
 
 <section>
-  <table matSort (matSortChange)="sortData($event)" class="mat-elevation-z8">
-    <tr>
-      <th mat-sort-header="drug_name" >Medication</th>
-      <th mat-sort-header="concentration" >Concentration</th>
-      <th mat-sort-header="frequency" >Frequency</th>
-    </tr>
-
-    <tr *ngFor="let treatment of dataSource">
-      <p><mat-checkbox formControlName="mushroom"></mat-checkbox><label>Mushroom</label></p>
-      <td class="left">{{treatment.medical_exams}}</td>
-      <td class="right">{{treatment.concentration}}</td>
-      <td class="right">{{treatment.frequency}}</td>
+  <table matSort (matSortChange)="sortData($event)" >
+    <tr *ngFor="let exam of dataSource; let i = index">
+      <p [@fadeOut]="exam.checked ? 'void' : 'in'"><mat-checkbox (change)="exam.checked = true; removeExam(i)" formControlName="{{exam.name}}"></mat-checkbox><label>{{exam.name}}</label></p>
     </tr>
   </table>
 </section>
-
 
 
 <!--
