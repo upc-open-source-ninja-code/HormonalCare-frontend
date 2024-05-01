@@ -17,7 +17,7 @@ export class PageNotFoundComponent implements OnInit{
   }
 
   onNavigateHome() {
-    this.router.navigate(['home']).then();
+    this.router.navigate(['selectRole']).then();
   }
 
 

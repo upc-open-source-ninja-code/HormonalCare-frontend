@@ -23,24 +23,26 @@ import { DignosesandtreatmentComponent } from './medical-history/components/dign
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
-  { path: 'headerDoctor', component: HeaderDoctorComponent },
-  { path: 'headerPatient', component: HeaderPatientComponent },
+  //{ path: 'headerDoctor', component: HeaderDoctorComponent },
+ // { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },
+  { path: 'homePatient', component: HomePatientComponent },
   { path: 'calendar', component: CalendarViewComponent },
   { path: 'messages', component: DoctorChatComponent },
   { path: 'notifications', component: NotificationsViewComponent },
   { path: 'doctorProfile', component:DoctorProfileComponent  },
-  { path: 'homePatient', component: HomePatientComponent },
   { path: 'calendarPatient', component: CalendarPatientComponent },
   { path: 'messagesPatient', component: PatientChatComponent },
   { path: 'notificationsPatient', component: NotificationsPatientsComponent },
   { path: 'patientProfile', component: PatientProfileComponent },
+
   { path: 'reasonConsultation', component: ReasonconsultationComponent },
   { path: 'background', component: BackgroundComponent },
   { path: 'medicalExams', component: MedicalexamsComponent },
   { path: 'externalReports', component: ExternalreportsComponent },
   { path: 'dignosesAndTreatment', component: DignosesandtreatmentComponent },
-  { path: '', redirectTo: 'homeDoctor', pathMatch: 'full'},
+  { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
+
   { path: '**', component: PageNotFoundComponent }
 
 ];

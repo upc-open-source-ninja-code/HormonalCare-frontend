@@ -88,6 +88,7 @@ import { MedicalexamsComponent } from './medical-history/components/medicalexams
 import { PatientdataComponent } from './medical-history/components/patientdata/patientdata.component';
 import { ReasonconsultationComponent } from './medical-history/components/reasonconsultation/reasonconsultation.component';
 import { MedicalhistorypageComponent } from './medical-history/pages/medicalhistorypage/medicalhistorypage.component';
+import { HeaderForUserTypeServiceComponent } from './shared/components/header-for-user-type-service/header-for-user-type-service.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -135,7 +136,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     MedicalexamsComponent,
     PatientdataComponent,
     ReasonconsultationComponent,
-    MedicalhistorypageComponent
+    MedicalhistorypageComponent,
+
+    HeaderForUserTypeServiceComponent
+
+
   ],
   imports: [
     BrowserModule,
