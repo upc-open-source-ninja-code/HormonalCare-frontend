@@ -20,19 +20,19 @@ import {HeaderPatientComponent} from "./shared/pages/header-patient/header-patie
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
-  { path: 'headerDoctor', component: HeaderDoctorComponent },
-  { path: 'headerPatient', component: HeaderPatientComponent },
+  //{ path: 'headerDoctor', component: HeaderDoctorComponent },
+ // { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },
+  { path: 'homePatient', component: HomePatientComponent },
   { path: 'calendar', component: CalendarViewComponent },
   { path: 'messages', component: DoctorChatComponent },
   { path: 'notifications', component: NotificationsViewComponent },
   { path: 'doctorProfile', component:DoctorProfileComponent  },
-  { path: 'homePatient', component: HomePatientComponent },
   { path: 'calendarPatient', component: CalendarPatientComponent },
   { path: 'messagesPatient', component: PatientChatComponent },
   { path: 'notificationsPatient', component: NotificationsPatientsComponent },
   { path: 'patientProfile', component: PatientProfileComponent },
-  { path: '', redirectTo: 'homeDoctor', pathMatch: 'full'},
+  { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent }
 
 ];

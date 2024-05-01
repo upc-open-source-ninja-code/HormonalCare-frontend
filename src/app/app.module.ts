@@ -77,6 +77,7 @@ import { PatientsPendingTaskComponent } from './profiles/components/patients-pen
 import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
 import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
+import { HeaderForUserTypeServiceComponent } from './shared/components/header-for-user-type-service/header-for-user-type-service.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -108,7 +109,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientsPendingTaskComponent,
     HeaderPatientComponent,
     CalendarPatientComponent,
-    NotificationsPatientsComponent
+    NotificationsPatientsComponent,
+    HeaderForUserTypeServiceComponent
 
   ],
   imports: [

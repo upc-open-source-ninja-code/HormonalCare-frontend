@@ -15,7 +15,7 @@
           {{ option.title }}
         </mat-card-title>
         <mat-card-content>
-          <a mat-button [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">
+          <a mat-button [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0" (click)="setUserType(option.title.toLowerCase())">
             <div class="icon-text">
               <img [src]="option.icon" alt="{{option.title}}" class="option-icon">
             </div>
@@ -25,5 +25,3 @@
     </div>
   </div>
 </div>
-
-

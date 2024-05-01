@@ -1,6 +1,6 @@
-<app-select-user-role></app-select-user-role>
-<!--<app-header-patient> </app-header-patient>-->
-<!--<app-header-doctor></app-header-doctor>-->
+<app-header-for-user-type-service></app-header-for-user-type-service>
 
 
-
+<!--<app-header-doctor *ngIf="userType === 'doctor'"></app-header-doctor>
+<app-header-patient *ngIf="userType === 'patient'"></app-header-patient>-->
+<router-outlet></router-outlet>
