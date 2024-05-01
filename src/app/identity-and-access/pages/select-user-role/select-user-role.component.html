@@ -10,34 +10,15 @@
       <h1>Select your user type</h1>
     </div>
     <div class="userCards">
-      <mat-card class="patientCard">
+      <mat-card *ngFor="let option of optionRoles; let i = index" [class.patientCard]="i === 0" [class.endocrinologistCard]="i === 1">
         <mat-card-title>
-          Patient
+          {{ option.title }}
         </mat-card-title>
         <mat-card-content>
-          <a mat-button *ngFor="let option of optionRoles; let i = index" [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">
+          <a mat-button [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">
             <div class="icon-text">
               <img [src]="option.icon" alt="{{option.title}}" class="option-icon">
             </div>
-            {{ option.title }}
-          </a>
-          <!--<div class="circle">
-            <img src="assets/images/patient-icon.png" alt="Patient icon">
-          </div>-->
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="endocrinologistCard">
-        <mat-card-title>
-          EndocrinologistCard
-        </mat-card-title>
-
-        <mat-card-content>
-
-          <a mat-button *ngFor="let option of optionRoles; let i = index" [routerLink]="option.path" class="nav-button" [class.first-button]="i === 1">
-            <div class="icon-text">
-              <img [src]="option.icon" alt="{{option.title}}" class="option-icon">
-            </div>
-            {{ option.title }}
           </a>
         </mat-card-content>
       </mat-card>

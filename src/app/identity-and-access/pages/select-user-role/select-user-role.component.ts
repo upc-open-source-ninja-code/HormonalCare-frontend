@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
 })
 export class SelectUserRoleComponent {
   optionRoles = [
-    { path: '/header-patient', title: 'Patient', icon: 'assets/images/doctor-icon.png'},
-    { path: '/header-doctor', title: 'Endocrinologist', icon: 'assets/images/patient-icon.png'},
+    { path: '/header-patient', title: 'Patient', icon: 'assets/images/patient-icon.png'},
+    { path: '/header-doctor', title: 'Endocrinologist', icon: 'assets/images/doctor-icon.png'},
 
   ]
 }
