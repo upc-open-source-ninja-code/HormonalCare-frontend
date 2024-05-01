@@ -70,6 +70,10 @@ import { PatientProfileComponent } from './profiles/pages/patient-profile/patien
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 
 import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
+import { HomePatientComponent } from './profiles/pages/home-patient/home-patient.component';
+import { PatientsReminderComponent } from './profiles/components/patients-reminder/patients-reminder.component';
+import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
+import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -94,7 +98,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     InfoProfilePatiensComponent,
     InfoCardProfilePatiensComponent,
     PatientProfileComponent,
-    DoctorRegistrationComponent
+    DoctorRegistrationComponent,
+    HomePatientComponent,
+    PatientsReminderComponent,
+    PatientsUploadExamComponent,
+    PatientsPendingTaskComponent
 
   ],
   imports: [

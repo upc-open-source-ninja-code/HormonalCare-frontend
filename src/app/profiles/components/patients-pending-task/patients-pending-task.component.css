@@ -1,0 +1,32 @@
+
+section{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+}
+p{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+mat-checkbox{
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 50%;
+
+
+}
+
+label{
+  margin-left: auto;
+  box-sizing: border-box;
+  width: 75%;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
