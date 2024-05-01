@@ -293,6 +293,11 @@
       "external_reports": [
         "reports.pdf"
       ],
+      "medical_exams": [
+        "glucose level test",
+        "blood lipid level test",
+        "testosterone level test"
+      ],
       "diagnostic": [
         "Hypothyroidism"
       ],
@@ -302,6 +307,18 @@
           "quantity": "30 pills",
           "concentration": "100mcg",
           "frequency": "1 time a day",
+          "duration": "Ongoing"
+        }, {
+          "drug_name": "Metformin",
+          "quantity": "30 pills",
+          "concentration": "100mcg",
+          "frequency": "1 time a day",
+          "duration": "Ongoing"
+        },{
+          "drug_name": "Hydrocortisone",
+          "quantity": "30 pills",
+          "concentration": "10mg",
+          "frequency": "2 times a day",
           "duration": "Ongoing"
         }
       ]
@@ -330,6 +347,11 @@
       "physical_test": "High blood glucose levels",
       "external_reports": [
         "reports.pdf"
+      ],
+      "medical_exams": [
+        "glucose level test",
+        "blood lipid level test",
+        "progesterone level test"
       ],
       "diagnostic": [
         "Type 2 Diabetes"
@@ -368,6 +390,10 @@
       "external_reports": [
         "reports.pdf"
       ],
+      "medical_exams": [
+        "glucose level test",
+        "blood lipid level test"
+      ],
       "diagnostic": [
         "Polycystic Ovary Syndrome (PCOS)"
       ],
@@ -403,6 +429,9 @@
       "physical_test": "Elevated T3 and T4 levels",
       "external_reports": [
         "reports.pdf"
+      ],
+      "medical_exams": [
+        "glucose level test"
       ],
       "diagnostic": [
         "Hyperthyroidism"
@@ -440,6 +469,9 @@
       "physical_test": "Low cortisol levels",
       "external_reports": [
         "reports.pdf"
+      ],
+      "medical_exams": [
+        "testosterone level test"
       ],
       "diagnostic": [
         "Adrenal Insufficiency"

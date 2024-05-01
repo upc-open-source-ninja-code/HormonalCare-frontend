@@ -1,53 +1,62 @@
-import { Component } from '@angular/core';
-import {Sort} from "@angular/material/sort";
-
-export interface Dessert {
-  name: string;
-  calories: number;
-}
-
+import { Component, OnInit } from '@angular/core';
+import { MedicalHistory, TreatmentAndMedication } from "../../model/medical-history";
+import { MedicalHistoryService } from "../../services/medical-history.service";
+import { forkJoin } from 'rxjs';
 @Component({
   selector: 'app-patients-reminder',
   templateUrl: './patients-reminder.component.html',
-  styleUrl: './patients-reminder.component.css'
+  styleUrls: ['./patients-reminder.component.css']
 })
-export class PatientsReminderComponent {
+export class PatientsReminderComponent implements OnInit {
+  medicalHistoryData!: MedicalHistory[];
+  dataSource: TreatmentAndMedication[] = [];
+  displayed: string[] = ['drug_name', 'concentration', 'frequency'];
 
-  desserts: Dessert[] = [
-    {name: 'Frozen yogurt', calories: 159},
-    {name: 'Ice cream sandwich', calories: 237},
-    {name: 'Eclair', calories: 262},
-    {name: 'Cupcake', calories: 305},
-    {name: 'Gingerbread', calories: 356},
-  ];
+  constructor(private medicalHistoryService: MedicalHistoryService) {}
 
-  sortedData: Dessert[];
-
-  constructor() {
-    this.sortedData = this.desserts.slice();
+  ngOnInit() {
+    this.getMedicalHistoryDetailsByPatient(['1']); // replace with the actual patient IDs
   }
 
-  sortData(sort: Sort) {
-    const data = this.desserts.slice();
+  private getMedicalHistoryDetailsByPatient(patientIds: string[]) {
+    this.medicalHistoryService.getAll()
+      .subscribe((allMedicalHistories: any) => { // Change the type to any
+        const filtered = allMedicalHistories.filter((medicalHistory: MedicalHistory) => patientIds.includes(medicalHistory.patient_id.toString()));
+
+        const grouped = filtered.reduce((grouped: { [key: string]: MedicalHistory[] }, current: MedicalHistory) => {
+          (grouped[current.patient_id] = grouped[current.patient_id] || []).push(current);
+          return grouped;
+        }, {});
+
+        this.medicalHistoryData = (Object.values(grouped) as MedicalHistory[][]).map((group: MedicalHistory[]) => {
+          const combined: MedicalHistory = { ...group[0] };
+          combined.treatment_and_medication = group.flatMap(medicalHistory => medicalHistory.treatment_and_medication);
+          return combined;
+        });
+
+        this.dataSource = this.medicalHistoryData.flatMap(medicalHistory => medicalHistory.treatment_and_medication);
+      }, error => {
+        console.error('Error occurred while fetching medical history data: ', error);
+      });
+  }
+  sortData(sort: {active: string, direction: string}): void {
     if (!sort.active || sort.direction === '') {
-      this.sortedData = data;
       return;
     }
 
-    this.sortedData = data.sort((a, b) => {
+    this.dataSource = this.dataSource.sort((a, b) => {
       const isAsc = sort.direction === 'asc';
       switch (sort.active) {
-        case 'name':
-          return compare(a.name, b.name, isAsc);
-        case 'calories':
-          return compare(a.calories, b.calories, isAsc);
-        default:
-          return 0;
+        case 'drug_name': return compare(a.drug_name, b.drug_name, isAsc);
+        case 'quantity': return compare(a.quantity, b.quantity, isAsc);
+        case 'concentration': return compare(a.concentration, b.concentration, isAsc);
+        case 'frequency': return compare(a.frequency, b.frequency, isAsc);
+        default: return 0;
       }
     });
   }
 }
 
-function compare(a: number | string, b: number | string, isAsc: boolean) {
+function compare(a: string | number, b: string | number, isAsc: boolean) {
   return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
 }

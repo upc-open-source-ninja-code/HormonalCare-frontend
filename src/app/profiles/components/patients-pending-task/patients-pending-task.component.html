@@ -2,9 +2,31 @@
   <p><mat-checkbox formControlName="pepperoni"></mat-checkbox><label>Pepperoni</label></p>
   <p><mat-checkbox formControlName="extracheese"></mat-checkbox><label>Extra Cheese</label></p>
   <p><mat-checkbox formControlName="mushroom"></mat-checkbox><label>Mushroom</label></p>
-  <!--
+
+  </section>
+
+
+<section>
+  <table matSort (matSortChange)="sortData($event)" class="mat-elevation-z8">
+    <tr>
+      <th mat-sort-header="drug_name" >Medication</th>
+      <th mat-sort-header="concentration" >Concentration</th>
+      <th mat-sort-header="frequency" >Frequency</th>
+    </tr>
+
+    <tr *ngFor="let treatment of dataSource">
+      <p><mat-checkbox formControlName="mushroom"></mat-checkbox><label>Mushroom</label></p>
+      <td class="left">{{treatment.medical_exams}}</td>
+      <td class="right">{{treatment.concentration}}</td>
+      <td class="right">{{treatment.frequency}}</td>
+    </tr>
+  </table>
+</section>
+
+
+
+<!--
     <div class="example-section" [formGroup]="toppings">
       <h4>You chose:</h4>
       {{toppings.value | json}}
     </div>  -->
-  </section>
