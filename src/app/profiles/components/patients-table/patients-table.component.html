@@ -14,11 +14,11 @@
     </ng-container>
     <!-- Clinic History Column -->
     <ng-container matColumnDef="clinicHistory">
-      <th *matHeaderCellDef mat-header-cell> Clinic History </th>
-      <td *matCellDef="let element" mat-cell>
-        <button mat-button class="clinic-history-button" style="font-size: 7px">Clinic History</button>
-      </td>
-    </ng-container>
+    <th *matHeaderCellDef mat-header-cell> Clinic History </th>
+    <td *matCellDef="let element" mat-cell>
+      <button (click)="navigateToMedicalHistory()"> Medical History</button>
+    </td>
+  </ng-container>
     <!-- Type of Care Column -->
     <ng-container matColumnDef="typeOfCare">
       <th *matHeaderCellDef mat-header-cell> Type of care </th>

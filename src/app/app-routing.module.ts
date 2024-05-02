@@ -20,6 +20,7 @@ import { MedicalexamsComponent } from './medical-history/components/medicalexams
 import { ExternalreportsComponent } from './medical-history/components/externalreports/externalreports.component';
 import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
 import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
+import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistorypage/medicalhistorypage.component";
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'notificationsPatient', component: NotificationsPatientsComponent },
   { path: 'patientProfile', component: PatientProfileComponent },
 
+  { path: 'medical-history', component: MedicalhistorypageComponent },
   { path: 'reasonConsultation', component: ReasonconsultationComponent },
   { path: 'background', component: BackgroundComponent },
   { path: 'medicalExams', component: MedicalexamsComponent },
