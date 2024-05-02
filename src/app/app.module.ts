@@ -77,6 +77,16 @@ import { PatientsPendingTaskComponent } from './profiles/components/patients-pen
 import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
 import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
+import { PhotoProfileColleagueComponent } from './communications/components/photo-profile-colleague/photo-profile-colleague.component';
+import { InfoProfileColleagueComponent } from './communications/components/info-profile-colleague/info-profile-colleague.component';
+import { TitlesProfileColleagueComponent } from './communications/components/titles-profile-colleague/titles-profile-colleague.component';
+import { ButtonSendMessageComponent } from './communications/components/button-send-message/button-send-message.component';
+import { DatepickerProfileColleagueComponent } from './communications/components/datepicker-profile-colleague/datepicker-profile-colleague.component';
+import { HourpickerProfileColleagueComponent } from './communications/components/hourpicker-profile-colleague/hourpicker-profile-colleague.component';
+import { SpaceAssignPatientComponent } from './communications/components/space-assign-patient/space-assign-patient.component';
+import { ButtonSaveScheduleComponent } from './communications/components/button-save-schedule/button-save-schedule.component';
+import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
+import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -108,7 +118,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientsPendingTaskComponent,
     HeaderPatientComponent,
     CalendarPatientComponent,
-    NotificationsPatientsComponent
+    NotificationsPatientsComponent,
+    ColleagueSearchComponent
 
   ],
   imports: [
@@ -174,6 +185,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatGridList,
     MatGridTile,
     MatButton,
+    DatepickerProfileColleagueComponent,
+    HourpickerProfileColleagueComponent,
+    SpaceAssignPatientComponent,
+    PhotoProfileColleagueComponent,
+    InfoProfileColleagueComponent,
+    TitlesProfileColleagueComponent,
+    ButtonSendMessageComponent,
+    ButtonSaveScheduleComponent,
+    DoctorViewColleagueComponent,
 
 
   ],
