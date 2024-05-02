@@ -5,6 +5,7 @@ export class DoctorProfile {
   fee: number;
   gender: string;
   image: string;
+  title: string;
   college_number: string;
   RNE: string;
   undergraduate: string;
@@ -22,6 +23,7 @@ export class DoctorProfile {
     this.fee = 0;
     this.gender = "";
     this.image = "";
+    this.title = "";
     this.college_number = "";
     this.RNE = "";
     this.undergraduate = "";

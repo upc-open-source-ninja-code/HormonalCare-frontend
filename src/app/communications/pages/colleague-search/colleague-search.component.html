@@ -1,2 +1,2 @@
-<input type="text" [(ngModel)]="searchEmail" placeholder="Search by email...">
-<button (click)="search()">Search</button>
+<input type="text" [(ngModel)]="searchEmail" placeholder="Search a colleague by email..." (keydown.enter)="search()">
+

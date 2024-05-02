@@ -1,10 +1,9 @@
-<h2 mat-dialog-title>{{ data.name }} {{ data.lastname }}</h2>
 <mat-dialog-content>
   <div class="grid-container">
     <div class="grid-item" style="grid-column: span 1; grid-row: span 2;">
-      <img [src]="data.image" alt="{{ data.name }} {{ data.lastname }}">
+      <img [src]="data.image" alt="{{ data.name }} {{ data.lastname }}" class="fixed-size-image">
     </div>
-    <div class="grid-item" style="grid-column: span 2; grid-row: span 2;">
+    <div class="grid-item" style="grid-column: span 2; grid-row: span 2; font-size: 25px;">
       <p>Name: {{ data.name }}</p>
       <p>Lastname: {{ data.lastname }}</p>
       <p>Email: {{ data.email }}</p>
@@ -13,7 +12,7 @@
     <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
       <h1>Titles</h1>
       <div>
-        <img [src]="data.image" alt="{{ data.name }} {{ data.lastname }}">
+        <img [src]="data.title" alt="{{ data.name }} {{ data.lastname }}" class="fixed-size-title">
       </div>
     </div>
     <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
