@@ -1,0 +1,37 @@
+<h2 mat-dialog-title>{{ data.name }} {{ data.lastname }}</h2>
+<mat-dialog-content>
+  <div class="grid-container">
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 2;">
+      <img [src]="data.image" alt="{{ data.name }} {{ data.lastname }}">
+    </div>
+    <div class="grid-item" style="grid-column: span 2; grid-row: span 2;">
+      <p>Name: {{ data.name }}</p>
+      <p>Lastname: {{ data.lastname }}</p>
+      <p>Email: {{ data.email }}</p>
+      <p>School No.: {{ data.college_number }}</p>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <h1>Titles</h1>
+      <div>
+        <img [src]="data.image" alt="{{ data.name }} {{ data.lastname }}">
+      </div>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <app-button-send-message></app-button-send-message>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <app-datepicker-profile-colleague></app-datepicker-profile-colleague>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <app-hourpicker-profile-colleague></app-hourpicker-profile-colleague>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <app-space-assign-patient></app-space-assign-patient>
+    </div>
+    <div class="grid-item" style="grid-column: span 1; grid-row: span 1;">
+      <app-button-save-schedule></app-button-save-schedule>
+    </div>
+  </div>
+
+</mat-dialog-content>
+

@@ -77,6 +77,7 @@ import { PatientsPendingTaskComponent } from './profiles/components/patients-pen
 import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
 import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
+
 import { BackgroundComponent } from './medical-history/components/background/background.component';
 
 
@@ -91,6 +92,18 @@ import { MedicalhistorypageComponent } from './medical-history/pages/medicalhist
 import { HeaderForUserTypeServiceComponent } from './shared/components/header-for-user-type-service/header-for-user-type-service.component';
 import { TreatmentPatientComponent } from './medical-history/pages/treatment-patient/treatment-patient.component';
 import { MedicationFormComponent } from './medical-history/components/medication-form/medication-form.component';
+
+
+import { PhotoProfileColleagueComponent } from './communications/components/photo-profile-colleague/photo-profile-colleague.component';
+import { InfoProfileColleagueComponent } from './communications/components/info-profile-colleague/info-profile-colleague.component';
+import { TitlesProfileColleagueComponent } from './communications/components/titles-profile-colleague/titles-profile-colleague.component';
+import { ButtonSendMessageComponent } from './communications/components/button-send-message/button-send-message.component';
+import { DatepickerProfileColleagueComponent } from './communications/components/datepicker-profile-colleague/datepicker-profile-colleague.component';
+import { HourpickerProfileColleagueComponent } from './communications/components/hourpicker-profile-colleague/hourpicker-profile-colleague.component';
+import { SpaceAssignPatientComponent } from './communications/components/space-assign-patient/space-assign-patient.component';
+import { ButtonSaveScheduleComponent } from './communications/components/button-save-schedule/button-save-schedule.component';
+import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
+import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -124,6 +137,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderPatientComponent,
     CalendarPatientComponent,
     NotificationsPatientsComponent,
+
     BackgroundComponent,
     ClinicalhistoryComponent,
     ExternalreportsComponent,
@@ -142,7 +156,10 @@ export function HttpLoaderFactory(http: HttpClient) {
 
     HeaderForUserTypeServiceComponent,
       TreatmentPatientComponent,
-      MedicationFormComponent
+      MedicationFormComponent,
+
+
+    ColleagueSearchComponent
 
 
   ],
@@ -209,6 +226,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatGridList,
     MatGridTile,
     MatButton,
+    DatepickerProfileColleagueComponent,
+    HourpickerProfileColleagueComponent,
+    SpaceAssignPatientComponent,
+    PhotoProfileColleagueComponent,
+    InfoProfileColleagueComponent,
+    TitlesProfileColleagueComponent,
+    ButtonSendMessageComponent,
+    ButtonSaveScheduleComponent,
+    DoctorViewColleagueComponent,
 
 
   ],
