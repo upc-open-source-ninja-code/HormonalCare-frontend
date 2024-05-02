@@ -90,7 +90,7 @@
       "lastname": "Gonzalez",
       "fee": 100,
       "gender": "F",
-      "image": "image.jpg",
+      "image": "https://raw.githubusercontent.com/ClaudioSandro/Images-FakeAPI/main/doctora1.jpg",
       "college_number": "12345",
       "RNE": "RNE123",
       "undergraduate": "General Medicine",
