@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PatientEntity } from "../../model/patient.entity";
-import { PatientsProfilesService } from "../../services/patients-profile.service";
+import { PatientsProfileService } from "../../services/patients-profile.service";
 
 @Component({
   selector: 'app-info-profile-patiens',
@@ -12,7 +12,7 @@ export class InfoProfilePatiensComponent implements OnInit {
   dataSource: PatientEntity[] = [];
   displayed: string[] = ['name', 'lastname', 'email', 'password'];
 
-  constructor(private patientService: PatientsProfilesService) {}
+  constructor(private patientService: PatientsProfileService) {}
 
   ngOnInit() {
     this.getPatientDetails('1'); // replace '1' with the actual patient ID

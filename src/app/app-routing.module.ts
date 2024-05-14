@@ -42,7 +42,7 @@ const routes: Routes = [
   { path: 'background', component: BackgroundComponent },
   { path: 'medicalExams', component: MedicalexamsComponent },
   { path: 'externalReports', component: ExternalreportsComponent },
-  { path: 'dignosesAndTreatment', component: DignosesandtreatmentComponent },
+  { path: 'diagnosesAndTreatment', component: DignosesandtreatmentComponent },
   { path: 'treatmentPatient', component: TreatmentPatientComponent },
   { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
 
