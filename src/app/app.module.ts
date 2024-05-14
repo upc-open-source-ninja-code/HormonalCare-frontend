@@ -104,6 +104,7 @@ import { SpaceAssignPatientComponent } from './communications/components/space-a
 import { ButtonSaveScheduleComponent } from './communications/components/button-save-schedule/button-save-schedule.component';
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
+import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -159,7 +160,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       MedicationFormComponent,
 
 
-    ColleagueSearchComponent
+    ColleagueSearchComponent,
+        InfoProfileMedicalsComponent
 
 
   ],
