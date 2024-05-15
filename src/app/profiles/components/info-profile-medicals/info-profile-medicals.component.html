@@ -1,1 +1,39 @@
-<p>info-profile-medicals works!</p>
+<section>
+  <h3>Doctor information</h3>
+  <table class="mat-elevation-z8">
+    <tbody>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Name</td>
+      <td class="right">{{element.name}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Lastname</td>
+      <td class="right">{{element.lastname}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Email</td>
+      <td class="right">{{element.email}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Qualification</td>
+      <td class="right">{{element.sub_speciality}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">School N</td>
+      <td class="right">{{element.college_number}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Fee</td>
+      <td class="right">{{element.fee}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Code of Doctor</td>
+      <td class="right">{{element.code_of_doctor}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Password</td>
+      <td class="right">{{element.password}}</td>
+    </tr>
+    </tbody>
+  </table>
+</section>

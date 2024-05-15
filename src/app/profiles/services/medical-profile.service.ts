@@ -10,7 +10,7 @@ import { MedicalEntity } from "../model/medical.entity";
 })
 
 
-export class PatientsProfileService extends BaseService<MedicalEntity> {
+export class MedicalsProfileService extends BaseService<MedicalEntity> {
 
   constructor(http: HttpClient) {
     super(http);
