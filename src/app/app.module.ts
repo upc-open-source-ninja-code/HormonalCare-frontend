@@ -75,7 +75,7 @@ import { PatientsReminderComponent } from './profiles/components/patients-remind
 import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
 import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
 import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
-import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
+import { CalendarPatientViewComponent } from './calendar/pages/calendar-patient-view/calendar-patient-view.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
 
 import { BackgroundComponent } from './medical-history/components/background/background.component';
@@ -105,11 +105,15 @@ import { ButtonSaveScheduleComponent } from './communications/components/button-
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
-
-
+import { CalendarModule } from 'primeng/calendar';
+import {CalendarPatientComponent} from "./calendar/components/calendar-patient/calendar-patient.component";
+import {FullCalendarModule} from "@fullcalendar/angular";
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
+
+;
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -136,7 +140,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientsUploadExamComponent,
     PatientsPendingTaskComponent,
     HeaderPatientComponent,
-    CalendarPatientComponent,
+    CalendarPatientViewComponent,
     NotificationsPatientsComponent,
 
     BackgroundComponent,
@@ -156,12 +160,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     MedicalhistorypageComponent,
 
     HeaderForUserTypeServiceComponent,
-      TreatmentPatientComponent,
-      MedicationFormComponent,
-
+    TreatmentPatientComponent,
+    MedicationFormComponent,
 
     ColleagueSearchComponent,
-        InfoProfileMedicalsComponent
+    InfoProfileMedicalsComponent,
+    CalendarPatientComponent,
 
 
   ],
@@ -182,6 +186,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatButton,
     MatFormFieldModule,
     MatInputModule,
+    CalendarModule,
     /*
     TranslateModule.forRoot({
       loader: {
@@ -237,6 +242,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
+    FullCalendarModule,
 
 
   ],

@@ -6,7 +6,7 @@
       "age": 28,
       "typeOfCare": "First date",
       "hour": "09:00 AM",
-      "diagnosis": "Evaluación inicial",
+      "diagnosis": "Initial evaluation",
       "alert": "-"
     },
     {
@@ -14,7 +14,7 @@
       "age": 40,
       "typeOfCare": "First date",
       "hour": "09:30 AM",
-      "diagnosis": "Revisión general",
+      "diagnosis": "General check-up",
       "alert": "-"
     },
     {
@@ -22,7 +22,7 @@
       "age": 35,
       "typeOfCare": "First date",
       "hour": "10:00 AM",
-      "diagnosis": "Examen inicial",
+      "diagnosis": "Initial exam",
       "alert": "-"
     },
     {
@@ -30,7 +30,7 @@
       "age": 45,
       "typeOfCare": "First date",
       "hour": "10:30 AM",
-      "diagnosis": "Consulta médica",
+      "diagnosis": "Medical consultation",
       "alert": "-"
     },
     {
@@ -38,7 +38,7 @@
       "age": 32,
       "typeOfCare": "First date",
       "hour": "11:00 AM",
-      "diagnosis": "Chequeo completo",
+      "diagnosis": "Complete check-up",
       "alert": "-"
     },
     {
@@ -46,7 +46,7 @@
       "age": 55,
       "typeOfCare": "First date",
       "hour": "11:30 AM",
-      "diagnosis": "Examen de rutina",
+      "diagnosis": "Routine check-up",
       "alert": "-"
     },
     {
@@ -54,7 +54,7 @@
       "age": 30,
       "typeOfCare": "First date",
       "hour": "12:00 PM",
-      "diagnosis": "Consulta general",
+      "diagnosis": "General consultation",
       "alert": "-"
     },
     {
@@ -62,7 +62,7 @@
       "age": 48,
       "typeOfCare": "First date",
       "hour": "12:30 PM",
-      "diagnosis": "Evaluación inicial",
+      "diagnosis": "Initial evaluation",
       "alert": "-"
     },
     {
@@ -70,7 +70,7 @@
       "age": 25,
       "typeOfCare": "First date",
       "hour": "01:00 PM",
-      "diagnosis": "Examen de ingreso",
+      "diagnosis": "Admission exam",
       "alert": "-"
     },
     {
@@ -78,7 +78,7 @@
       "age": 38,
       "typeOfCare": "First date",
       "hour": "01:30 PM",
-      "diagnosis": "Consulta médica",
+      "diagnosis": "Medical consultation",
       "alert": "-"
     }
   ],

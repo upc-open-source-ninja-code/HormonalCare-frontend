@@ -7,7 +7,7 @@ import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-foun
 import {DoctorProfileComponent} from "./profiles/pages/doctor-profile/doctor-profile.component";
 import {HomeDoctorComponent} from "./profiles/pages/home-doctor/home-doctor.component";
 import {HomePatientComponent} from "./profiles/pages/home-patient/home-patient.component";
-import {CalendarPatientComponent} from "./calendar/pages/calendar-patient/calendar-patient.component";
+import {CalendarPatientViewComponent} from "./calendar/pages/calendar-patient-view/calendar-patient-view.component";
 import {PatientChatComponent} from "./communications/pages/patient-chat/patient-chat.component";
 import {NotificationsPatientsComponent} from "./notifications/pages/notifications-patients/notifications-patients.component";
 import {PatientProfileComponent} from "./profiles/pages/patient-profile/patient-profile.component";
@@ -32,7 +32,7 @@ const routes: Routes = [
   { path: 'messages', component: DoctorChatComponent },
   { path: 'notifications', component: NotificationsViewComponent },
   { path: 'doctorProfile', component:DoctorProfileComponent  },
-  { path: 'calendarPatient', component: CalendarPatientComponent },
+  { path: 'calendarPatientView', component: CalendarPatientViewComponent },
   { path: 'messagesPatient', component: PatientChatComponent },
   { path: 'notificationsPatient', component: NotificationsPatientsComponent },
   { path: 'patientProfile', component: PatientProfileComponent },
