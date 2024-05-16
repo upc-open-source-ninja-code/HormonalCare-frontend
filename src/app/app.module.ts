@@ -105,66 +105,70 @@ import { ButtonSaveScheduleComponent } from './communications/components/button-
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
+import {
+    SelectPaymentMethodComponent
+} from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
 
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 @NgModule({
-  declarations: [
-    AppComponent,
-    FooterContentComponent,
-    PatientsTableComponent,
-    SearchDoctorsComponent,
-    SearchPatiensComponent,
-    HeaderDoctorComponent,
-    LanguageSwitcherComponent,
-    CalendarViewComponent,
-    DoctorChatComponent,
-    PatientChatComponent,
-    NotificationsViewComponent,
-    DoctorProfileComponent,
-    HomeDoctorComponent,
-    SelectUserRoleComponent,
-    PhotoPatientsComponent,
-    InfoProfilePatiensComponent,
-    InfoCardProfilePatiensComponent,
-    PatientProfileComponent,
-    DoctorRegistrationComponent,
-    HomePatientComponent,
-    PatientsReminderComponent,
-    PatientsUploadExamComponent,
-    PatientsPendingTaskComponent,
-    HeaderPatientComponent,
-    CalendarPatientComponent,
-    NotificationsPatientsComponent,
+    declarations: [
+        AppComponent,
+        FooterContentComponent,
+        PatientsTableComponent,
+        SearchDoctorsComponent,
+        SearchPatiensComponent,
+        HeaderDoctorComponent,
+        LanguageSwitcherComponent,
+        CalendarViewComponent,
+        DoctorChatComponent,
+        PatientChatComponent,
+        NotificationsViewComponent,
+        DoctorProfileComponent,
+        HomeDoctorComponent,
+        SelectUserRoleComponent,
+        PhotoPatientsComponent,
+        InfoProfilePatiensComponent,
+        InfoCardProfilePatiensComponent,
+        PatientProfileComponent,
+        DoctorRegistrationComponent,
+        HomePatientComponent,
+        PatientsReminderComponent,
+        PatientsUploadExamComponent,
+        PatientsPendingTaskComponent,
+        HeaderPatientComponent,
+        CalendarPatientComponent,
+        NotificationsPatientsComponent,
 
-    BackgroundComponent,
-    ClinicalhistoryComponent,
-    ExternalreportsComponent,
-    HeaderComponent,
-    PatientdataComponent,
-    DignosesandtreatmentComponent,
-    ReasonconsultationComponent,
-    HeaderComponent,
-    ClinicalhistoryComponent,
-    DignosesandtreatmentComponent,
-    ExternalreportsComponent,
-    MedicalexamsComponent,
-    PatientdataComponent,
-    ReasonconsultationComponent,
-    MedicalhistorypageComponent,
+        BackgroundComponent,
+        ClinicalhistoryComponent,
+        ExternalreportsComponent,
+        HeaderComponent,
+        PatientdataComponent,
+        DignosesandtreatmentComponent,
+        ReasonconsultationComponent,
+        HeaderComponent,
+        ClinicalhistoryComponent,
+        DignosesandtreatmentComponent,
+        ExternalreportsComponent,
+        MedicalexamsComponent,
+        PatientdataComponent,
+        ReasonconsultationComponent,
+        MedicalhistorypageComponent,
 
-    HeaderForUserTypeServiceComponent,
-      TreatmentPatientComponent,
-      MedicationFormComponent,
-
-
-    ColleagueSearchComponent,
-        InfoProfileMedicalsComponent
+        HeaderForUserTypeServiceComponent,
+        TreatmentPatientComponent,
+        MedicationFormComponent,
 
 
-  ],
+        ColleagueSearchComponent,
+        InfoProfileMedicalsComponent,
+        SelectPaymentMethodComponent
+
+
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
