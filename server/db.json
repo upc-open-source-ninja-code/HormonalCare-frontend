@@ -1,85 +1,96 @@
 
 {
-  "patient-appointments": [
+  "medical-appointments": [
     {
-      "name": "Juan Pérez",
-      "age": 28,
+      "id": "1",
+      "idPaciente": "1",
+      "idDoctor": "1",
+      "title": "Cita con el Dr. Maria Gonzalez",
+      "description": "Consulta inicial",
       "typeOfCare": "First date",
-      "hour": "09:00 AM",
-      "diagnosis": "Evaluación inicial",
-      "alert": "-"
+      "startDate": "09:00 AM",
+      "endDate": "10:00 AM",
+      "diagnosis": "Initial evaluation",
+      "alert": "-",
+      "isRecipe": "No"
     },
     {
-      "name": "María García",
-      "age": 40,
-      "typeOfCare": "First date",
-      "hour": "09:30 AM",
-      "diagnosis": "Revisión general",
-      "alert": "-"
+      "id": "2",
+      "idPaciente": "2",
+      "idDoctor": "2",
+      "title": "Cita con el Dr. Juan Lopez",
+      "description": "Consulta de seguimiento",
+      "typeOfCare": "Follow-up",
+      "startDate": "10:00 AM",
+      "endDate": "11:00 AM",
+      "diagnosis": "Diabetes",
+      "alert": "-",
+      "isRecipe": "Yes"
     },
     {
-      "name": "Luisa Rodríguez",
-      "age": 35,
-      "typeOfCare": "First date",
-      "hour": "10:00 AM",
-      "diagnosis": "Examen inicial",
-      "alert": "-"
+      "id": "3",
+      "idPaciente": "3",
+      "idDoctor": "3",
+      "title": "Cita con la Dra. Laura Martinez",
+      "description": "Consulta de control",
+      "typeOfCare": "Control",
+      "startDate": "11:00 AM",
+      "endDate": "12:00 PM",
+      "diagnosis": "Hypothyroidism",
+      "alert": "-",
+      "isRecipe": "No"
     },
     {
-      "name": "Pedro Sánchez",
-      "age": 45,
-      "typeOfCare": "First date",
-      "hour": "10:30 AM",
-      "diagnosis": "Consulta médica",
-      "alert": "-"
+      "id": "4",
+      "idPaciente": "4",
+      "idDoctor": "4",
+      "title": "Cita con el Dr. Pedro Sanchez",
+      "description": "Consulta de emergencia",
+      "typeOfCare": "Emergency",
+      "startDate": "12:00 PM",
+      "endDate": "01:00 PM",
+      "diagnosis": "Hyperthyroidism",
+      "alert": "-",
+      "isRecipe": "Yes"
     },
     {
-      "name": "Ana Martínez",
-      "age": 32,
-      "typeOfCare": "First date",
-      "hour": "11:00 AM",
-      "diagnosis": "Chequeo completo",
-      "alert": "-"
+      "id": "5",
+      "idPaciente": "5",
+      "idDoctor": "1",
+      "title": "Cita con el Dr. Maria Gonzalez",
+      "description": "Consulta de seguimiento",
+      "typeOfCare": "Follow-up",
+      "startDate": "01:00 PM",
+      "endDate": "02:00 PM",
+      "diagnosis": "Adrenal Insufficiency",
+      "alert": "-",
+      "isRecipe": "No"
     },
     {
-      "name": "Carlos Gómez",
-      "age": 55,
-      "typeOfCare": "First date",
-      "hour": "11:30 AM",
-      "diagnosis": "Examen de rutina",
-      "alert": "-"
+      "id": "6",
+      "idPaciente": "1",
+      "idDoctor": "2",
+      "title": "Cita con el Dr. Juan Lopez",
+      "description": "Consulta de control",
+      "typeOfCare": "Control",
+      "startDate": "02:00 PM",
+      "endDate": "03:00 PM",
+      "diagnosis": "Diabetes",
+      "alert": "-",
+      "isRecipe": "Yes"
     },
     {
-      "name": "Laura Fernández",
-      "age": 30,
+      "id": "7",
+      "idPaciente": "2",
+      "idDoctor": "3",
+      "title": "Cita con la Dra. Laura Martinez",
+      "description": "Consulta inicial",
       "typeOfCare": "First date",
-      "hour": "12:00 PM",
-      "diagnosis": "Consulta general",
-      "alert": "-"
-    },
-    {
-      "name": "José López",
-      "age": 48,
-      "typeOfCare": "First date",
-      "hour": "12:30 PM",
-      "diagnosis": "Evaluación inicial",
-      "alert": "-"
-    },
-    {
-      "name": "Mónica Ramirez",
-      "age": 25,
-      "typeOfCare": "First date",
-      "hour": "01:00 PM",
-      "diagnosis": "Examen de ingreso",
-      "alert": "-"
-    },
-    {
-      "name": "Diego Castro",
-      "age": 38,
-      "typeOfCare": "First date",
-      "hour": "01:30 PM",
-      "diagnosis": "Consulta médica",
-      "alert": "-"
+      "startDate": "03:00 PM",
+      "endDate": "04:00 PM",
+      "diagnosis": "Initial evaluation",
+      "alert": "-",
+      "isRecipe": "No"
     }
   ],
 
