@@ -1,9 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { DoctorProfile } from '../../model/doctor-profile';
-import {PhotoProfileColleagueComponent} from "../photo-profile-colleague/photo-profile-colleague.component";
-import {InfoProfileColleagueComponent} from "../info-profile-colleague/info-profile-colleague.component";
-import {TitlesProfileColleagueComponent} from "../titles-profile-colleague/titles-profile-colleague.component";
+
 import {ButtonSendMessageComponent} from "../button-send-message/button-send-message.component";
 import {
   DatepickerProfileColleagueComponent
@@ -22,9 +20,6 @@ import {MatButtonModule} from '@angular/material/button';
   templateUrl: './doctor-view-colleague.component.html',
   styleUrl: './doctor-view-colleague.component.css',
   imports: [
-    PhotoProfileColleagueComponent,
-    InfoProfileColleagueComponent,
-    TitlesProfileColleagueComponent,
     ButtonSendMessageComponent,
     DatepickerProfileColleagueComponent,
     HourpickerProfileColleagueComponent,
