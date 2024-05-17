@@ -108,6 +108,7 @@ import { InfoProfileMedicalsComponent } from './profiles/components/info-profile
 import {
     SelectPaymentMethodComponent
 } from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
+import { CardModalComponent } from './subscriptions-and-payments/components/card-modal/card-modal.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -165,7 +166,8 @@ export function HttpLoaderFactory(http: HttpClient) {
 
         ColleagueSearchComponent,
         InfoProfileMedicalsComponent,
-        SelectPaymentMethodComponent
+        SelectPaymentMethodComponent,
+        CardModalComponent
 
 
     ],
