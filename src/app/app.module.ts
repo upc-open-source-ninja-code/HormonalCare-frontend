@@ -46,7 +46,7 @@ import { NotificationsViewComponent } from './notifications/pages/notifications-
 import {CalendarViewComponent} from "./calendar/pages/calendar-view/calendar-view.component";
 import { DoctorProfileComponent } from './profiles/pages/doctor-profile/doctor-profile.component';
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
-import {PatientsAppointmentsEntity} from "./profiles/model/patients-appointments.entity";
+
 import {
   MatCell, MatCellDef,
   MatColumnDef,
@@ -94,9 +94,7 @@ import { TreatmentPatientComponent } from './medical-history/pages/treatment-pat
 import { MedicationFormComponent } from './medical-history/components/medication-form/medication-form.component';
 
 
-import { PhotoProfileColleagueComponent } from './communications/components/photo-profile-colleague/photo-profile-colleague.component';
-import { InfoProfileColleagueComponent } from './communications/components/info-profile-colleague/info-profile-colleague.component';
-import { TitlesProfileColleagueComponent } from './communications/components/titles-profile-colleague/titles-profile-colleague.component';
+
 import { ButtonSendMessageComponent } from './communications/components/button-send-message/button-send-message.component';
 import { DatepickerProfileColleagueComponent } from './communications/components/datepicker-profile-colleague/datepicker-profile-colleague.component';
 import { HourpickerProfileColleagueComponent } from './communications/components/hourpicker-profile-colleague/hourpicker-profile-colleague.component';
@@ -234,9 +232,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     DatepickerProfileColleagueComponent,
     HourpickerProfileColleagueComponent,
     SpaceAssignPatientComponent,
-    PhotoProfileColleagueComponent,
-    InfoProfileColleagueComponent,
-    TitlesProfileColleagueComponent,
+
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
@@ -246,7 +242,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   providers: [
   provideAnimationsAsync(),
-    PatientsAppointmentsEntity
   ],
   bootstrap: [AppComponent]
 })
