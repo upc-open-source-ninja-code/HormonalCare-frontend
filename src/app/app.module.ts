@@ -46,7 +46,6 @@ import { NotificationsViewComponent } from './notifications/pages/notifications-
 import {CalendarViewComponent} from "./calendar/pages/calendar-view/calendar-view.component";
 import { DoctorProfileComponent } from './profiles/pages/doctor-profile/doctor-profile.component';
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
-import {PatientsAppointmentsEntity} from "./profiles/model/patients-appointments.entity";
 import {
   MatCell, MatCellDef,
   MatColumnDef,
@@ -243,7 +242,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   providers: [
   provideAnimationsAsync(),
-    PatientsAppointmentsEntity
+
   ],
   bootstrap: [AppComponent]
 })

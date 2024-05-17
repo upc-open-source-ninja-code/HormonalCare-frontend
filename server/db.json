@@ -3,94 +3,94 @@
   "medical-appointments": [
     {
       "id": "1",
-      "idPaciente": "1",
+      "idPatient": "1",
       "idDoctor": "1",
-      "title": "Cita con el Dr. Maria Gonzalez",
-      "description": "Consulta inicial",
+      "title": "Initial Consultation",
+      "description": "Initial consultation with Dr. Maria Gonzalez",
       "typeOfCare": "First date",
       "startDate": "09:00 AM",
       "endDate": "10:00 AM",
       "diagnosis": "Initial evaluation",
       "alert": "-",
-      "isRecipe": "No"
+      "idRecipe": "1"
     },
     {
       "id": "2",
-      "idPaciente": "2",
+      "idPatient": "2",
       "idDoctor": "2",
-      "title": "Cita con el Dr. Juan Lopez",
-      "description": "Consulta de seguimiento",
+      "title": "Follow-up Consultation",
+      "description": "Follow-up consultation with Dr. Juan Lopez",
       "typeOfCare": "Follow-up",
       "startDate": "10:00 AM",
       "endDate": "11:00 AM",
       "diagnosis": "Diabetes",
       "alert": "-",
-      "isRecipe": "Yes"
+      "idRecipe": "2"
     },
     {
       "id": "3",
-      "idPaciente": "3",
+      "idPatient": "3",
       "idDoctor": "3",
-      "title": "Cita con la Dra. Laura Martinez",
-      "description": "Consulta de control",
+      "title": "Control Consultation",
+      "description": "Control consultation with Dr. Laura Martinez",
       "typeOfCare": "Control",
       "startDate": "11:00 AM",
       "endDate": "12:00 PM",
       "diagnosis": "Hypothyroidism",
       "alert": "-",
-      "isRecipe": "No"
+      "idRecipe": "3"
     },
     {
       "id": "4",
-      "idPaciente": "4",
+      "idPatient": "4",
       "idDoctor": "4",
-      "title": "Cita con el Dr. Pedro Sanchez",
-      "description": "Consulta de emergencia",
+      "title": "Emergency Consultation",
+      "description": "Emergency consultation with Dr. Pedro Sanchez",
       "typeOfCare": "Emergency",
       "startDate": "12:00 PM",
       "endDate": "01:00 PM",
       "diagnosis": "Hyperthyroidism",
       "alert": "-",
-      "isRecipe": "Yes"
+      "idRecipe": "4"
     },
     {
       "id": "5",
-      "idPaciente": "5",
+      "idPatient": "5",
       "idDoctor": "1",
-      "title": "Cita con el Dr. Maria Gonzalez",
-      "description": "Consulta de seguimiento",
+      "title": "Follow-up Consultation",
+      "description": "Follow-up consultation with Dr. Maria Gonzalez",
       "typeOfCare": "Follow-up",
       "startDate": "01:00 PM",
       "endDate": "02:00 PM",
       "diagnosis": "Adrenal Insufficiency",
       "alert": "-",
-      "isRecipe": "No"
+      "idRecipe": "5"
     },
     {
       "id": "6",
-      "idPaciente": "1",
+      "idPatient": "1",
       "idDoctor": "2",
-      "title": "Cita con el Dr. Juan Lopez",
-      "description": "Consulta de control",
+      "title": "Control Consultation",
+      "description": "Control consultation with Dr. Juan Lopez",
       "typeOfCare": "Control",
       "startDate": "02:00 PM",
       "endDate": "03:00 PM",
       "diagnosis": "Diabetes",
       "alert": "-",
-      "isRecipe": "Yes"
+      "idRecipe": "6"
     },
     {
       "id": "7",
-      "idPaciente": "2",
+      "idPatient": "2",
       "idDoctor": "3",
-      "title": "Cita con la Dra. Laura Martinez",
-      "description": "Consulta inicial",
+      "title": "Initial Consultation",
+      "description": "Initial consultation with Dr. Laura Martinez",
       "typeOfCare": "First date",
       "startDate": "03:00 PM",
       "endDate": "04:00 PM",
       "diagnosis": "Initial evaluation",
       "alert": "-",
-      "isRecipe": "No"
+      "idRecipe": "7"
     }
   ],
 

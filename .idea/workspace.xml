@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b32b80f8-a874-48a5-bba3-1fd85a09a76e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/patients-table/patients-table.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/patients-table/patients-table.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/model/patients-appointments.entity.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/model/patients-appointments.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/medical-history.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-history.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/medical-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-profile.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/profiles/services/patients-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/patients-profile.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/patients.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/patients.service.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +59,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Escritorio/UPC/UPC CICLO 5/Desarrollo de Aplicaciones Open Source - presencial/Trabajo Final Open Source/trabajofinal-avancep&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Angular CLI Server.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Documentos\\upc-pre-202401--si729-sw51-NinjaCode-report-tb1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#4 on develop",
+    "last_opened_file_path": "C:/Escritorio/UPC/UPC CICLO 5/Desarrollo de Aplicaciones Open Source - presencial/Trabajo Final Open Source/trabajofinal-avancep",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Angular CLI Server.executor": "Run",
+    "ts.external.directory.path": "C:\\Documentos\\upc-pre-202401--si729-sw51-NinjaCode-report-tb1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src" />
