@@ -1,63 +1,93 @@
-import {Component, OnInit} from '@angular/core';
+import { Component , signal, ChangeDetectorRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+import { FullCalendarModule } from '@fullcalendar/angular';
+import { CalendarOptions, DateSelectArg, EventClickArg, EventApi } from '@fullcalendar/core';
+import interactionPlugin from '@fullcalendar/interaction';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
-import interactionPlugin from '@fullcalendar/interaction';
+import listPlugin from '@fullcalendar/list';
+import { INITIAL_EVENTS, createEventId } from './event-utils';
 
 @Component({
   selector: 'app-calendar-patient',
   templateUrl: './calendar-patient.component.html',
-  styleUrl: './calendar-patient.component.css'
+  styleUrl: './calendar-patient.component.css',
+  imports: [CommonModule, RouterOutlet, FullCalendarModule],
+  standalone: true
 })
-export class CalendarPatientComponent implements  OnInit
+export class CalendarPatientComponent
 {
-  public events: any[];
-  public options: any;
-  constructor() { }
+  calendarVisible = signal(true);
+  calendarOptions = signal<CalendarOptions>({
+    plugins: [
+      interactionPlugin,
+      dayGridPlugin,
+      timeGridPlugin,
+      listPlugin,
+    ],
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+    },
+    initialView: 'dayGridMonth',
+    initialEvents: INITIAL_EVENTS, // alternatively, use the `events` setting to fetch from a feed
+    weekends: true,
+    editable: true,
+    selectable: true,
+    selectMirror: true,
+    dayMaxEvents: true,
+    select: this.handleDateSelect.bind(this),
+    eventClick: this.handleEventClick.bind(this),
+    eventsSet: this.handleEvents.bind(this)
+    /* you can update a remote database when these fire:
+    eventAdd:
+    eventChange:
+    eventRemove:
+    */
+  });
+  currentEvents = signal<EventApi[]>([]);
 
-  ngOnInit() {
-    this.options = {
-      plugins: [dayGridPlugin, timeGridPlugin, interactionPlugin],
-      defaultDate: new Date(),
-      locale: 'en',
-      header: {
-        left: 'prev,next today',
-        center: 'title',
-        right: 'dayGridMonth,timeGridWeek,timeGridDay'
-      },
-      editable: false,
+  constructor(private changeDetector: ChangeDetectorRef) {
+  }
+
+  handleCalendarToggle() {
+    this.calendarVisible.update((bool) => !bool);
+  }
+
+  handleWeekendsToggle() {
+    this.calendarOptions.update((options) => ({
+      ...options,
+      weekends: !options.weekends,
+    }));
+  }
+
+  handleDateSelect(selectInfo: DateSelectArg) {
+    const title = prompt('Please enter a new title for your event');
+    const calendarApi = selectInfo.view.calendar;
+
+    calendarApi.unselect(); // clear date selection
+
+    if (title) {
+      calendarApi.addEvent({
+        id: createEventId(),
+        title,
+        start: selectInfo.startStr,
+        end: selectInfo.endStr,
+        allDay: selectInfo.allDay
+      });
     }
-    this.events = [
-      {
-        title: 'Appointment 1',
-        start: new Date(),
-        description: 'This is an appointment',
-      },
-      {
-        title: 'Appointment 2',
-        start: new Date(new Date().getTime()+86400000),
-        description: 'This is an appointment',
-      },
-      {
-        title: 'Appointment 3',
-        start: new Date(),
-        description: 'This is an appointment',
-      },
-      {
-        title: 'Appointment 4',
-        start: new Date(),
-        description: 'This is an appointment',
-      },
-      {
-        title: 'Appointment 5',
-        start: new Date(),
-        description: 'This is an appointment',
-      },
-      {
-        title: 'Appointment 6',
-        start: new Date(),
-        description: 'This is an appointment',
-      },
-    ];
+  }
 
+  handleEventClick(clickInfo: EventClickArg) {
+    if (confirm(`Are you sure you want to delete the event '${clickInfo.event.title}'`)) {
+      clickInfo.event.remove();
+    }
+  }
+
+  handleEvents(events: EventApi[]) {
+    this.currentEvents.set(events);
+    this.changeDetector.detectChanges(); // workaround for pressionChangedAfterItHasBeenCheckedError
   }
 }

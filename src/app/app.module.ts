@@ -105,9 +105,7 @@ import { ButtonSaveScheduleComponent } from './communications/components/button-
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
-import { CalendarModule } from 'primeng/calendar';
 import {CalendarPatientComponent} from "./calendar/components/calendar-patient/calendar-patient.component";
-import {FullCalendarModule} from "@fullcalendar/angular";
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -165,7 +163,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
     ColleagueSearchComponent,
     InfoProfileMedicalsComponent,
-    CalendarPatientComponent,
+
 
 
   ],
@@ -186,7 +184,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatButton,
     MatFormFieldModule,
     MatInputModule,
-    CalendarModule,
+
     /*
     TranslateModule.forRoot({
       loader: {
@@ -242,7 +240,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
-    FullCalendarModule,
+    CalendarPatientComponent,
 
 
   ],
