@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-declare var gapi: any;
+declare var gapi: any; // Add this line to access gapi
 
 @Component({
   selector: 'app-add-event-card',
@@ -26,8 +26,8 @@ export class AddEventCardComponent {
       // Initialize the JavaScript client library.
       gapi.load('client', () => {
         gapi.client.init({
-          apiKey: 'YOUR_API_KEY',
-          clientId: 'YOUR_CLIENT_ID',
+          apiKey: 'AIzaSyC1dcfPIagTT8USyqw6lksk2DoMXldL4dY',
+          clientId: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
           discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'],
           scope: 'https://www.googleapis.com/auth/calendar.events'
         }).then(() => {
