@@ -661,6 +661,20 @@
       "to": "mariagonzalez@example.com",
       "content": "hola mamu maria",
       "timestamp": "2024-05-18T02:27:15.075Z"
+    },
+    {
+      "id": 11,
+      "from": "mariagonzalez@example.com",
+      "to": "pedrosanchez@example.com",
+      "content": "hola",
+      "timestamp": "2024-05-18T03:25:49.004Z"
+    },
+    {
+      "id": 12,
+      "from": "mariagonzalez@example.com",
+      "to": "mariagonzalez@example.com",
+      "content": "hola",
+      "timestamp": "2024-05-18T03:28:44.469Z"
     }
   ]
 }
