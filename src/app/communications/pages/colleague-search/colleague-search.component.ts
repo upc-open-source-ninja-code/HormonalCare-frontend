@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-colleague-search',
   templateUrl: './colleague-search.component.html',
-  styleUrl: './colleague-search.component.css'
+  styleUrls: ['./colleague-search.component.css']
 })
 export class ColleagueSearchComponent {
   searchEmail: string = '';
@@ -29,9 +29,8 @@ export class ColleagueSearchComponent {
       }
     });
   }
+
   navigateToDoctorChat(email: string) {
-    // Aquí puedes navegar al componente DoctorChatComponent con el correo electrónico del médico seleccionado
-    // Por ejemplo:
-   this.router.navigate(['/messages'], { queryParams: { doctorEmail: email } });
+    this.router.navigate(['/messages'], { queryParams: { doctorEmail: email } });
   }
 }

@@ -15,14 +15,18 @@
 .buttons-column div {
   margin-bottom: 20px;
 }
-
+.tittle-messages{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 /* Estilos para los botones */
 .buttons-column button {
   display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #007bff;
+  background-color: #A78AAB;
   color: white;
   border: none;
   border-radius: 5px;
@@ -31,7 +35,7 @@
 }
 
 .buttons-column button:hover {
-  background-color: #0056b3;
+  background-color: #F4DDF6;
 }
 
 /* Estilos para la columna de chat */

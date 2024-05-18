@@ -1,6 +1,10 @@
+/* Estilos para los mensajes */
 .chat-messages {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 10px; /* Espacio inferior para la barra de entrada */
 }
 
 .message-container {
@@ -12,23 +16,31 @@
   border-radius: 10px;
   margin: 5px;
   max-width: 70%; /* Limita el ancho del mensaje */
+  word-wrap: break-word; /* Permite que el contenido del mensaje se ajuste en varias líneas */
 }
 
 .message-sent {
-  background-color: #DCF8C6; /* Color de fondo para los mensajes del remitente */
-  align-self: flex-end; /* Alinea los mensajes del remitente a la derecha */
+  background-color: #DCF8C6; /* Color de fondo para los mensajes enviados */
+  margin-left: auto; /* Alinea los mensajes enviados a la derecha */
 }
 
 .message-received {
   background-color: #EFEFEF; /* Color de fondo para los mensajes recibidos */
-  align-self: flex-start; /* Alinea los mensajes del destinatario a la izquierda */
+  margin-right: auto; /* Alinea los mensajes recibidos a la izquierda */
 }
 
+/* Estilos para la barra de entrada de mensajes */
 .chat-input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #f7f7f7;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Sombra superior para destacar la barra */
 }
 
 .chat-input input {
@@ -36,6 +48,8 @@
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px; /* Tamaño de fuente más grande para mejor legibilidad */
 }
 
 .chat-input button {
@@ -45,17 +59,31 @@
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente más grande para mejor legibilidad */
 }
 
 .chat-input button:hover {
   background-color: #0056b3;
 }
-.message-sent {
-  background-color: #DCF8C6; /* Color de fondo para los mensajes del remitente */
-  align-self: flex-end !important; /* Alinea los mensajes del remitente a la derecha */
+
+/* General container adjustments for the chat component */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.message-received {
-  background-color: #EFEFEF; /* Color de fondo para los mensajes recibidos */
-  align-self: flex-start !important; /* Alinea los mensajes del destinatario a la izquierda */
+.chat-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.chat-input {
+  flex-shrink: 0;
 }

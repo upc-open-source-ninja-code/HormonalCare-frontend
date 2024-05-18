@@ -1,12 +1,7 @@
 <div class="container">
   <div class="buttons-column">
-    <!--<div>
-      <div *ngFor="let doctor of doctors">
-        <button (click)="switchUser(doctor.email)">Chat with Dr. {{ doctor.name }}</button>
-      </div>
-    </div>-->
     <div>
-      <div>Messages</div>
+      <div class="tittle-messages">Messages</div>
       <div *ngFor="let doctor of doctors">
         <button (click)="selectChatUser(doctor.email)">Chat with Dr. {{ doctor.name }}</button>
       </div>
@@ -14,7 +9,6 @@
   </div>
 
   <div class="chat-column">
-    <!--<label class="chat-label">Chat with {{ selectedUserEmail }}</label>-->
     <app-chat [currentUserEmail]="currentUserEmail" [selectedUserEmail]="selectedUserEmail"></app-chat>
   </div>
 </div>

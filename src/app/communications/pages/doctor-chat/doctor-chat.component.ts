@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DoctorService } from '../../services/doctor.service'
-
+import { ActivatedRoute } from '@angular/router';
+import { DoctorService } from '../../services/doctor.service';
 
 @Component({
   selector: 'app-doctor-chat',
@@ -9,19 +9,21 @@ import { DoctorService } from '../../services/doctor.service'
 })
 export class DoctorChatComponent implements OnInit {
   currentUserEmail: string = 'mariagonzalez@example.com';
-  selectedUserEmail: string = 'pedrosanchez@example.com';
+  selectedUserEmail: string = '';
   doctors: any[] = [];
 
-  constructor(private doctorService: DoctorService) { }
+  constructor(private doctorService: DoctorService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.loadDoctors();
+    this.route.queryParams.subscribe(params => {
+      this.selectedUserEmail = params['doctorEmail'] || '';
+      this.loadDoctors();
+    });
   }
 
   loadDoctors(): void {
     this.doctorService.getDoctors().subscribe(data => {
-      this.doctors = data; // Asegúrate de que esto coincida con la estructura de tu JSON
-      console.log(this.doctors); // Agrega esto para verificar los datos
+      this.doctors = data;
     });
   }
 

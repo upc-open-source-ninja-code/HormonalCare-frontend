@@ -4,14 +4,18 @@
   </div>
   <div class="chat-messages">
     <div *ngFor="let message of messages" class="message-container">
-      <div [ngClass]="{'message': true, 'message-received': message.from !== currentUser.email, 'message-sent': message.from === currentUser.email}">
+      <div [ngClass]="{
+            'message': true,
+            'message-received': message.from !== currentUser.email,
+            'message-sent': message.from === currentUser.email
+          }">
         <p>{{ message.content }}</p>
         <span>{{ message.timestamp | date:'shortTime' }}</span>
       </div>
     </div>
   </div>
   <div class="chat-input">
-    <input [(ngModel)]="newMessage" placeholder="Type a message...">
-    <button (click)="sendMessage()">Send</button>
+    <input [(ngModel)]="newMessage" (keydown.enter)="sendMessage()" placeholder="Type a message...">
+   
   </div>
 </div>
