@@ -24,8 +24,8 @@ import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistor
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
-  //{ path: 'headerDoctor', component: HeaderDoctorComponent },
- // { path: 'headerPatient', component: HeaderPatientComponent },
+  { path: 'headerDoctor', component: HeaderDoctorComponent },
+  { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },
   { path: 'homePatient', component: HomePatientComponent },
   { path: 'calendar', component: CalendarViewComponent },

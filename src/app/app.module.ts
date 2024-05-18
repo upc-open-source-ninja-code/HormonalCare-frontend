@@ -106,6 +106,8 @@ import {
     SelectPaymentMethodComponent
 } from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
 import { CardModalComponent } from './subscriptions-and-payments/components/card-modal/card-modal.component';
+import { Role1Component } from './identity-and-access/components/role1/role1.component';
+import { Role2Component } from './identity-and-access/components/role2/role2.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -164,7 +166,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         ColleagueSearchComponent,
         InfoProfileMedicalsComponent,
         SelectPaymentMethodComponent,
-        CardModalComponent
+        CardModalComponent,
+        Role1Component,
+        Role2Component
 
 
     ],
