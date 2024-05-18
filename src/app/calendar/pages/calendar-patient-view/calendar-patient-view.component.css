@@ -1,11 +1,15 @@
 
-mat-sidenav-container {
-  height: calc(100vh - 120px);
-  border: 1px solid #ccc;
+.container {
+  display: flex;
 }
 
-
-.content {
+.schedule {
+  flex: 1;
   padding: 20px;
 
+}
+
+.event-card-container {
+  flex: 0 0 400px;
+  padding: 20px;
 }
