@@ -1,0 +1,61 @@
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  display: flex;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 70%; /* Limita el ancho del mensaje */
+}
+
+.message-sent {
+  background-color: #DCF8C6; /* Color de fondo para los mensajes del remitente */
+  align-self: flex-end; /* Alinea los mensajes del remitente a la derecha */
+}
+
+.message-received {
+  background-color: #EFEFEF; /* Color de fondo para los mensajes recibidos */
+  align-self: flex-start; /* Alinea los mensajes del destinatario a la izquierda */
+}
+
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+.message-sent {
+  background-color: #DCF8C6; /* Color de fondo para los mensajes del remitente */
+  align-self: flex-end !important; /* Alinea los mensajes del remitente a la derecha */
+}
+
+.message-received {
+  background-color: #EFEFEF; /* Color de fondo para los mensajes recibidos */
+  align-self: flex-start !important; /* Alinea los mensajes del destinatario a la izquierda */
+}

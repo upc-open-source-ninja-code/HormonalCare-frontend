@@ -14,7 +14,7 @@ import {ButtonSaveScheduleComponent} from "../button-save-schedule/button-save-s
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
-
+import {  EventEmitter, Output } from '@angular/core';
 @Component({
   selector: 'app-doctor-view-colleague',
   templateUrl: './doctor-view-colleague.component.html',
@@ -32,7 +32,13 @@ import {MatButtonModule} from '@angular/material/button';
   standalone: true
 })
 export class DoctorViewColleagueComponent {
+  @Output() sendMessageClicked: EventEmitter<string> = new EventEmitter<string>();
+
   constructor(@Inject(MAT_DIALOG_DATA) public data: DoctorProfile) { }
+
+  sendMessageToDoctor() {
+    this.sendMessageClicked.emit(this.data.email);
+  }
 }
 
 

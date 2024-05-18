@@ -106,8 +106,14 @@ import {
     SelectPaymentMethodComponent
 } from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
 import { CardModalComponent } from './subscriptions-and-payments/components/card-modal/card-modal.component';
+
 import { Role1Component } from './identity-and-access/components/role1/role1.component';
 import { Role2Component } from './identity-and-access/components/role2/role2.component';
+
+
+import { UserListComponent } from './communications/components/user-list/user-list.component';
+import { ChatComponent } from './communications/components/chat-with-other-users/chat.component';
+import { DoctorService } from './communications/services/doctor.service';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -167,8 +173,13 @@ export function HttpLoaderFactory(http: HttpClient) {
         InfoProfileMedicalsComponent,
         SelectPaymentMethodComponent,
         CardModalComponent,
+
         Role1Component,
-        Role2Component
+        Role2Component,
+
+        UserListComponent,
+        ChatComponent
+
 
 
     ],
@@ -246,6 +257,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   providers: [
   provideAnimationsAsync(),
+    DoctorService
 
   ],
   bootstrap: [AppComponent]
