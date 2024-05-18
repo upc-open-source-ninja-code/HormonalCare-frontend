@@ -114,6 +114,7 @@ import { Role2Component } from './identity-and-access/components/role2/role2.com
 import { UserListComponent } from './communications/components/user-list/user-list.component';
 import { ChatComponent } from './communications/components/chat-with-other-users/chat.component';
 import { DoctorService } from './communications/services/doctor.service';
+import {RouterLink} from "@angular/router";
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -252,6 +253,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
+    RouterLink,
 
 
   ],

@@ -7,7 +7,7 @@
   </div>
   <h3> Doctors available.</h3>
   <span class="spacer"></span>
-  <a mat-button *ngFor="let option of optionsPatients; let i = index" [routerLink]="option.path" class="nav-button" [class.first-button]="i === 0">
+  <a mat-button *ngFor="let option of optionsPatients; let i = index" [routerLink]="option.path" routerLinkActive="active-button" class="nav-button" [class.first-button]="i === 0">
     <div class="icon-text">
       <img [src]="option.icon" alt="{{option.title}}" class="option-icon">
     </div>

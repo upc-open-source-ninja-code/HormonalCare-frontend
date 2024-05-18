@@ -36,14 +36,18 @@ const routes: Routes = [
   { path: 'messagesPatient', component: PatientChatComponent },
   { path: 'notificationsPatient', component: NotificationsPatientsComponent },
   { path: 'patientProfile', component: PatientProfileComponent },
-
-  { path: 'medical-history', component: MedicalhistorypageComponent },
-  { path: 'reasonConsultation', component: ReasonconsultationComponent },
-  { path: 'background', component: BackgroundComponent },
-  { path: 'medicalExams', component: MedicalexamsComponent },
-  { path: 'externalReports', component: ExternalreportsComponent },
-  { path: 'diagnosesAndTreatment', component: DignosesandtreatmentComponent },
-  { path: 'treatmentPatient', component: TreatmentPatientComponent },
+  {
+    path: 'medical-history',
+    component: MedicalhistorypageComponent,
+    children: [
+      { path: 'reasonConsultation', component: ReasonconsultationComponent },
+      { path: 'background', component: BackgroundComponent },
+      { path: 'medicalExams', component: MedicalexamsComponent },
+      { path: 'externalReports', component: ExternalreportsComponent },
+      { path: 'diagnosesAndTreatment', component: DignosesandtreatmentComponent },
+      { path: 'treatmentPatient', component: TreatmentPatientComponent }
+    ]
+  },
   { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
 
   { path: '**', component: PageNotFoundComponent }

@@ -1,15 +1,17 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
 @Component({
   selector: 'app-clinicalhistory',
   templateUrl: './clinicalhistory.component.html',
-  styleUrl: './clinicalhistory.component.css'
+  styleUrls: ['./clinicalhistory.component.css']
 })
-export class ClinicalhistoryComponent {
-  constructor(private router: Router) {}
+export class ClinicalhistoryComponent implements OnInit {
 
-  navigateTo(route: string) {
-    this.router.navigate([route]);
+  constructor(private router: Router, private route: ActivatedRoute) { }
+
+  ngOnInit(): void {
+    this.router.navigate(['reasonConsultation'], { relativeTo: this.route });
   }
-}
 
+}

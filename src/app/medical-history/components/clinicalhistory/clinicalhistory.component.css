@@ -22,3 +22,6 @@ mat-toolbar {
   justify-content: center;
 }
 
+.active-button {
+  background-color: white;
+}

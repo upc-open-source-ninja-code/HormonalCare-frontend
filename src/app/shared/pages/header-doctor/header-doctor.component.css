@@ -50,6 +50,12 @@
 .nav-button {
   margin-left: 44px;
 }
-
-
+a{
+border-radius: 20px;
+padding: 15px 10px 20px 10px;
+}
+.active-button {
+  background-color: white;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.5); /* Ajusta los valores según tus necesidades */
+}
 

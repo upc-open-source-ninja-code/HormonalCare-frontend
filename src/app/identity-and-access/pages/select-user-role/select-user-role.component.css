@@ -118,3 +118,9 @@ h1{
 span{
   font-size: 1.5rem;
 }
+a {
+  padding: 135px 160px;
+  border-radius: 35px;
+  position: relative;
+  bottom: 23px; /* Ajusta este valor según tus necesidades */
+}
