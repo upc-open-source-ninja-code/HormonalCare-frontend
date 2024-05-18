@@ -107,7 +107,9 @@ import {
     SelectPaymentMethodComponent
 } from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
 import { CardModalComponent } from './subscriptions-and-payments/components/card-modal/card-modal.component';
-
+import { UserListComponent } from './communications/components/user-list/user-list.component';
+import { ChatComponent } from './communications/components/chat-with-other-users/chat.component';
+import { DoctorService } from './communications/services/doctor.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -165,7 +167,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         ColleagueSearchComponent,
         InfoProfileMedicalsComponent,
         SelectPaymentMethodComponent,
-        CardModalComponent
+        CardModalComponent,
+        UserListComponent,
+        ChatComponent
 
 
     ],
@@ -243,7 +247,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   providers: [
   provideAnimationsAsync(),
-    PatientsAppointmentsEntity
+    PatientsAppointmentsEntity,
+    DoctorService
   ],
   bootstrap: [AppComponent]
 })

@@ -1,4 +1,3 @@
-
 {
   "patient-appointments": [
     {
@@ -82,7 +81,6 @@
       "alert": "-"
     }
   ],
-
   "doctors": [
     {
       "id": 1,
@@ -187,7 +185,6 @@
       "number_of_patients": 1000
     }
   ],
-
   "patients": [
     {
       "id": 1,
@@ -304,20 +301,22 @@
       "diagnostic": [
         "Hypothyroidism"
       ],
-      "treatment_and_medication":[
+      "treatment_and_medication": [
         {
           "drug_name": "Levothyroxine",
           "quantity": "30 pills",
           "concentration": "100mcg",
           "frequency": "1 time a day",
           "duration": "Ongoing"
-        }, {
+        },
+        {
           "drug_name": "Metformin",
           "quantity": "30 pills",
           "concentration": "100mcg",
           "frequency": "1 time a day",
           "duration": "Ongoing"
-        },{
+        },
+        {
           "drug_name": "Hydrocortisone",
           "quantity": "30 pills",
           "concentration": "10mg",
@@ -359,7 +358,7 @@
       "diagnostic": [
         "Type 2 Diabetes"
       ],
-      "treatment_and_medication":[
+      "treatment_and_medication": [
         {
           "drug_name": "Metformin",
           "quantity": "60 pills",
@@ -400,7 +399,7 @@
       "diagnostic": [
         "Polycystic Ovary Syndrome (PCOS)"
       ],
-      "treatment_and_medication":[
+      "treatment_and_medication": [
         {
           "drug_name": "Combined oral contraceptive",
           "quantity": "1 pack",
@@ -439,7 +438,7 @@
       "diagnostic": [
         "Hyperthyroidism"
       ],
-      "treatment_and_medication":[
+      "treatment_and_medication": [
         {
           "drug_name": "Propylthiouracil (PTU)",
           "quantity": "90 pills",
@@ -479,7 +478,7 @@
       "diagnostic": [
         "Adrenal Insufficiency"
       ],
-      "treatment_and_medication":[
+      "treatment_and_medication": [
         {
           "drug_name": "Hydrocortisone",
           "quantity": "30 pills",
@@ -560,7 +559,6 @@
       "name": "Lab4"
     }
   ],
-
   "notification": [
     {
       "id": 1,
@@ -591,6 +589,78 @@
       "id": 6,
       "title": "Medication Refill Reminder",
       "description": "Reminder: Your medication refill is due soon"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "from": "mariagonzalez@example.com",
+      "to": "pedrosanchez@example.com",
+      "content": "Hola, ¿cómo estás?",
+      "timestamp": "2024-05-15T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "from": "pedrosanchez@example.com",
+      "to": "mariagonzalez@example.com",
+      "content": "Hola Maria, estoy bien, ¿y tú?",
+      "timestamp": "2024-05-15T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "from": "mariagonzalez@example.com",
+      "to": "pedrosanchez@example.com",
+      "content": "bien",
+      "timestamp": "2024-05-18T01:50:39.498Z"
+    },
+    {
+      "id": 4,
+      "from": "mariagonzalez@example.com",
+      "to": "pedrosanchez@example.com",
+      "content": "hola maria soy maria",
+      "timestamp": "2024-05-18T02:05:24.324Z"
+    },
+    {
+      "id": 5,
+      "from": "mariagonzalez@example.com",
+      "to": "pedrosanchez@example.com",
+      "content": "hola juan soy maria",
+      "timestamp": "2024-05-18T02:05:42.387Z"
+    },
+    {
+      "id": 6,
+      "from": "mariagonzalez@example.com",
+      "to": "juanlopez@example.com",
+      "content": "hola juan soy maria",
+      "timestamp": "2024-05-18T02:19:25.289Z"
+    },
+    {
+      "id": 7,
+      "from": "juanlopez@example.com",
+      "to": "mariagonzalez@example.com",
+      "content": "hola maria, soy juan",
+      "timestamp": "2024-05-18T02:19:41.141Z"
+    },
+    {
+      "id": 8,
+      "from": "juanlopez@example.com",
+      "to": "lauramartinez@example.com",
+      "content": "hola Laura soy Juan",
+      "timestamp": "2024-05-18T02:20:09.273Z"
+    },
+    {
+      "id": 9,
+      "from": "mariagonzalez@example.com",
+      "to": "juanlopez@example.com",
+      "content": "hola papu juan",
+      "timestamp": "2024-05-18T02:26:12.621Z"
+    },
+    {
+      "id": 10,
+      "from": "juanlopez@example.com",
+      "to": "mariagonzalez@example.com",
+      "content": "hola mamu maria",
+      "timestamp": "2024-05-18T02:27:15.075Z"
     }
   ]
 }
