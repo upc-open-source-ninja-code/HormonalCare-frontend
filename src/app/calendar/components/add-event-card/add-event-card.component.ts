@@ -1,6 +1,10 @@
-import { Component } from '@angular/core';
+// @ts-ignore
+
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-declare var gapi: any; // Add this line to access gapi
+
+declare var gapi: any;
+declare var google: any;
 
 @Component({
   selector: 'app-add-event-card',
@@ -9,10 +13,15 @@ declare var gapi: any; // Add this line to access gapi
 })
 export class AddEventCardComponent {
   eventForm: FormGroup;
+  formValue: any;
+  startDateTime: Date;
+  endDateTime: Date;
 
   constructor(private fb: FormBuilder) {
     this.eventForm = this.fb.group({
       eventDate: [null, Validators.required],
+      startTime: [null, Validators.required],
+      endTime: [null, Validators.required],
       patientEmail: ['', [Validators.required, Validators.email]],
       title: ['', Validators.required],
     });
@@ -20,41 +29,51 @@ export class AddEventCardComponent {
 
   createEvent() {
     if (this.eventForm.valid) {
-      const formValue = this.eventForm.value;
-      console.log('Event Created:', formValue);
+      this.formValue = this.eventForm.value;
+      this.startDateTime = new Date(this.formValue.eventDate);
+      const [startHours, startMinutes] = this.formValue.startTime.split(':');
+      this.startDateTime.setHours(startHours, startMinutes);
 
-      // Initialize the JavaScript client library.
-      gapi.load('client', () => {
-        gapi.client.init({
-          apiKey: 'AIzaSyC1dcfPIagTT8USyqw6lksk2DoMXldL4dY',
-          clientId: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
-          discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'],
-          scope: 'https://www.googleapis.com/auth/calendar.events'
-        }).then(() => {
-          // Use the Google Calendar API to create an event.
-          gapi.client.calendar.events.insert({
-            calendarId: 'primary',
-            resource: {
-              summary: formValue.title,
-              start: {
-                dateTime: formValue.eventDate,
-                timeZone: 'America/Lima'
-              },
-              end: {
-                dateTime: formValue.eventDate,
-                timeZone: 'America/Lima'
-              },
-              attendees: [
-                {email: formValue.patientEmail}
-              ]
-            }
-          }).then((response) => {
-            console.log('Event created:', response);
-          });
-        });
+      this.endDateTime = new Date(this.formValue.eventDate);
+      const [endHours, endMinutes] = this.formValue.endTime.split(':');
+      this.endDateTime.setHours(endHours, endMinutes);
+
+      console.log('Event Created:', this.formValue);
+
+      // Initialize the Google Identity Services client library.
+      google.accounts.id.initialize({
+        client_id: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
+        callback: this.handleCredentialResponse.bind(this)
       });
+      google.accounts.id.renderButton(
+        document.getElementById('buttonDiv'),
+        { theme: 'outline', size: 'large' }  // customize the button
+      );
     } else {
       console.error('Form is invalid');
     }
+  }
+
+  handleCredentialResponse(response) {
+    // Use the Google Calendar API to create an event.
+    gapi.client.calendar.events.insert({
+      calendarId: 'primary',
+      resource: {
+        summary: this.formValue.title,
+        start: {
+          dateTime: this.startDateTime.toISOString(),
+          timeZone: 'America/Lima'
+        },
+        end: {
+          dateTime: this.endDateTime.toISOString(),
+          timeZone: 'America/Lima'
+        },
+        attendees: [
+          {email: this.formValue.patientEmail}
+        ]
+      }
+    }).then((response) => {
+      console.log('Event created:', response);
+    });
   }
 }

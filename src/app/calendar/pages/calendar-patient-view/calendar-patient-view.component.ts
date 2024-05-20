@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-calendar-patient-view',
+  selector: 'app-calendar-doctor-view',
   templateUrl: './calendar-patient-view.component.html',
   styleUrl: './calendar-patient-view.component.css'
 })

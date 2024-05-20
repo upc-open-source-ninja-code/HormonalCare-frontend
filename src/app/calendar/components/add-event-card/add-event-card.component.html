@@ -10,6 +10,16 @@
       </mat-form-field>
 
       <mat-form-field class="full-width" appearance="fill">
+        <mat-label>Start Time</mat-label>
+        <input matInput type="time" formControlName="startTime">
+      </mat-form-field>
+
+      <mat-form-field class="full-width" appearance="fill">
+        <mat-label>End Time</mat-label>
+        <input matInput type="time" formControlName="endTime">
+      </mat-form-field>
+
+      <mat-form-field class="full-width" appearance="fill">
         <mat-label>Title</mat-label>
         <input matInput formControlName="title" placeholder="Write a title">
       </mat-form-field>
@@ -20,6 +30,7 @@
       </mat-form-field>
 
       <button mat-raised-button color="#D9D9D9" type="submit">Create Event</button>
+      <div id="buttonDiv"></div>
     </form>
   </mat-card-content>
 </mat-card>

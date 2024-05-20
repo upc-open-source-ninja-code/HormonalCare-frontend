@@ -10,13 +10,13 @@ import listPlugin from '@fullcalendar/list';
 import { INITIAL_EVENTS, createEventId } from './event-utils';
 
 @Component({
-  selector: 'app-calendar-patient',
-  templateUrl: './calendar-patient.component.html',
-  styleUrl: './calendar-patient.component.css',
+  selector: 'app-calendar-doctor',
+  templateUrl: './calendar-doctor.component.html',
+  styleUrl: './calendar-doctor.component.css',
   imports: [CommonModule, RouterOutlet, FullCalendarModule],
   standalone: true
 })
-export class CalendarPatientComponent
+export class CalendarDoctorComponent
 {
   calendarVisible = signal(true);
   calendarOptions = signal<CalendarOptions>({
