@@ -1,5 +1,3 @@
-// @ts-ignore
-
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -11,7 +9,7 @@ declare var google: any;
   templateUrl: './add-event-card.component.html',
   styleUrls: ['./add-event-card.component.css']
 })
-export class AddEventCardComponent {
+export class AddEventCardComponent implements OnInit {
   eventForm: FormGroup;
   formValue: any;
   startDateTime: Date;
@@ -27,6 +25,19 @@ export class AddEventCardComponent {
     });
   }
 
+  ngOnInit(): void {
+    console.log('Initializing Google Identity Services...');
+    google.accounts.id.initialize({
+      client_id: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
+      callback: this.handleCredentialResponse.bind(this)
+    });
+    google.accounts.id.renderButton(
+      document.getElementById('buttonDiv'),
+      { theme: 'outline', size: 'large' }
+    );
+    console.log('Google Identity Services initialized.');
+  }
+
   createEvent() {
     if (this.eventForm.valid) {
       this.formValue = this.eventForm.value;
@@ -40,40 +51,33 @@ export class AddEventCardComponent {
 
       console.log('Event Created:', this.formValue);
 
-      // Initialize the Google Identity Services client library.
-      google.accounts.id.initialize({
-        client_id: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
-        callback: this.handleCredentialResponse.bind(this)
+      // Use the Google Calendar API to create an event.
+      gapi.client.calendar.events.insert({
+        calendarId: 'primary',
+        resource: {
+          summary: this.formValue.title,
+          start: {
+            dateTime: this.startDateTime.toISOString(),
+            timeZone: 'America/Lima'
+          },
+          end: {
+            dateTime: this.endDateTime.toISOString(),
+            timeZone: 'America/Lima'
+          },
+          attendees: [
+            { email: this.formValue.patientEmail }
+          ]
+        }
+      }).then((response: any) => {
+        console.log('Event created:', response);
       });
-      google.accounts.id.renderButton(
-        document.getElementById('buttonDiv'),
-        { theme: 'outline', size: 'large' }  // customize the button
-      );
     } else {
       console.error('Form is invalid');
     }
   }
 
-  handleCredentialResponse(response) {
-    // Use the Google Calendar API to create an event.
-    gapi.client.calendar.events.insert({
-      calendarId: 'primary',
-      resource: {
-        summary: this.formValue.title,
-        start: {
-          dateTime: this.startDateTime.toISOString(),
-          timeZone: 'America/Lima'
-        },
-        end: {
-          dateTime: this.endDateTime.toISOString(),
-          timeZone: 'America/Lima'
-        },
-        attendees: [
-          {email: this.formValue.patientEmail}
-        ]
-      }
-    }).then((response) => {
-      console.log('Event created:', response);
-    });
+  handleCredentialResponse(response: any) {
+    console.log('ID token:', response.credential);
+    // Aquí puedes proceder a autenticar al usuario en tu backend si es necesario.
   }
 }
