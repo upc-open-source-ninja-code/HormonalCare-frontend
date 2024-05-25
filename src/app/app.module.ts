@@ -103,7 +103,7 @@ import { ButtonSaveScheduleComponent } from './communications/components/button-
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
-import {CalendarPatientComponent} from "./calendar/components/calendar-patient/calendar-patient.component";
+import {CalendarDoctorComponent} from "./calendar/components/calendar-doctor/calendar-doctor.component";
 import { AddEventCardComponent } from './calendar/components/add-event-card/add-event-card.component';
 import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
@@ -240,7 +240,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
-    CalendarPatientComponent,
+    CalendarDoctorComponent,
     MatDatepickerToggle,
     MatDatepicker,
     MatDatepickerInput,
