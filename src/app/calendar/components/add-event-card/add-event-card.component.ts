@@ -26,16 +26,21 @@ export class AddEventCardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log('Initializing Google Identity Services...');
-    google.accounts.id.initialize({
-      client_id: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
-      callback: this.handleCredentialResponse.bind(this)
-    });
-    google.accounts.id.renderButton(
-      document.getElementById('buttonDiv'),
-      { theme: 'outline', size: 'large' }
-    );
-    console.log('Google Identity Services initialized.');
+    try {
+      console.log('Initializing Google Identity Services...');
+      google.accounts.id.initialize({
+        client_id: '622160902930-4ll4iqmuupg55lsa1oapr5re055j6421.apps.googleusercontent.com',
+        callback: this.handleCredentialResponse.bind(this)
+      });
+      google.accounts.id.renderButton(
+        document.getElementById('buttonDiv'),
+        { theme: 'outline', size: 'large' }
+      );
+      google.accounts.id.prompt();
+      console.log('Google Identity Services initialized.');
+    } catch (error) {
+      console.error('Error initializing Google Identity Services:', error);
+    }
   }
 
   createEvent() {
@@ -70,6 +75,8 @@ export class AddEventCardComponent implements OnInit {
         }
       }).then((response: any) => {
         console.log('Event created:', response);
+      }).catch((error: any) => {
+        console.error('Error creating event:', error);
       });
     } else {
       console.error('Form is invalid');
