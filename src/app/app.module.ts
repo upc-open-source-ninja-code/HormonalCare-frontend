@@ -46,6 +46,7 @@ import { NotificationsViewComponent } from './notifications/pages/notifications-
 import {CalendarViewComponent} from "./calendar/pages/calendar-view/calendar-view.component";
 import { DoctorProfileComponent } from './profiles/pages/doctor-profile/doctor-profile.component';
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
+
 import {
   MatCell, MatCellDef,
   MatColumnDef,
@@ -74,7 +75,7 @@ import { PatientsReminderComponent } from './profiles/components/patients-remind
 import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
 import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
 import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
-import { CalendarPatientComponent } from './calendar/pages/calendar-patient/calendar-patient.component';
+import { CalendarPatientViewComponent } from './calendar/pages/calendar-patient-view/calendar-patient-view.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
 
 import { BackgroundComponent } from './medical-history/components/background/background.component';
@@ -102,6 +103,7 @@ import { ButtonSaveScheduleComponent } from './communications/components/button-
 import { DoctorViewColleagueComponent } from './communications/components/doctor-view-colleague/doctor-view-colleague.component';
 import { ColleagueSearchComponent } from './communications/pages/colleague-search/colleague-search.component';
 import { InfoProfileMedicalsComponent } from './profiles/components/info-profile-medicals/info-profile-medicals.component';
+
 import {
     SelectPaymentMethodComponent
 } from "./subscriptions-and-payments/pages/select-payment-method/select-payment-method.component";
@@ -117,61 +119,71 @@ import { DoctorService } from './communications/services/doctor.service';
 import {RouterLink} from "@angular/router";
 
 
+import {CalendarDoctorComponent} from "./calendar/components/calendar-doctor/calendar-doctor.component";
+import { AddEventCardComponent } from './calendar/components/add-event-card/add-event-card.component';
+import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
+import {MatNativeDateModule} from "@angular/material/core";
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
+
+;
+
 @NgModule({
-    declarations: [
-        AppComponent,
-        FooterContentComponent,
-        PatientsTableComponent,
-        SearchDoctorsComponent,
-        SearchPatiensComponent,
-        HeaderDoctorComponent,
-        LanguageSwitcherComponent,
-        CalendarViewComponent,
-        DoctorChatComponent,
-        PatientChatComponent,
-        NotificationsViewComponent,
-        DoctorProfileComponent,
-        HomeDoctorComponent,
-        SelectUserRoleComponent,
-        PhotoPatientsComponent,
-        InfoProfilePatiensComponent,
-        InfoCardProfilePatiensComponent,
-        PatientProfileComponent,
-        DoctorRegistrationComponent,
-        HomePatientComponent,
-        PatientsReminderComponent,
-        PatientsUploadExamComponent,
-        PatientsPendingTaskComponent,
-        HeaderPatientComponent,
-        CalendarPatientComponent,
-        NotificationsPatientsComponent,
+  declarations: [
+    AppComponent,
+    FooterContentComponent,
+    PatientsTableComponent,
+    SearchDoctorsComponent,
+    SearchPatiensComponent,
+    HeaderDoctorComponent,
+    LanguageSwitcherComponent,
+    CalendarViewComponent,
+    DoctorChatComponent,
+    PatientChatComponent,
+    NotificationsViewComponent,
+    DoctorProfileComponent,
+    HomeDoctorComponent,
+    SelectUserRoleComponent,
+    PhotoPatientsComponent,
+    InfoProfilePatiensComponent,
+    InfoCardProfilePatiensComponent,
+    PatientProfileComponent,
+    DoctorRegistrationComponent,
+    HomePatientComponent,
+    PatientsReminderComponent,
+    PatientsUploadExamComponent,
+    PatientsPendingTaskComponent,
+    HeaderPatientComponent,
+    CalendarPatientViewComponent,
+    NotificationsPatientsComponent,
 
-        BackgroundComponent,
-        ClinicalhistoryComponent,
-        ExternalreportsComponent,
-        HeaderComponent,
-        PatientdataComponent,
-        DignosesandtreatmentComponent,
-        ReasonconsultationComponent,
-        HeaderComponent,
-        ClinicalhistoryComponent,
-        DignosesandtreatmentComponent,
-        ExternalreportsComponent,
-        MedicalexamsComponent,
-        PatientdataComponent,
-        ReasonconsultationComponent,
-        MedicalhistorypageComponent,
+    BackgroundComponent,
+    ClinicalhistoryComponent,
+    ExternalreportsComponent,
+    HeaderComponent,
+    PatientdataComponent,
+    DignosesandtreatmentComponent,
+    ReasonconsultationComponent,
+    HeaderComponent,
+    ClinicalhistoryComponent,
+    DignosesandtreatmentComponent,
+    ExternalreportsComponent,
+    MedicalexamsComponent,
+    PatientdataComponent,
+    ReasonconsultationComponent,
+    MedicalhistorypageComponent,
 
-        HeaderForUserTypeServiceComponent,
-        TreatmentPatientComponent,
-        MedicationFormComponent,
+    HeaderForUserTypeServiceComponent,
+    TreatmentPatientComponent,
+    MedicationFormComponent,
 
-
-        ColleagueSearchComponent,
-        InfoProfileMedicalsComponent,
+    ColleagueSearchComponent,
+    InfoProfileMedicalsComponent,
+    AddEventCardComponent,
+      ColleagueSearchComponent,
+      InfoProfileMedicalsComponent,
         SelectPaymentMethodComponent,
         CardModalComponent,
 
@@ -182,8 +194,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         ChatComponent
 
 
-
-    ],
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -201,6 +212,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatButton,
     MatFormFieldModule,
     MatInputModule,
+
     /*
     TranslateModule.forRoot({
       loader: {
@@ -250,10 +262,17 @@ export function HttpLoaderFactory(http: HttpClient) {
     DatepickerProfileColleagueComponent,
     HourpickerProfileColleagueComponent,
     SpaceAssignPatientComponent,
+
     ButtonSendMessageComponent,
     ButtonSaveScheduleComponent,
     DoctorViewColleagueComponent,
     RouterLink,
+    CalendarDoctorComponent,
+    MatDatepickerToggle,
+    MatDatepicker,
+    MatDatepickerInput,
+    MatNativeDateModule
+
 
 
   ],
