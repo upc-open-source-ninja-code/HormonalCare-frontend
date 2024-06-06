@@ -9,7 +9,7 @@ import { DoctorProfile } from "../model/doctor-profile";
 })
 export class DoctorProfileService{
 
-  private apiUrl = 'https://json-server-vercel-xi-silk.vercel.app/doctors';
+  private apiUrl = 'https://json-server-vercel-open.vercel.app/doctors';
 
   constructor(private http: HttpClient) { }
 

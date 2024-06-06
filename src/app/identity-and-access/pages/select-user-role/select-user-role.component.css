@@ -119,8 +119,8 @@ span{
   font-size: 1.5rem;
 }
 a {
-  padding: 135px 160px;
+  padding: 14vh 160px;
   border-radius: 35px;
   position: relative;
-  bottom: 23px; /* Ajusta este valor según tus necesidades */
+  bottom: 2.5vh; /* 25pxAjusta este valor según tus necesidades */
 }

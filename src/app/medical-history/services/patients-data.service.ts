@@ -14,7 +14,7 @@ export class PatientsDataService extends BaseService<PatientEntity> {
 
   constructor(http: HttpClient) {
     super(http);
-    this.basePath = 'https://json-server-vercel-xi-silk.vercel.app';
+    this.basePath = 'https://json-server-vercel-open.vercel.app';
     this.resourceEndpoint = '/patients';
   }
 

@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DoctorService {
-  private url = 'http://localhost:3000/doctors'; // Ajusta esta URL a la ubicación real de tu db.json
+  private url = 'https://json-server-vercel-open.vercel.app/doctors'; // Ajusta esta URL a la ubicación real de tu db.json
 
   constructor(private http: HttpClient) { }
 

@@ -9,7 +9,7 @@ import { DoctorProfile } from '../model/doctor-profile';
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'https://json-server-vercel-open.vercel.app';
 
   constructor(private http: HttpClient) {}
 
