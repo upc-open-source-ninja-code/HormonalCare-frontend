@@ -1,37 +1,35 @@
 export class MedicalEntity {
   id: number;
-  name: string;
-  lastname: string;
-  fee: number;
-  gender: string;
-  image: string;
-  title: string;
-  college_number: string;
-  RNE: string;
-  undergraduate: string;
-  specialty: string;
-  sub_speciality: string;
-  code_of_doctor: string;
-  subscription_id: number;
-  email: string;
-  password: string;
+  firstName: string ;
+  lastName: string ;
+  gender: string ;
+  age :number;
+  phoneNumber: string ;
+  email: string ;
+  Image: string ;
+  birthday: Date ;
+  professionalIdentificationNumber:  string;
+  subSpecialty:  string;
+  certification:  string;
+  appointmentFee:  number ;
+  subscriptionId:  number ;
+
 
   constructor() {
     this.id = 0;
-    this.name = "";
-    this.lastname = "";
-    this.fee = 0;
+    this.firstName = "";
+    this.lastName = "";
     this.gender = "";
-    this.image = "";
-    this.title = "";
-    this.college_number = "";
-    this.RNE = "";
-    this.undergraduate = "";
-    this.specialty = "";
-    this.sub_speciality = "";
-    this.code_of_doctor = "";
-    this.subscription_id = 0;
+    this.age = 0;
+    this.phoneNumber = "";
     this.email = "";
-    this.password = "";
+    this.Image = "";
+    this.birthday = new Date();
+    this.professionalIdentificationNumber = "";
+    this.subSpecialty = "";
+    this.certification = "";
+    this.appointmentFee = 0;
+    this.subscriptionId = 0;
+
   }
 }

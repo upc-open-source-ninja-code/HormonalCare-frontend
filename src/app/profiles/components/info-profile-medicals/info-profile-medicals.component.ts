@@ -33,14 +33,12 @@ export class InfoProfileMedicalsComponent implements OnInit {
     this.dataSource = this.dataSource.sort((a, b) => {
       const isAsc = sort.direction === 'asc';
       switch (sort.active) {
-        case 'name': return compare(a.name, b.name, isAsc);
-        case 'lastname': return compare(a.lastname, b.lastname, isAsc);
+        case 'name': return compare(a.firstName, b.firstName, isAsc);
+        case 'lastname': return compare(a.lastName, b.lastName, isAsc);
         case 'email': return compare(a.email, b.email, isAsc);
-        case 'password': return compare(a.password, b.password, isAsc);
-        case 'qualification': return compare(a.sub_speciality, b.sub_speciality, isAsc);
-        case 'school_N': return compare(a.college_number, b.college_number, isAsc);
-        case 'fee': return compare(a.fee, b.fee, isAsc);
-        case 'code_of_doctor': return compare(a.code_of_doctor, b.code_of_doctor, isAsc);
+        case 'qualification': return compare(a.subSpecialty, b.subSpecialty, isAsc);
+        case 'school_N': return compare(a.professionalIdentificationNumber, b.professionalIdentificationNumber, isAsc);
+        case 'fee': return compare(a.appointmentFee, b.appointmentFee, isAsc);
         default: return 0;
       }
     });
