@@ -1,4 +1,4 @@
-export class PatientEntity {
+export class ProfilesEntity {
   id: number;
   firstName: string;
   lastName: string;
@@ -8,7 +8,6 @@ export class PatientEntity {
   email: string;
   image: string;
   birthday: string;
-  typeofblood: string;
 
   constructor() {
     this.id = 0;
@@ -20,6 +19,5 @@ export class PatientEntity {
     this.email = "";
     this.image = "";
     this.birthday = "";
-    this.typeofblood = "";
   }
 }

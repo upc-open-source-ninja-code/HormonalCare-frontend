@@ -12,8 +12,8 @@ export class MedicalAppointmentsService extends BaseService<MedicalAppointmentEn
 
   constructor(http: HttpClient) {
     super(http);
-    this.basePath = 'https://json-server-vercel-open.vercel.app';
-    this.resourceEndpoint = '/medical-appointments';
+    this.basePath = 'https://hormonal-care-backend.up.railway.app';
+    this.resourceEndpoint = '/api/v1/medicalAppointment';
   }
 
   getMedicalAppointmentById(id: number): Observable<MedicalAppointmentEntity> {

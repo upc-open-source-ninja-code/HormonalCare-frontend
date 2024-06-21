@@ -1,15 +1,16 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-
 import { MatTableDataSource } from "@angular/material/table";
 import { MatPaginator } from "@angular/material/paginator";
 import { MatSort } from "@angular/material/sort";
 import { Router } from "@angular/router";
-
 import { PatientEntity } from "../../model/patient.entity";
-import {PatientsProfileService} from "../../services/patients-profile.service";
-import {MedicalAppointmentsService} from "../../services/medical-appointment.service";
-import {MedicalAppointmentEntity} from "../../model/medical-appointment.entity";
-import {forkJoin, map, Observable, switchMap} from "rxjs";
+import { PatientsProfileService } from "../../services/patients-profile.service";
+import { MedicalAppointmentsService } from "../../services/medical-appointment.service";
+import { MedicalAppointmentEntity } from "../../model/medical-appointment.entity";
+import { ProfilesService } from "../../services/profiles.service"; // Import ProfilesService
+import { ProfilesEntity } from "../../model/profiles.entity"; // Import ProfilesEntity
+import { forkJoin, Observable, of, switchMap } from "rxjs";
+import {catchError, map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-patients-table',
@@ -19,7 +20,7 @@ import {forkJoin, map, Observable, switchMap} from "rxjs";
 export class PatientsTableComponent implements OnInit {
   appointmentData: MedicalAppointmentEntity[] = [];
   dataSource!: MatTableDataSource<any>;
-  displayedColumns: string[] = ['name', 'age', 'clinicHistory', 'typeOfCare', 'hour', 'diagnosis', 'alert', 'videoConference'];
+  displayedColumns: string[] = ['name', 'age', 'clinicHistory', 'hour', 'videoConference'];
   showMedicalHistory = false;
 
   @ViewChild(MatPaginator, { static: false }) paginator!: MatPaginator;
@@ -28,6 +29,7 @@ export class PatientsTableComponent implements OnInit {
   constructor(
     private patientService: PatientsProfileService,
     private medicalAppointmentService: MedicalAppointmentsService,
+    private profileService: ProfilesService, // Inject ProfilesService
     private router: Router
   ) {
     this.dataSource = new MatTableDataSource<any>();
@@ -43,54 +45,48 @@ export class PatientsTableComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getAllPatientAppointments();
+    this.getAllMedicalAppointments();
   }
 
-  private getAllPatientAppointments() {
-    this.patientService.getAll().subscribe((response: any) => {
-      this.appointmentData = response;
-      this.populateDataSourceWithPatientNames();
-    });
-  }
-
-  private populateDataSourceWithPatientNames() {
-    const appointmentsWithPatientDetails: any[] = [];
+  private getAllMedicalAppointments() {
+    let id = 1;
     const observables: Observable<any>[] = [];
 
-    for (const appointment of this.appointmentData) {
-      const observable = this.medicalAppointmentService.getMedicalAppointmentById(appointment.id).pipe(
-        switchMap((medicalAppointment: any) => {
-          const patientId = medicalAppointment.idPatient;
-          return this.patientService.getPatientDetails(patientId).pipe(
-            map((patient: PatientEntity) => {
-              const age = this.calculateAge(patient.birthdate); // Calculate age from birthdate
-              return {
-                ...medicalAppointment, // Include all medical appointment details
-                name: `${patient.name} ${patient.lastname}`,
-                age: age,
-                hour: `${medicalAppointment.startDate} `
-              };
+    const getAppointment = () => {
+      this.medicalAppointmentService.getMedicalAppointmentById(id).pipe(
+        catchError(err => {
+          // When there is an error (appointment does not exist), complete the observable sequence
+          return of('completed');
+        })
+      ).subscribe((response: any) => {
+        if (response !== 'completed') {
+          this.appointmentData.push(response);
+          const observable = this.patientService.getPatientDetails(response.idPatient).pipe(
+            switchMap((patient: PatientEntity) => {
+              return this.profileService.getProfileDetails(patient.id.toString()).pipe(
+                map((profile: ProfilesEntity) => {
+                  return {
+                    ...response, // Include all medical appointment details
+                    name: `${profile.firstName} ${profile.lastName}`,
+                    age: `${profile.age} `,
+                    hour: `${response.startDate} `
+                  };
+                })
+              );
             })
           );
-        })
-      );
-      observables.push(observable);
-    }
+          observables.push(observable);
+          id++;
+          getAppointment(); // Recursive call to get the next appointment
+        } else {
+          // All appointments have been retrieved, now populate the dataSource
+          forkJoin(observables).subscribe((results: any[]) => {
+            this.dataSource.data = results;
+          });
+        }
+      });
+    };
 
-    forkJoin(observables).subscribe((results: any[]) => {
-      this.dataSource.data = results;
-    });
-  }
-
-
-  private calculateAge(birthdate: string): number {
-    const today = new Date();
-    const birthDate = new Date(birthdate);
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
-    }
-    return age;
+    getAppointment(); // Initial call to start getting appointments
   }
 }

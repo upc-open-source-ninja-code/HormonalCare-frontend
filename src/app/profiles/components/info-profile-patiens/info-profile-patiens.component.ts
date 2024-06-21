@@ -33,10 +33,9 @@ export class InfoProfilePatiensComponent implements OnInit {
     this.dataSource = this.dataSource.sort((a, b) => {
       const isAsc = sort.direction === 'asc';
       switch (sort.active) {
-        case 'name': return compare(a.name, b.name, isAsc);
-        case 'lastname': return compare(a.lastname, b.lastname, isAsc);
+        case 'name': return compare(a.firstName, b.firstName, isAsc);
+        case 'lastname': return compare(a.lastName, b.lastName, isAsc);
         case 'email': return compare(a.email, b.email, isAsc);
-        case 'password': return compare(a.password, b.password, isAsc);
         default: return 0;
       }
     });

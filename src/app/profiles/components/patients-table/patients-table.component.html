@@ -19,28 +19,10 @@
       <button (click)="navigateToMedicalHistory()"> Medical History</button>
     </td>
   </ng-container>
-    <!-- Type of Care Column -->
-    <ng-container matColumnDef="typeOfCare">
-      <th *matHeaderCellDef mat-header-cell> Type of care </th>
-      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.typeOfCare}} </td>
-    </ng-container>
-
     <!-- Hour Column -->
     <ng-container matColumnDef="hour">
       <th *matHeaderCellDef mat-header-cell> Hour </th>
       <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.hour}} </td>
-    </ng-container>
-
-    <!-- Diagnosis Column -->
-    <ng-container matColumnDef="diagnosis">
-      <th *matHeaderCellDef mat-header-cell> Diagnosis </th>
-      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.diagnosis}} </td>
-    </ng-container>
-
-    <!-- Alert Column -->
-    <ng-container matColumnDef="alert">
-      <th *matHeaderCellDef mat-header-cell> Alert </th>
-      <td *matCellDef="let element" mat-cell style="font-size: 10px;"> {{element.alert}} </td>
     </ng-container>
 
     <!-- Video Conference Column -->

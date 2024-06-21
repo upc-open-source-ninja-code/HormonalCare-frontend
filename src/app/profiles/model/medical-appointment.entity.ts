@@ -1,27 +1,21 @@
 export class MedicalAppointmentEntity {
   id: number;
-  idPaciente: number;
-  idDoctor: number;
+  eventDate: string;
+  startTime: string;
+  endTime: string;
   title: string;
   description: string;
-  typeOfCare: string;
-  startDate: string;
-  endDate: string;
-  diagnosis: string;
-  alert: string;
-  idRecipe: number;
+  doctorId: number;
+  patientId: number;
 
   constructor() {
     this.id = 0;
-    this.idPaciente = 0;
-    this.idDoctor =0;
+    this.eventDate = "";
+    this.startTime = "";
+    this.endTime = "";
     this.title = "";
     this.description = "";
-    this.typeOfCare = "";
-    this.startDate = "";
-    this.endDate = "";
-    this.diagnosis = "";
-    this.alert = "";
-    this.idRecipe = 0;
+    this.doctorId = 0;
+    this.patientId = 0;
   }
 }
