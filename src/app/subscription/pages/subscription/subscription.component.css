@@ -1,0 +1,55 @@
+.toolbar, .plan-card {
+  background-color: #aea0a4;
+  color: white;
+}
+
+.toolbar, .plan-header {
+  margin-bottom: 20px;
+}
+
+.back-button, .plan-content mat-icon {
+  color: white;
+}
+
+.subscription-container, .plan-content p {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.plan-card {
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.plan-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plan-price {
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+}
+
+.plan-actions {
+  margin-top: 20px;
+}
+
+.accept-button {
+  background-color: white;
+  color: #000000;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.accept-button:hover {
+  background-color: #ddd;
+}
+
+.accept-button:active {
+  color: black;
+}

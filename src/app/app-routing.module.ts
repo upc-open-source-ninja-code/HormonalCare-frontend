@@ -6,6 +6,7 @@ import {NotificationsViewComponent} from "./notifications/pages/notifications-vi
 import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-found.component";
 import {DoctorProfileComponent} from "./profiles/pages/doctor-profile/doctor-profile.component";
 import {HomeDoctorComponent} from "./shared/pages/home-doctor/home-doctor.component";
+import {SubscriptionComponent} from "./subscription/pages/subscription/subscription.component";
 
 const routes: Routes = [
   { path: 'homeDoctor', component: HomeDoctorComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'messages', component: DoctorChatComponent },
   { path: 'notifications', component: NotificationsViewComponent },
   { path: 'doctorProfile', component:DoctorProfileComponent  },
+  { path: 'subscription', component: SubscriptionComponent},
   { path: '', redirectTo: 'homeDoctor', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent }
 

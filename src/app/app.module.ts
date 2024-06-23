@@ -8,11 +8,11 @@ import { PatientsTableComponent } from './profiles/components/patients-table/pat
 import { SearchDoctorsComponent } from './shared/pages/search-doctors/search-doctors.component';
 import { SearchPatiensComponent } from './profiles/components/search-patiens/search-patiens.component';
 import {MatToolbar} from "@angular/material/toolbar";
-import {MatIcon} from "@angular/material/icon";
+import {MatIcon, MatIconModule} from "@angular/material/icon";
 import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
-import {MatAnchor, MatIconButton} from "@angular/material/button";
+import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
 import {LanguageSwitcherComponent} from "./shared/pages/language-switcher/language-switcher.component";
 
 import {HttpClient, HttpClientModule} from "@angular/common/http";
@@ -39,6 +39,15 @@ import {MatPaginator} from "@angular/material/paginator";
 import { HomeDoctorComponent } from './shared/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
+import { SubscriptionComponent } from './subscription/pages/subscription/subscription.component';
+import {
+  MatCard,
+  MatCardActions,
+  MatCardContent,
+  MatCardHeader,
+  MatCardSubtitle,
+  MatCardTitle
+} from "@angular/material/card";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -57,7 +66,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientChatComponent,
     NotificationsViewComponent,
     DoctorProfileComponent,
-    HomeDoctorComponent
+    HomeDoctorComponent,
+    SubscriptionComponent
 
   ],
   imports: [
@@ -97,6 +107,14 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatHeaderRowDef,
     MatRowDef,
     MatSort,
+    MatCard,
+    MatCardActions,
+    MatCardContent,
+    MatCardSubtitle,
+    MatCardTitle,
+    MatCardHeader,
+    MatButton,
+    MatIconModule
 
   ],
   providers: [
