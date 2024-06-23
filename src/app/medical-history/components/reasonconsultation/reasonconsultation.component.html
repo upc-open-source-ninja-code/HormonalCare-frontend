@@ -1,11 +1,10 @@
-
 <div class="reason-component">
-  <textarea class="box" (input)="description = $event.target['value']"></textarea>
+  <textarea class="box" [(ngModel)]="description"></textarea>
   <button mat-button class="edit-button" (click)="editReasonOfConsultation()">Edit</button>
 </div>
 <p>Current illness</p>
 <p>Symptoms:</p>
 <div class="reason-component">
-  <textarea class="box" (input)="symptoms = $event.target['value']"></textarea>
+  <textarea class="box" [(ngModel)]="symptoms"></textarea>
   <button mat-button class="edit-button" (click)="editReasonOfConsultation()">Edit</button>
 </div>
