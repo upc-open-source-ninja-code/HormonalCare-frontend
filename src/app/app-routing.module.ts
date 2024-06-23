@@ -21,9 +21,13 @@ import { ExternalreportsComponent } from './medical-history/components/externalr
 import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
 import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
 import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistorypage/medicalhistorypage.component";
+import {LoginPageComponent} from "./identity-and-access/pages/login-page/login-page.component";
+import {DoctorRegistrationComponent} from "./identity-and-access/pages/doctor-registration/doctor-registration.component";
 const routes: Routes = [
 
   { path: 'selectRole', component: SelectUserRoleComponent },
+  { path: 'Doctorform', component: DoctorRegistrationComponent},
+  {path: 'Login', component: LoginPageComponent},
   { path: 'headerDoctor', component: HeaderDoctorComponent },
   { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },

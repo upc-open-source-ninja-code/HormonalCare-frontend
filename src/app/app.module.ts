@@ -123,6 +123,8 @@ import {CalendarDoctorComponent} from "./calendar/components/calendar-doctor/cal
 import { AddEventCardComponent } from './calendar/components/add-event-card/add-event-card.component';
 import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
+import { LoginPageComponent } from './identity-and-access/pages/login-page/login-page.component';
+import { RegisterPageComponent } from './identity-and-access/pages/register-page/register-page.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -191,7 +193,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         Role2Component,
 
         UserListComponent,
-        ChatComponent
+        ChatComponent,
+        LoginPageComponent,
+        RegisterPageComponent
 
 
   ],
