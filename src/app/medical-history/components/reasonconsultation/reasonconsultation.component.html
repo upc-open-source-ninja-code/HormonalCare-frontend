@@ -1,14 +1,11 @@
 
-
 <div class="reason-component">
-  <div class="box"></div>
-  <button mat-button class="edit-button">Edit</button>
+  <textarea class="box" (input)="description = $event.target['value']"></textarea>
+  <button mat-button class="edit-button" (click)="editReasonOfConsultation()">Edit</button>
 </div>
-<p>Current ilness</p>
+<p>Current illness</p>
 <p>Symptoms:</p>
 <div class="reason-component">
-  <div class="box"></div>
-  <button mat-button class="edit-button">Edit</button>
+  <textarea class="box" (input)="symptoms = $event.target['value']"></textarea>
+  <button mat-button class="edit-button" (click)="editReasonOfConsultation()">Edit</button>
 </div>
-
-
