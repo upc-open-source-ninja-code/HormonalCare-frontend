@@ -3,7 +3,7 @@ import { PatientEntity } from "../../model/patient.entity";
 import { PatientsProfileService } from "../../services/patients-profile.service";
 import { ProfilesService } from "../../services/profiles.service"; // Import ProfilesService
 import { switchMap, map } from 'rxjs/operators';
-import {of} from "rxjs";
+import {forkJoin, Observable, of} from "rxjs";
 
 @Component({
   selector: 'app-info-profile-patiens',
@@ -19,13 +19,16 @@ export class InfoProfilePatiensComponent implements OnInit {
     private patientService: PatientsProfileService,
     private profileService: ProfilesService // Inject ProfilesService
   ) {}
-
   ngOnInit() {
-    this.getPatientDetails('1'); // replace '1' with the actual patient ID
+    this.getPatientDetails('1').subscribe((results: any[]) => {
+      this.dataSource = results;
+    });
   }
 
-  private getPatientDetails(id: string) {
-    this.patientService.getPatientDetails(id).pipe(
+  private getPatientDetails(id: string): Observable<any[]> {
+    const observables: Observable<any>[] = [];
+
+    const observable = this.patientService.getPatientDetails(id).pipe(
       switchMap((patient: PatientEntity) => {
         if (patient && patient.id) { // Check if patient and patient.id are not undefined
           return this.patientService.getProfileIdByPatientId(patient.id).pipe(
@@ -44,28 +47,10 @@ export class InfoProfilePatiensComponent implements OnInit {
           return of({}); // Replace {} with a default value if needed
         }
       })
-    ).subscribe((response: any) => {
-      this.patientData = response;
-      this.dataSource = [this.patientData];
-    });
-  }
-  sortData(sort: {active: string, direction: string}): void {
-    if (!sort.active || sort.direction === '') {
-      return;
-    }
+    );
 
-    this.dataSource = this.dataSource.sort((a, b) => {
-      const isAsc = sort.direction === 'asc';
-      switch (sort.active) {
-        case 'name': return compare(a.firstName, b.firstName, isAsc);
-        case 'lastname': return compare(a.lastName, b.lastName, isAsc);
-        case 'email': return compare(a.email, b.email, isAsc);
-        default: return 0;
-      }
-    });
-  }
-}
+    observables.push(observable);
 
-function compare(a: string | number, b: string | number, isAsc: boolean) {
-  return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
-}
+    return forkJoin(observables);
+  }
+  }
