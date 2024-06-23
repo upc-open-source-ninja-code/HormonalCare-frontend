@@ -19,4 +19,9 @@ export class MedicalsProfileService extends BaseService<MedicalEntity> {
   getDoctorDetails(id: string): Observable<MedicalEntity> {
     return this.http.get<MedicalEntity>(`${this.basePath}${this.resourceEndpoint}/${id}`);
   }
+
+
+  getProfileIdByDoctorId(id: number): Observable<number> {
+    return this.http.get<number>(`${this.basePath}${this.resourceEndpoint}/${id}/profile-id`);
+  }
 }

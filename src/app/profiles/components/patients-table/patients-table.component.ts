@@ -1,16 +1,17 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { of } from 'rxjs';
+
 import { MatTableDataSource } from "@angular/material/table";
 import { MatPaginator } from "@angular/material/paginator";
 import { MatSort } from "@angular/material/sort";
 import { Router } from "@angular/router";
+
 import { PatientEntity } from "../../model/patient.entity";
-import { PatientsProfileService } from "../../services/patients-profile.service";
-import { MedicalAppointmentsService } from "../../services/medical-appointment.service";
-import { MedicalAppointmentEntity } from "../../model/medical-appointment.entity";
-import { ProfilesService } from "../../services/profiles.service"; // Import ProfilesService
-import { ProfilesEntity } from "../../model/profiles.entity"; // Import ProfilesEntity
-import { forkJoin, Observable, of, switchMap } from "rxjs";
-import {catchError, map} from 'rxjs/operators';
+import {PatientsProfileService} from "../../services/patients-profile.service";
+import {MedicalAppointmentsService} from "../../services/medical-appointment.service";
+import {MedicalAppointmentEntity} from "../../model/medical-appointment.entity";
+import {ProfilesService} from "../../services/profiles.service"; // Import ProfileService
+import {forkJoin, map, Observable, switchMap} from "rxjs";
 
 @Component({
   selector: 'app-patients-table',
@@ -29,7 +30,7 @@ export class PatientsTableComponent implements OnInit {
   constructor(
     private patientService: PatientsProfileService,
     private medicalAppointmentService: MedicalAppointmentsService,
-    private profileService: ProfilesService, // Inject ProfilesService
+    private profileService: ProfilesService, // Inject ProfileService
     private router: Router
   ) {
     this.dataSource = new MatTableDataSource<any>();
@@ -45,48 +46,42 @@ export class PatientsTableComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getAllMedicalAppointments();
+    this.getAllPatientAppointments();
   }
 
-  private getAllMedicalAppointments() {
-    let id = 1;
+  private getAllPatientAppointments() {
+    this.medicalAppointmentService.getAll().subscribe((response: any) => {
+      this.appointmentData = response;
+      this.populateDataSourceWithPatientNames();
+    });
+  }
+
+  private populateDataSourceWithPatientNames() {
     const observables: Observable<any>[] = [];
 
-    const getAppointment = () => {
-      this.medicalAppointmentService.getMedicalAppointmentById(id).pipe(
-        catchError(err => {
-          // When there is an error (appointment does not exist), complete the observable sequence
-          return of('completed');
-        })
-      ).subscribe((response: any) => {
-        if (response !== 'completed') {
-          this.appointmentData.push(response);
-          const observable = this.patientService.getPatientDetails(response.idPatient).pipe(
-            switchMap((patient: PatientEntity) => {
-              return this.profileService.getProfileDetails(patient.id.toString()).pipe(
-                map((profile: ProfilesEntity) => {
-                  return {
-                    ...response, // Include all medical appointment details
-                    name: `${profile.firstName} ${profile.lastName}`,
-                    age: `${profile.age} `,
-                    hour: `${response.startDate} `
-                  };
-                })
-              );
+    for (const appointment of this.appointmentData) {
+      const observable = this.patientService.getPatientDetails(appointment.patientId.toString()).pipe(
+        switchMap((patient: PatientEntity) => {
+          return this.patientService.getProfileIdByPatientId(appointment.patientId).pipe(
+            switchMap((profileId: number) => {
+              return this.profileService.getProfileDetails(profileId.toString());
+            }),
+            map((profile: any) => {
+              return {
+                ...appointment, // Include all medical appointment details
+                name: `${profile.fullName}`,
+                age: profile.age,
+                hour: `${appointment.startTime} `
+              };
             })
           );
-          observables.push(observable);
-          id++;
-          getAppointment(); // Recursive call to get the next appointment
-        } else {
-          // All appointments have been retrieved, now populate the dataSource
-          forkJoin(observables).subscribe((results: any[]) => {
-            this.dataSource.data = results;
-          });
-        }
-      });
-    };
+        })
+      );
+      observables.push(observable);
+    }
 
-    getAppointment(); // Initial call to start getting appointments
+    forkJoin(observables).subscribe((results: any[]) => {
+      this.dataSource.data = results;
+    });
   }
 }

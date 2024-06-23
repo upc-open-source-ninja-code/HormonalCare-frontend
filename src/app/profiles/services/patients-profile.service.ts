@@ -21,5 +21,11 @@ export class PatientsProfileService extends BaseService<PatientEntity> {
   getPatientDetails(id: string): Observable<PatientEntity> {
     return this.http.get<PatientEntity>(`${this.basePath}${this.resourceEndpoint}/${id}`);
   }
+
+   getProfileIdByPatientId(id: number): Observable<number> {
+    return this.http.get<number>(`${this.basePath}${this.resourceEndpoint}/${id}/profile-id`);
+  }
+
+
 }
 

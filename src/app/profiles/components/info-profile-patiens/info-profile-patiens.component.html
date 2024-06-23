@@ -3,17 +3,26 @@
   <table class="mat-elevation-z8">
     <tbody>
     <tr *ngFor="let element of dataSource">
-      <td class="left">Name</td>
+      <td class="left">Full Name</td>
       <td class="right">{{element.firstName}}</td>
     </tr>
     <tr *ngFor="let element of dataSource">
-      <td class="left">Lastname</td>
-      <td class="right">{{element.lastName}}</td>
+      <td class="left">age</td>
+      <td class="right">{{element.age}}</td>
+    </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">phone Number</td>
+      <td class="right">{{element.phoneNumber}}</td>
     </tr>
     <tr *ngFor="let element of dataSource">
       <td class="left">Email</td>
       <td class="right">{{element.email}}</td>
     </tr>
+    <tr *ngFor="let element of dataSource">
+      <td class="left">Type of blood</td>
+      <td class="right">{{element.typeofblood}}</td>
+    </tr>
     </tbody>
   </table>
 </section>
+
