@@ -12,8 +12,8 @@ export class MedicalAppointmentsService extends BaseService<MedicalAppointmentEn
 
   constructor(http: HttpClient) {
     super(http);
-    this.basePath = 'https://hormonal-care-backend.up.railway.app';
-    this.resourceEndpoint = '/api/v1/medicalAppointment';
+    this.basePath = 'http://localhost:8080/api/v1';
+    this.resourceEndpoint = '/medicalAppointment';
   }
 
   getMedicalAppointmentById(id: number): Observable<MedicalAppointmentEntity> {

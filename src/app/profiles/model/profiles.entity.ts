@@ -8,6 +8,8 @@ export class ProfilesEntity {
   email: string;
   image: string;
   birthday: string;
+  fullName: string;
+  patientRecordId: string;
 
   constructor() {
     this.id = 0;
