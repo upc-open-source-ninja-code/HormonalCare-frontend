@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.component';
+import { SignInComponent } from "./identity-and-access/pages/sign-in/sign-in.component";
 import {CalendarViewComponent} from "./calendar/pages/calendar-view/calendar-view.component";
 import {DoctorChatComponent} from "./communications/pages/doctor-chat/doctor-chat.component";
 import {NotificationsViewComponent} from "./notifications/pages/notifications-view/notifications-view.component";
@@ -21,13 +23,13 @@ import { ExternalreportsComponent } from './medical-history/components/externalr
 import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
 import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
 import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistorypage/medicalhistorypage.component";
-import {LoginPageComponent} from "./identity-and-access/pages/login-page/login-page.component";
 import {DoctorRegistrationComponent} from "./identity-and-access/pages/doctor-registration/doctor-registration.component";
 const routes: Routes = [
 
+  {path:"sign-up", component:SignUpComponent},
+  {path:"sign-in", component:SignInComponent},
   { path: 'selectRole', component: SelectUserRoleComponent },
   { path: 'Doctorform', component: DoctorRegistrationComponent},
-  {path: 'Login', component: LoginPageComponent},
   { path: 'headerDoctor', component: HeaderDoctorComponent },
   { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },
@@ -52,7 +54,7 @@ const routes: Routes = [
       { path: 'treatmentPatient', component: TreatmentPatientComponent }
     ]
   },
-  { path: '', redirectTo: 'selectRole', pathMatch: 'full'},
+  { path: '', redirectTo: 'sign-up', pathMatch: 'full'},
 
   { path: '**', component: PageNotFoundComponent }
 

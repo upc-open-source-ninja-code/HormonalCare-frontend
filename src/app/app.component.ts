@@ -21,4 +21,9 @@ export class AppComponent {
     this.showMedicalHistoryPage = true;
   }
 
+  options = [
+    { path: '/home', title: 'Home'},
+    { path: '/learning/students', title: 'Students'},
+    { path: '/about', title: 'About'}
+  ]
 }
