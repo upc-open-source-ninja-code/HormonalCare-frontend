@@ -14,8 +14,8 @@ export class PatientsProfileService extends BaseService<PatientEntity> {
 
   constructor(http: HttpClient) {
     super(http);
-    this.basePath = 'https://hormonal-care-backend.up.railway.app';
-    this.resourceEndpoint = '/api/v1/medical-record/patient';
+    this.basePath = 'http://localhost:8080/api/v1';
+    this.resourceEndpoint = '/medical-record/patient';
   }
 
   getPatientDetails(id: string): Observable<PatientEntity> {

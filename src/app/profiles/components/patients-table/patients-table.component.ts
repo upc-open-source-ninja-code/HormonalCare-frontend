@@ -69,7 +69,7 @@ export class PatientsTableComponent implements OnInit {
             map((profile: any) => {
               return {
                 ...appointment, // Include all medical appointment details
-                name: `${profile.fullName}`,
+                fullName: `${profile.fullName}`,
                 age: profile.age,
                 hour: `${appointment.startTime} `
               };
