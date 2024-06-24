@@ -1,58 +1,63 @@
-<body class="grid-container">
+<!-- src/app/registration-endocrinologist/registration-endocrinologist.component.html -->
 
 <mat-toolbar>
-  <span class="toolbar-title">Patient registration</span>
+  <span class="toolbar-title">Registration of a patient</span>
   <span class="spacer"></span>
   <button mat-button class="back-button" aria-label="back-button">Back
   </button>
 </mat-toolbar>
 
-<div class="description-text-container">
-  <p class="description-text">Are you referred by a doctor?</p>
-  <mat-checkbox class="yes-checkbox">Yes</mat-checkbox>
-  <mat-checkbox class="no-checkbox">No</mat-checkbox>
-</div>
-
-<div class="doctor-code-grid">
-  <div class="doctor-code-container">
-    <p>Enter doctor code: </p>
-    <input type="text" id="doctorCode" name="doctorCode">
+<div class="container">
+  <p>Please complete the following fields to complete your registration in the “HormonalCare” application:</p>
+  <div class="formAndimg">
+    <div class="formContainer">
+      <form>
+        <mat-form-field class="fname">
+          <mat-label>First name:</mat-label>
+          <input matInput type="text" id="fname" name="fname">
+        </mat-form-field>
+        <mat-form-field class="lname">
+          <mat-label>Last name:</mat-label>
+          <input matInput type="text" id="lname" name="lname">
+        </mat-form-field>
+        <mat-form-field class="gender">
+          <mat-label>Gender:</mat-label>
+          <mat-select matInput id="gender" name="gender">
+            <mat-option value="female">Female</mat-option>
+            <mat-option value="male">Male</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="age">
+          <mat-label>Age:</mat-label>
+          <input matInput type="number" id="age" name="age">
+        </mat-form-field>
+        <mat-form-field class="mail">
+          <mat-label>Email:</mat-label>
+          <input matInput type="email" id="mail" name="mail">
+        </mat-form-field>
+        <mat-form-field class="birthday">
+          <mat-label>Birthday:</mat-label>
+          <input matInput type="date" id="birthday" name="birthday">
+        </mat-form-field>
+        <mat-form-field class="typeblood">
+          <mat-label>Type blood:</mat-label>
+          <mat-select matInput id="typeblood" name="typeblood">
+            <mat-option value="A+">A+</mat-option>
+            <mat-option value="A-">A-</mat-option>
+            <mat-option value="B+">B+</mat-option>
+            <mat-option value="B-">B-</mat-option>
+            <mat-option value="AB+">AB+</mat-option>
+            <mat-option value="AB-">AB-</mat-option>
+            <mat-option value="O+">O+</mat-option>
+            <mat-option value="O-">O-</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </form>
+    </div>
+    <div class="buttonContainer">
+      <div class="continueDiv">
+        <button mat-button class="continue-button">Continue</button>
+      </div>
+    </div>
   </div>
 </div>
-
-<div class="formContainer">
-  <form>
-    <mat-form-field class="fname">
-      <mat-label>First name:</mat-label>
-      <input matInput type="text" id="fname" name="fname">
-    </mat-form-field>
-    <mat-form-field class="lname">
-      <mat-label>Last name:</mat-label>
-      <input matInput type="text" id="lname" name="lname">
-    </mat-form-field>
-    <mat-form-field class="age">
-      <mat-label>Age:</mat-label>
-      <input matInput type="number" id="age" name="age">
-    </mat-form-field>
-    <mat-form-field class="mail">
-      <mat-label>Email:</mat-label>
-      <input matInput type="email" id="mail" name="mail">
-    </mat-form-field>
-    <mat-form-field class="password">
-      <mat-label>Password:</mat-label>
-      <input matInput type="password" id="password" name="password">
-    </mat-form-field>
-  </form>
-</div>
-
-<div class="buttonDiv">
-  <div class="buttonBackground">
-    <button mat-button class="image-button"></button>
-  </div>
-</div>
-
-<div class="continueDiv">
-  <button mat-button class="continue-button">Continue</button>
-</div>
-</body>
-

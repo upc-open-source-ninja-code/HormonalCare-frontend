@@ -122,13 +122,17 @@ import {RouterLink} from "@angular/router";
 import {CalendarDoctorComponent} from "./calendar/components/calendar-doctor/calendar-doctor.component";
 import { AddEventCardComponent } from './calendar/components/add-event-card/add-event-card.component';
 import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
-import {MatNativeDateModule} from "@angular/material/core";
+import {MatNativeDateModule, MatOption} from "@angular/material/core";
 
 import {
   AuthenticationSectionComponent
 } from "./identity-and-access/components/authentication-section/authentication-section.component";
 import { SignInComponent } from './identity-and-access/pages/sign-in/sign-in.component';
 import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.component';
+import {MatSelect} from "@angular/material/select";
+import {
+  PatientRegistrationComponent
+} from "./identity-and-access/pages/patient-registration/patient-registration.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -157,6 +161,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     InfoCardProfilePatiensComponent,
     PatientProfileComponent,
     DoctorRegistrationComponent,
+    PatientRegistrationComponent,
     HomePatientComponent,
     PatientsReminderComponent,
     PatientsUploadExamComponent,
@@ -164,7 +169,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderPatientComponent,
     CalendarPatientViewComponent,
     NotificationsPatientsComponent,
-
     BackgroundComponent,
     ClinicalhistoryComponent,
     ExternalreportsComponent,
@@ -280,7 +284,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatDatepicker,
     MatDatepickerInput,
     MatNativeDateModule,
-    AuthenticationSectionComponent
+    AuthenticationSectionComponent,
+    MatSelect,
+    MatOption
 
 
   ],

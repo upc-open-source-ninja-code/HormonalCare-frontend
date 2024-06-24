@@ -24,12 +24,16 @@ import { DignosesandtreatmentComponent } from './medical-history/components/dign
 import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
 import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistorypage/medicalhistorypage.component";
 import {DoctorRegistrationComponent} from "./identity-and-access/pages/doctor-registration/doctor-registration.component";
+import {
+  PatientRegistrationComponent
+} from "./identity-and-access/pages/patient-registration/patient-registration.component";
 const routes: Routes = [
 
   {path:"sign-up", component:SignUpComponent},
   {path:"sign-in", component:SignInComponent},
+  { path: "doctor-registration", component: DoctorRegistrationComponent},
+  { path: "patient-registration", component: PatientRegistrationComponent},
   { path: 'selectRole', component: SelectUserRoleComponent },
-  { path: 'Doctorform', component: DoctorRegistrationComponent},
   { path: 'headerDoctor', component: HeaderDoctorComponent },
   { path: 'headerPatient', component: HeaderPatientComponent },
   { path: 'homeDoctor', component: HomeDoctorComponent },

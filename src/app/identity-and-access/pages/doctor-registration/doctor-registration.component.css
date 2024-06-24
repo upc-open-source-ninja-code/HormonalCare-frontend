@@ -3,14 +3,13 @@ mat-toolbar {
   background-color: rgba(167, 138, 171, 1);
   color: white;
   position: fixed;
-  z-index: 1000;
   font-family: "Comic Sans", sans-serif;
   font-weight: lighter;
   font-size: 20px;
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 70px;
 }
 
 spacer {
@@ -33,15 +32,13 @@ p{
 
 .toolbar-title{
   font-weight: bold;
-  font-size: 40px;
-  width: 85%;
+  font-size: 30px;
+  width: 85%
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: rgba(229, 221, 230, 0.8392);
   background-repeat: repeat;
   background-size: cover;
@@ -50,14 +47,14 @@ p{
   font-family: "Comic Sans", sans-serif;
   font-weight: lighter;
   font-size: 20px;
-  top: 100px;
+  top: 70px;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 0;
 }
 .formAndimg{
-  height:80%;
+  height:70%;
   width:100%;
   display: flex;
   justify-content: center;
@@ -72,20 +69,23 @@ p{
   align-items: center;
   flex-direction: column;
   width: 60%;
-  height: 90%;
+  height: 70%;
 }
+
+.formContainer mat-form-field{
+  height: 65px;
+}
+
 
 form {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   background-color: rgba(167, 138, 171, 1);
-  padding-top: 30px;
-  padding-bottom: 30px;
   border-radius: 35px;
-  width: 80%;
-  height: 100%;
+  margin-top: 40px;
+  width: 90%;
+  height: 580px;
 }
 
 

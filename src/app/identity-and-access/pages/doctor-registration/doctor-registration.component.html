@@ -12,7 +12,6 @@
   <div class="formAndimg">
     <div class="formContainer">
       <form>
-
         <mat-form-field class="fname">
           <mat-label>First name:</mat-label>
           <input matInput type="text" id="fname" name="fname">
@@ -20,6 +19,13 @@
         <mat-form-field class="lname">
           <mat-label>Last name:</mat-label>
           <input matInput type="text" id="lname" name="lname">
+        </mat-form-field>
+        <mat-form-field class="gender">
+          <mat-label>Gender:</mat-label>
+          <mat-select matInput id="gender" name="gender">
+            <mat-option value="female">Female</mat-option>
+            <mat-option value="male">Male</mat-option>
+          </mat-select>
         </mat-form-field>
         <mat-form-field class="age">
           <mat-label>Age:</mat-label>
@@ -29,26 +35,25 @@
           <mat-label>Email:</mat-label>
           <input matInput type="email" id="mail" name="mail">
         </mat-form-field>
-        <mat-form-field class="password">
-          <mat-label>Password:</mat-label>
-          <input matInput type="password" id="password" name="password">
+        <mat-form-field class="birthday">
+          <mat-label>Birthday:</mat-label>
+          <input matInput type="date" id="birthday" name="birthday">
         </mat-form-field>
-        <mat-form-field class="qualific">
-          <mat-label>Qualification:</mat-label>
-          <input matInput type="number" id="qualific" name="qualific">
+        <mat-form-field class="proid">
+          <mat-label>Profesional ID:</mat-label>
+          <input matInput type="number" id="proid" name="proid">
         </mat-form-field>
-        <mat-form-field class="schoolNo">
-          <mat-label>School Number:</mat-label>
-          <input matInput type="number" id="schoolNo" name="schoolNo">
+        <mat-form-field class="subspeciality">
+          <mat-label>Sub speciality:</mat-label>
+          <input matInput type="text" id="subspeciality" name="subspeciality">
+        </mat-form-field>
+        <mat-form-field class="certification">
+          <mat-label>Certification:</mat-label>
+          <input matInput type="text" id="certification" name="certification">
         </mat-form-field>
       </form>
     </div>
     <div class="buttonContainer">
-      <div class="buttonDiv">
-        <div class="buttonBackground">
-          <button mat-button class="image-button"></button>
-        </div>
-      </div>
       <div class="continueDiv">
         <button mat-button class="continue-button">Continue</button>
       </div>
