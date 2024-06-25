@@ -9,7 +9,7 @@ import { ReasonOfConsultationService } from '../../services/reason-of-consultati
 export class ReasonconsultationComponent implements OnInit {
   description: string = '';
   symptoms: string = '';
-  medicalRecordId: number = 2; // Aquí debes poner el ID del paciente
+  medicalRecordId: number = 4; // Aquí debes poner el ID del paciente
 
   constructor(private reasonOfConsultationService: ReasonOfConsultationService) {}
 
