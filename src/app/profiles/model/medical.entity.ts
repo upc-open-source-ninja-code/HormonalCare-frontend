@@ -13,6 +13,8 @@ export class MedicalEntity {
   certification:  string;
   appointmentFee:  number ;
   subscriptionId:  number ;
+  fullName: string;
+
 
 
   constructor() {

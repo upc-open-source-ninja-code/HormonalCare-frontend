@@ -36,8 +36,7 @@ export class InfoProfileMedicalsComponent implements OnInit {
 
           // Update dataSource with doctor profile data
           if (this.dataSource.length > 0) {
-            this.dataSource[0].firstName = this.doctorProfileData.firstName;
-            this.dataSource[0].lastName = this.doctorProfileData.lastName;
+            this.dataSource[0].fullName = this.doctorProfileData.fullName;
             this.dataSource[0].email = this.doctorProfileData.email;
           }
         });
@@ -52,8 +51,7 @@ export class InfoProfileMedicalsComponent implements OnInit {
     this.dataSource = this.dataSource.sort((a, b) => {
       const isAsc = sort.direction === 'asc';
       switch (sort.active) {
-        case 'name': return compare(a.firstName, b.firstName, isAsc);
-        case 'lastname': return compare(a.lastName, b.lastName, isAsc);
+        case 'name': return compare(a.fullName, b.fullName, isAsc);
         case 'email': return compare(a.email, b.email, isAsc);
         case 'qualification': return compare(a.subSpecialty, b.subSpecialty, isAsc);
         case 'school_N': return compare(a.professionalIdentificationNumber, b.professionalIdentificationNumber, isAsc);

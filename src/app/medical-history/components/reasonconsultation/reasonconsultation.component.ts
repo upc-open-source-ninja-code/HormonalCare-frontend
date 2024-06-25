@@ -30,7 +30,6 @@ export class ReasonconsultationComponent implements OnInit {
 
     this.reasonOfConsultationService.postReasonOfConsultation(data).subscribe(response => {
       console.log(response);
-      // Aquí puedes manejar la respuesta de la API
     });
   }
 }
