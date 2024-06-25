@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b32b80f8-a874-48a5-bba3-1fd85a09a76e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/components/patientdata/patientdata.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/medical-history/services/patients-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/medical-history/services/patients-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/components/info-profile-patiens/info-profile-patiens.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profiles/model/profiles.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/model/profiles.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/profiles/services/medical-appointment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-appointment.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/medical-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/medical-profile.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/patients-profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/patients-profile.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/profiles/services/profiles.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profiles/services/profiles.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#4 on develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Escritorio/UPC/UPC CICLO 5/Desarrollo de Aplicaciones Open Source - presencial/Semana 10/pruebagoogleapi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Angular CLI Server.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Documentos\\upc-pre-202401--si729-sw51-NinjaCode-report-tb1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#4 on develop",
+    "last_opened_file_path": "C:/Escritorio/UPC/UPC CICLO 5/Desarrollo de Aplicaciones Open Source - presencial/Semana 10/pruebagoogleapi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Angular CLI Server.executor": "Run",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Escritorio\\UPC\\UPC CICLO 5\\Sistemas Operativos - a distancia\\TA4\\HormonalCare-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src" />
@@ -88,7 +85,10 @@
       <recent name="C:\Escritorio\UPC\UPC CICLO 5\Desarrollo de Aplicaciones Open Source - presencial\trabajofinal-avancep\src\assets\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -128,6 +128,7 @@
       <workItem from="1719110508488" duration="7422000" />
       <workItem from="1719180845924" duration="1723000" />
       <workItem from="1719183139714" duration="3635000" />
+      <workItem from="1719280265812" duration="5650000" />
     </task>
     <servers />
   </component>
