@@ -6,7 +6,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ReasonOfConsultationService {
-  private basePath = 'http://localhost:8080/api/v1';
+
+   private basePath = 'https://hormonal-care-backend.up.railway.app/api/v1';
+  //private basePath = 'http://localhost:8080/api/v1';
 
   constructor(private http: HttpClient) {}
 
