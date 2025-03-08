@@ -56,7 +56,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatPaginator} from "@angular/material/paginator";
-import { HomeDoctorComponent } from './profiles/pages/doctor/home-doctor/home-doctor.component';
+import { HomeDoctorComponent } from './appointment/pages/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
 
@@ -126,7 +126,7 @@ import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.com
 import { PatientRegistrationComponent } from './identity-and-access/pages/patient-registration/patient-registration.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { PatientsDoctorComponent } from './profiles/pages/doctor/patients-doctor/patients-doctor.component';
-import { ScheduleDoctorComponent } from './profiles/pages/doctor/schedule-doctor/schedule-doctor.component';
+import { ScheduleDoctorComponent } from './appointment/pages/schedule-doctor/schedule-doctor.component';
 import {HeaderComponent} from "./shared/components/header/header.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
