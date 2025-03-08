@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -11,6 +11,8 @@ export class DoctorSignUpService {
   constructor(private http: HttpClient) {}
 
   signUpDoctor(doctor: any): Observable<any> {
-    return this.http.post(`${this.baseUrl}/doctor/doctor`, doctor);
+    const token = localStorage.getItem('token');
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.post(`${this.baseUrl}/doctor/doctor`, doctor, { headers });
   }
 }

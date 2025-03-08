@@ -26,11 +26,17 @@ export class SignUpComponent {
       const user = { username, password, roles: [role] };
       this.authService.signUp(user).subscribe(response => {
         console.log('Sign-up successful', response);
-        if (role === 'ROLE_DOCTOR') {
-          this.router.navigate(['/doctor-registration'], { state: { userId: response.id } });
-        } else if (role === 'ROLE_PATIENT') {
-          this.router.navigate(['/patient-registration'], { state: { userId: response.id } });
-        }
+        this.authService.signIn(username, password).subscribe(signInResponse => {
+          console.log('Sign-in successful', signInResponse);
+          localStorage.setItem('token', signInResponse.token);
+          if (role === 'ROLE_DOCTOR') {
+            this.router.navigate(['/doctor-registration'], { state: { userId: response.id } });
+          } else if (role === 'ROLE_PATIENT') {
+            this.router.navigate(['/patient-registration'], { state: { userId: response.id } });
+          }
+        }, error => {
+          console.error('Sign-in error', error);
+        });
       }, error => {
         console.error('Sign-up error', error);
       });
