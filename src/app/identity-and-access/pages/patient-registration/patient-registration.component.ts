@@ -21,6 +21,8 @@ export class PatientRegistrationComponent {
       image: [''],
       birthday: ['', Validators.required],
       typeOfBlood: ['', Validators.required],
+      personalHistory: ['', Validators.required],
+      familyHistory: ['', Validators.required],
       doctorId: ['', Validators.required]
     });
 
@@ -30,11 +32,10 @@ export class PatientRegistrationComponent {
 
   onSubmit() {
     if (this.patientForm.valid) {
-      const { firstName, lastName, gender, phoneNumber, image, birthday, typeOfBlood, doctorId } = this.patientForm.value;
-      const profile = { firstName, lastName, gender, phoneNumber, image, birthday, userId: this.userId };
-      const patient = { firstName, lastName, gender, phoneNumber, image, birthday, typeOfBlood, doctorId: parseInt(doctorId), userId: this.userId };
+      const { firstName, lastName, gender, phoneNumber, image, birthday, typeOfBlood, personalHistory, familyHistory, doctorId } = this.patientForm.value;
+      const patient = { firstName, lastName, gender, phoneNumber, image, birthday, typeOfBlood, personalHistory, familyHistory, doctorId: parseInt(doctorId), userId: this.userId };
 
-      this.patientSignUpService.signUpPatient({}, profile, patient).subscribe(response => {
+      this.patientSignUpService.signUpPatient(patient).subscribe(response => {
         console.log('Patient registration successful', response);
       }, error => {
         console.error('Patient registration error', error);
