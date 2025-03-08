@@ -34,9 +34,9 @@ export class DoctorRegistrationComponent {
       const doctor = { firstName, lastName, gender, phoneNumber, image, birthday, professionalIdentificationNumber, subSpecialty, userId: this.userId };
 
       this.doctorSignUpService.signUpDoctor(doctor).subscribe(response => {
-        console.log('Doctor registration successful', response);
+        console.log('doctor registration successful', response);
       }, error => {
-        console.error('Doctor registration error', error);
+        console.error('doctor registration error', error);
       });
     }
   }

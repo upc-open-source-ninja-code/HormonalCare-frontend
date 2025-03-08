@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import {MatToolbar} from "@angular/material/toolbar";
 import {MatIcon} from "@angular/material/icon";
 import {MatCardModule} from "@angular/material/card";
-import { HeaderDoctorComponent } from './shared/pages/header-doctor/header-doctor.component';
 import {NgOptimizedImage} from "@angular/common";
 import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
 import {MatAnchor, MatButton, MatIconButton} from "@angular/material/button";
@@ -44,7 +43,7 @@ import { DoctorChatComponent } from './communications/pages/doctor-chat/doctor-c
 import { PatientChatComponent } from './communications/pages/patient-chat/patient-chat.component';
 import { NotificationsViewComponent } from './notifications/pages/notifications-view/notifications-view.component';
 import {CalendarViewComponent} from "./calendar/pages/calendar-view/calendar-view.component";
-import { DoctorProfileComponent } from './profiles/pages/doctor-profile/doctor-profile.component';
+import { DoctorProfileComponent } from './profiles/pages/doctor/doctor-profile/doctor-profile.component';
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
 
 import {
@@ -57,7 +56,7 @@ import {
   MatTable
 } from "@angular/material/table";
 import {MatPaginator} from "@angular/material/paginator";
-import { HomeDoctorComponent } from './profiles/pages/home-doctor/home-doctor.component';
+import { HomeDoctorComponent } from './profiles/pages/doctor/home-doctor/home-doctor.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatSort} from "@angular/material/sort";
 
@@ -65,23 +64,21 @@ import { SelectUserRoleComponent } from './identity-and-access/pages/select-user
 import { PhotoPatientsComponent } from './profiles/components/photo-patients/photo-patients.component';
 import { InfoProfilePatiensComponent } from './profiles/components/info-profile-patiens/info-profile-patiens.component';
 import { InfoCardProfilePatiensComponent } from './profiles/components/info-card-profile-patiens/info-card-profile-patiens.component';
-import { PatientProfileComponent } from './profiles/pages/patient-profile/patient-profile.component';
+import { PatientProfileComponent } from './profiles/pages/patient/patient-profile/patient-profile.component';
 
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 
 import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
-import { HomePatientComponent } from './profiles/pages/home-patient/home-patient.component';
+import { HomePatientComponent } from './profiles/pages/patient/home-patient/home-patient.component';
 import { PatientsReminderComponent } from './profiles/components/patients-reminder/patients-reminder.component';
 import { PatientsUploadExamComponent } from './profiles/components/patients-upload-exam/patients-upload-exam.component';
 import { PatientsPendingTaskComponent } from './profiles/components/patients-pending-task/patients-pending-task.component';
-import { HeaderPatientComponent } from './shared/pages/header-patient/header-patient.component';
 import { CalendarPatientViewComponent } from './calendar/pages/calendar-patient-view/calendar-patient-view.component';
 import { NotificationsPatientsComponent } from './notifications/pages/notifications-patients/notifications-patients.component';
 
 import { BackgroundComponent } from './medical-history/components/background/background.component';
 
 
-import { HeaderComponent } from './medical-history/components/header/header.component';
 import { ClinicalhistoryComponent } from './medical-history/components/clinicalhistory/clinicalhistory.component';
 import { DignosesandtreatmentComponent } from './medical-history/components/dignosesandtreatment/dignosesandtreatment.component';
 import { ExternalreportsComponent } from './medical-history/components/externalreports/externalreports.component';
@@ -127,6 +124,10 @@ import {MedicationEntity} from "./medical-history/models/medication.entity";
 import { SignInComponent } from './identity-and-access/pages/sign-in/sign-in.component';
 import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.component';
 import { PatientRegistrationComponent } from './identity-and-access/pages/patient-registration/patient-registration.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { PatientsDoctorComponent } from './profiles/pages/doctor/patients-doctor/patients-doctor.component';
+import { ScheduleDoctorComponent } from './profiles/pages/doctor/schedule-doctor/schedule-doctor.component';
+import {HeaderComponent} from "./shared/components/header/header.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -141,7 +142,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientsTableComponent,
     SearchDoctorsComponent,
     SearchPatiensComponent,
-    HeaderDoctorComponent,
     LanguageSwitcherComponent,
     CalendarViewComponent,
     DoctorChatComponent,
@@ -159,14 +159,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     PatientsReminderComponent,
     PatientsUploadExamComponent,
     PatientsPendingTaskComponent,
-    HeaderPatientComponent,
     CalendarPatientViewComponent,
     NotificationsPatientsComponent,
 
     BackgroundComponent,
     ClinicalhistoryComponent,
     ExternalreportsComponent,
-    HeaderComponent,
     PatientdataComponent,
     DignosesandtreatmentComponent,
     ReasonconsultationComponent,
@@ -200,6 +198,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         SignInComponent,
         SignUpComponent,
         PatientRegistrationComponent,
+        NavbarComponent,
+        PatientsDoctorComponent,
+        ScheduleDoctorComponent,
 
 
   ],
@@ -279,7 +280,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatDatepickerToggle,
     MatDatepicker,
     MatDatepickerInput,
-    MatNativeDateModule
+    MatNativeDateModule,
 
 
 
