@@ -4,10 +4,12 @@ import { SignInComponent } from './identity-and-access/pages/sign-in/sign-in.com
 import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.component';
 import { DoctorRegistrationComponent } from './identity-and-access/pages/doctor-registration/doctor-registration.component';
 import { PatientRegistrationComponent } from './identity-and-access/pages/patient-registration/patient-registration.component';
-import { HomeDoctorComponent} from "./appointment/pages/home-doctor/home-doctor.component";
-import { PatientsDoctorComponent} from "./profiles/pages/doctor/patients-doctor/patients-doctor.component";
-import { ScheduleDoctorComponent} from "./appointment/pages/schedule-doctor/schedule-doctor.component";
+import { HomeDoctorComponent } from './appointment/pages/home-doctor/home-doctor.component';
+import { PatientsDoctorComponent } from './profiles/pages/doctor/patients-doctor/patients-doctor.component';
+import { ScheduleDoctorComponent } from './appointment/pages/schedule-doctor/schedule-doctor.component';
 import { DoctorProfileComponent } from './profiles/pages/doctor/doctor-profile/doctor-profile.component';
+import { PatientProfileComponent } from './profiles/pages/patient/patient-profile/patient-profile.component';
+import { HomePatientComponent } from './profiles/pages/patient/home-patient/home-patient.component';
 
 const routes: Routes = [
   { path: 'sign-in', component: SignInComponent },
@@ -18,8 +20,9 @@ const routes: Routes = [
   { path: 'patients-doctor', component: PatientsDoctorComponent },
   { path: 'schedule-doctor', component: ScheduleDoctorComponent },
   { path: 'doctor-profile', component: DoctorProfileComponent },
-  { path: '', redirectTo: '/home-doctor', pathMatch: 'full' },
-
+  { path: 'patient-profile', component: PatientProfileComponent },
+  { path: 'home-patient', component: HomePatientComponent },
+  { path: '', redirectTo: '/sign-in', pathMatch: 'full' }
 ];
 
 @NgModule({

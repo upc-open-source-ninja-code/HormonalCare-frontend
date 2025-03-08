@@ -1,5 +1,17 @@
-<app-header></app-header>
-<div class="main-container">
-  <app-navbar></app-navbar>
+<ng-container *ngIf="isAuthenticated">
+  <app-header-doctor *ngIf="role === 'ROLE_DOCTOR'; else patientHeader"></app-header-doctor>
+  <ng-template #patientHeader>
+    <app-header-patient></app-header-patient>
+  </ng-template>
+
+  <div class="main-container">
+    <app-navbar-doctor *ngIf="role === 'ROLE_DOCTOR'; else patientNavbar"></app-navbar-doctor>
+    <ng-template #patientNavbar>
+      <app-navbar-patient></app-navbar-patient>
+    </ng-template>
+    <router-outlet></router-outlet>
+  </div>
+</ng-container>
+<ng-container *ngIf="!isAuthenticated">
   <router-outlet></router-outlet>
-</div>
+</ng-container>

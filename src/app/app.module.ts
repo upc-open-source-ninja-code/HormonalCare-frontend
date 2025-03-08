@@ -128,6 +128,10 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { PatientsDoctorComponent } from './profiles/pages/doctor/patients-doctor/patients-doctor.component';
 import { ScheduleDoctorComponent } from './appointment/pages/schedule-doctor/schedule-doctor.component';
 import {HeaderComponent} from "./shared/components/header/header.component";
+import { HeaderDoctorComponent } from './shared/components/header-doctor/header-doctor.component';
+import { HeaderPatientComponent } from './shared/components/header-patient/header-patient.component';
+import { NavbarDoctorComponent } from './shared/components/navbar-doctor/navbar-doctor.component';
+import { NavbarPatientComponent } from './shared/components/navbar-patient/navbar-patient.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -201,6 +205,10 @@ export function HttpLoaderFactory(http: HttpClient) {
         NavbarComponent,
         PatientsDoctorComponent,
         ScheduleDoctorComponent,
+        HeaderDoctorComponent,
+        HeaderPatientComponent,
+        NavbarDoctorComponent,
+        NavbarPatientComponent,
 
 
   ],
