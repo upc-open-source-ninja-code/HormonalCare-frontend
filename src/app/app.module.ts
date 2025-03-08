@@ -124,6 +124,9 @@ import { AddEventCardComponent } from './calendar/components/add-event-card/add-
 import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
 import {MedicationEntity} from "./medical-history/models/medication.entity";
+import { SignInComponent } from './identity-and-access/pages/sign-in/sign-in.component';
+import { SignUpComponent } from './identity-and-access/pages/sign-up/sign-up.component';
+import { PatientRegistrationComponent } from './identity-and-access/pages/patient-registration/patient-registration.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -194,6 +197,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         UserListComponent,
         ChatComponent,
         MedicationFormComponent,
+        SignInComponent,
+        SignUpComponent,
+        PatientRegistrationComponent,
 
 
   ],
