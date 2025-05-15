@@ -39,7 +39,6 @@ import { PatientsTableComponent } from './profiles/components/patients-table/pat
 import { SearchDoctorsComponent } from './shared/pages/search-doctors/search-doctors.component';
 import { SearchPatiensComponent } from './profiles/components/search-patiens/search-patiens.component';
 
-
 import { DoctorChatComponent } from './communications/pages/doctor-chat/doctor-chat.component';
 import { PatientChatComponent } from './communications/pages/patient-chat/patient-chat.component';
 import { NotificationsViewComponent } from './notifications/pages/notifications-view/notifications-view.component';
@@ -124,6 +123,7 @@ import { AddEventCardComponent } from './calendar/components/add-event-card/add-
 import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
 import {MedicationEntity} from "./medical-history/models/medication.entity";
+import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-found.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -194,6 +194,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         UserListComponent,
         ChatComponent,
         MedicationFormComponent,
+    PageNotFoundComponent,
 
 
   ],
@@ -214,7 +215,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatButton,
     MatFormFieldModule,
     MatInputModule,
-
     /*
     TranslateModule.forRoot({
       loader: {

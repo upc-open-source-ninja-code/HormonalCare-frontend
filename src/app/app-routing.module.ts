@@ -22,7 +22,6 @@ import { DignosesandtreatmentComponent } from './medical-history/components/dign
 import{TreatmentPatientComponent} from './medical-history/pages/treatment-patient/treatment-patient.component';
 import {MedicalhistorypageComponent} from "./medical-history/pages/medicalhistorypage/medicalhistorypage.component";
 const routes: Routes = [
-
   { path: 'selectRole', component: SelectUserRoleComponent },
   { path: 'headerDoctor', component: HeaderDoctorComponent },
   { path: 'headerPatient', component: HeaderPatientComponent },
